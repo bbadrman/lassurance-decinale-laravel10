@@ -1,0 +1,86 @@
+version: '3.8'
+
+services:
+  laravel_app:
+    build: ./
+    container_name: laravel_app_container
+    ports:
+      - "8000:80"
+    depends_on:
+      - mysql_db
+    volumes:
+      - ./:/var/www/html/
+      - ./config/php.ini:/usr/local/etc/php/php.ini
+      - ./config/xdebug.ini:/usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini
+      - ./php/ini/memory_limit.ini:/usr/local/etc/php/conf.d/memory_limit.ini
+    environment:
+      - APP_ENV=local
+      - APP_DEBUG=true
+      - DB_HOST=mysql_db
+      - DB_DATABASE=laravel_db
+      - DB_USERNAME=laravel_user
+      - DB_PASSWORD=laravel_password
+    networks:
+      - laravel_network
+
+  mysql_db:
+    image: mysql:8.0
+    container_name: laravel_mysql_container
+    ports:
+      - "3306:3306"
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password
+      MYSQL_DATABASE: laravel_db
+      MYSQL_USER: laravel_user
+      MYSQL_PASSWORD: laravel_password
+    volumes:
+      - "./db:/var/lib/mysql"
+      - "./mysql/my.cnf:/etc/mysql/conf.d/my.cnf"
+    networks:
+      - laravel_network
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:latest
+    container_name: laravel_phpmyadmin_container
+    ports:
+      - '8080:80'
+    restart: always
+    environment:
+      PMA_HOST: mysql_db
+      PMA_USER: laravel_user
+      PMA_PASSWORD: laravel_password
+      MYSQL_ROOT_PASSWORD: root_password
+    depends_on:
+      - mysql_db
+    networks:
+      - laravel_network
+
+  # Redis  
+  redis:
+    image: redis:7-alpine
+    container_name: laravel_redis_container
+    ports:
+      - "6379:6379"
+    volumes:
+      - "./redis:/data"
+    networks:
+      - laravel_network
+
+  # Mailhog  
+  mailhog:
+    image: mailhog/mailhog:latest
+    container_name: laravel_mailhog_container
+    ports:
+      - "1025:1025"  # SMTP port
+      - "8025:8025"  # Web interface
+    networks:
+      - laravel_network
+
+networks:
+  laravel_network:
+    driver: bridge
+
+volumes:
+  mysql_data:
+  redis_data:
