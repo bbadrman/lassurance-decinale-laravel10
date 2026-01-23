@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Professionel extends Model
 {
-    protected $table = 'professionel';
+    protected $table = 'lassurance-garantie-decennal';
     public $timestamps = false;
-
+    protected $connection = 'mysql';
 }

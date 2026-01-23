@@ -1,33 +1,84 @@
 @if (session()->has('status'))
 
 @extends('master')
+
+
+
+@section('title', 'Assurance Décennale  | reponse')
+  
+@section('meta_description', 'Devis pour une assurances décennale en ligne et en quelque clics.')
+
+@section('canonical')
+<link rel="canonical" href="https://www.lassurance-garantie-decennale.fr/reponse">
+ 
+@endsection
+
+@section('og_meta')
+<meta property="og:title" content="Assurance Décennale  | reponse">
+<meta property="og:description" content="Devis pour une assurances décennale en ligne et en quelque clics.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.lassurance-garantie-decennale.fr/reponse"> 
+<meta property="og:image" content="https://www.lassurance-garantie-decennale.fr/image/assurance-decinale.jpg">
+@endsection
+
+
 @section('contentresponse')
 
-    <section id="monsection">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm">
-                    <div class="jumbotron jumbotron-fluid jumbotronresilie ">
-                        <div class="container">
-                            <img src="{{ asset('image/sucess.png') }}" class="img-fluid" alt="Responsive image"
-                                width="40px">
-                            <p class="sucessmsg">Votre demande de tarif est prise en compte,vous recevez notre offre
-                                rapidement</p>
-                            <p class="msgre"><a href="https://lassurance-garantie-decennale.fr/">Revenir à l'accueil</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    </section>
 
-    @include('layout.bas-page')
+
+
+<section
+    id="monsection"
+    class="relative bg-scanlines min-h-[calc(100vh-56px)] w-full flex items-center justify-center px-4">
+    <!-- Optional dark overlay (for better contrast) -->
+    <div class="absolute inset-0 bg-black/40"></div>
+
+    <!-- Content Box -->
+    <div
+        class="relative z-10 text-center text-white max-w-xl px-6 py-10 rounded-2xl backdrop-blur-md bg-white/10 border border-white/20 shadow-xl">
+        <!-- Icon -->
+        <div class="flex justify-center mb-4">
+            <div class="bg-white/20 p-3 rounded-full">
+                <svg
+                    class="w-8 h-8 text-green-300"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24">
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M5 13l4 4L19 7" />
+                </svg>
+            </div>
+        </div>
+
+        <!-- Title -->
+        <h2 class="text-2xl sm:text-3xl font-bold mb-4">
+            Votre demande de tarif est bien prise en compte
+        </h2>
+
+        <!-- Subtitle -->
+        <p class="text-base sm:text-lg text-gray-100 mb-6">
+            Vous recevrez notre offre personnalisée très bientôt.
+        </p>
+
+        <!-- CTA Button -->
+        <a
+            href="/"
+            class="inline-block px-6 py-3 bg-accent text-white font-medium rounded-full shadow-md hover:bg-accent/90 transition">
+            Revenir à l'accueil
+        </a>
+    </div>
+</section>
+
+
 
 
 @endsection
 
 @else
-    <script>
-        window.location = "https://lassurance-garantie-decennale.fr/";
-
-    </script>
+<script>
+    window.location = "https://lassurance-garantie-decennale.fr/";
+</script>
 @endif

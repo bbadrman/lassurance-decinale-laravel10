@@ -1,0 +1,95 @@
+[10-Jul-2025 09:48:39 UTC] PHP Warning:  require(/home/assukdim/laravel-assurance-decinale/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/assukdim/laravel-assurance-decinale/index.php on line 34
+[10-Jul-2025 09:48:39 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/assukdim/laravel-assurance-decinale/../vendor/autoload.php' (include_path='.:/opt/alt/php84/usr/share/pear:/opt/alt/php84/usr/share/php:/usr/share/pear:/usr/share/php') in /home/assukdim/laravel-assurance-decinale/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/assukdim/laravel-assurance-decinale/index.php on line 34
+[10-Jul-2025 09:48:41 UTC] PHP Warning:  require(/home/assukdim/laravel-assurance-decinale/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/assukdim/laravel-assurance-decinale/index.php on line 34
+[10-Jul-2025 09:48:41 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/assukdim/laravel-assurance-decinale/../vendor/autoload.php' (include_path='.:/opt/alt/php84/usr/share/pear:/opt/alt/php84/usr/share/php:/usr/share/pear:/usr/share/php') in /home/assukdim/laravel-assurance-decinale/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/assukdim/laravel-assurance-decinale/index.php on line 34
+[10-Jul-2025 09:48:44 UTC] PHP Warning:  require(/home/assukdim/laravel-assurance-decinale/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/assukdim/laravel-assurance-decinale/index.php on line 34
+[10-Jul-2025 09:48:44 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/assukdim/laravel-assurance-decinale/../vendor/autoload.php' (include_path='.:/opt/alt/php84/usr/share/pear:/opt/alt/php84/usr/share/php:/usr/share/pear:/usr/share/php') in /home/assukdim/laravel-assurance-decinale/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/assukdim/laravel-assurance-decinale/index.php on line 34
+[10-Jul-2025 09:50:23 UTC] PHP Warning:  require(/home/assukdim/laravel-assurance-decinale/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/assukdim/laravel-assurance-decinale/index.php on line 34
+[10-Jul-2025 09:50:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/assukdim/laravel-assurance-decinale/../vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/assukdim/laravel-assurance-decinale/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/assukdim/laravel-assurance-decinale/index.php on line 34
+[10-Jul-2025 09:51:11 UTC] PHP Warning:  require(/home/assukdim/laravel-assurance-decinale/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/assukdim/laravel-assurance-decinale/index.php on line 34
+[10-Jul-2025 09:51:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/assukdim/laravel-assurance-decinale/../vendor/autoload.php' (include_path='.:/opt/alt/php84/usr/share/pear:/opt/alt/php84/usr/share/php:/usr/share/pear:/usr/share/php') in /home/assukdim/laravel-assurance-decinale/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/assukdim/laravel-assurance-decinale/index.php on line 34
+[10-Jul-2025 09:51:12 UTC] PHP Warning:  require(/home/assukdim/laravel-assurance-decinale/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/assukdim/laravel-assurance-decinale/index.php on line 34
+[10-Jul-2025 09:51:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/assukdim/laravel-assurance-decinale/../vendor/autoload.php' (include_path='.:/opt/alt/php84/usr/share/pear:/opt/alt/php84/usr/share/php:/usr/share/pear:/usr/share/php') in /home/assukdim/laravel-assurance-decinale/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/assukdim/laravel-assurance-decinale/index.php on line 34
+[10-Jul-2025 09:51:13 UTC] PHP Warning:  require(/home/assukdim/laravel-assurance-decinale/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/assukdim/laravel-assurance-decinale/index.php on line 34
+[10-Jul-2025 09:51:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/assukdim/laravel-assurance-decinale/../vendor/autoload.php' (include_path='.:/opt/alt/php84/usr/share/pear:/opt/alt/php84/usr/share/php:/usr/share/pear:/usr/share/php') in /home/assukdim/laravel-assurance-decinale/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/assukdim/laravel-assurance-decinale/index.php on line 34
+[10-Jul-2025 09:51:14 UTC] PHP Warning:  require(/home/assukdim/laravel-assurance-decinale/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/assukdim/laravel-assurance-decinale/index.php on line 34
+[10-Jul-2025 09:51:14 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/assukdim/laravel-assurance-decinale/../vendor/autoload.php' (include_path='.:/opt/alt/php84/usr/share/pear:/opt/alt/php84/usr/share/php:/usr/share/pear:/usr/share/php') in /home/assukdim/laravel-assurance-decinale/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/assukdim/laravel-assurance-decinale/index.php on line 34
+[10-Jul-2025 09:51:14 UTC] PHP Warning:  require(/home/assukdim/laravel-assurance-decinale/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/assukdim/laravel-assurance-decinale/index.php on line 34
+[10-Jul-2025 09:51:14 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/assukdim/laravel-assurance-decinale/../vendor/autoload.php' (include_path='.:/opt/alt/php84/usr/share/pear:/opt/alt/php84/usr/share/php:/usr/share/pear:/usr/share/php') in /home/assukdim/laravel-assurance-decinale/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/assukdim/laravel-assurance-decinale/index.php on line 34
+[10-Jul-2025 09:51:15 UTC] PHP Warning:  require(/home/assukdim/laravel-assurance-decinale/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/assukdim/laravel-assurance-decinale/index.php on line 34
+[10-Jul-2025 09:51:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/assukdim/laravel-assurance-decinale/../vendor/autoload.php' (include_path='.:/opt/alt/php84/usr/share/pear:/opt/alt/php84/usr/share/php:/usr/share/pear:/usr/share/php') in /home/assukdim/laravel-assurance-decinale/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/assukdim/laravel-assurance-decinale/index.php on line 34
+[10-Jul-2025 09:51:16 UTC] PHP Warning:  require(/home/assukdim/laravel-assurance-decinale/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/assukdim/laravel-assurance-decinale/index.php on line 34
+[10-Jul-2025 09:51:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/assukdim/laravel-assurance-decinale/../vendor/autoload.php' (include_path='.:/opt/alt/php84/usr/share/pear:/opt/alt/php84/usr/share/php:/usr/share/pear:/usr/share/php') in /home/assukdim/laravel-assurance-decinale/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/assukdim/laravel-assurance-decinale/index.php on line 34
+[10-Jul-2025 09:51:17 UTC] PHP Warning:  require(/home/assukdim/laravel-assurance-decinale/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/assukdim/laravel-assurance-decinale/index.php on line 34
+[10-Jul-2025 09:51:17 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/assukdim/laravel-assurance-decinale/../vendor/autoload.php' (include_path='.:/opt/alt/php84/usr/share/pear:/opt/alt/php84/usr/share/php:/usr/share/pear:/usr/share/php') in /home/assukdim/laravel-assurance-decinale/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/assukdim/laravel-assurance-decinale/index.php on line 34
+[10-Jul-2025 09:51:19 UTC] PHP Warning:  require(/home/assukdim/laravel-assurance-decinale/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/assukdim/laravel-assurance-decinale/index.php on line 34
+[10-Jul-2025 09:51:19 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/assukdim/laravel-assurance-decinale/../vendor/autoload.php' (include_path='.:/opt/alt/php84/usr/share/pear:/opt/alt/php84/usr/share/php:/usr/share/pear:/usr/share/php') in /home/assukdim/laravel-assurance-decinale/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/assukdim/laravel-assurance-decinale/index.php on line 34
+[10-Jul-2025 09:51:22 UTC] PHP Warning:  require(/home/assukdim/laravel-assurance-decinale/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/assukdim/laravel-assurance-decinale/index.php on line 34
+[10-Jul-2025 09:51:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/assukdim/laravel-assurance-decinale/../vendor/autoload.php' (include_path='.:/opt/alt/php84/usr/share/pear:/opt/alt/php84/usr/share/php:/usr/share/pear:/usr/share/php') in /home/assukdim/laravel-assurance-decinale/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/assukdim/laravel-assurance-decinale/index.php on line 34
+[10-Jul-2025 09:51:27 UTC] PHP Warning:  require(/home/assukdim/laravel-assurance-decinale/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/assukdim/laravel-assurance-decinale/index.php on line 34
+[10-Jul-2025 09:51:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/assukdim/laravel-assurance-decinale/../vendor/autoload.php' (include_path='.:/opt/alt/php84/usr/share/pear:/opt/alt/php84/usr/share/php:/usr/share/pear:/usr/share/php') in /home/assukdim/laravel-assurance-decinale/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/assukdim/laravel-assurance-decinale/index.php on line 34
+[10-Jul-2025 09:51:41 UTC] PHP Warning:  require(/home/assukdim/laravel-assurance-decinale/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/assukdim/laravel-assurance-decinale/index.php on line 34
+[10-Jul-2025 09:51:41 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/assukdim/laravel-assurance-decinale/../vendor/autoload.php' (include_path='.:/opt/alt/php84/usr/share/pear:/opt/alt/php84/usr/share/php:/usr/share/pear:/usr/share/php') in /home/assukdim/laravel-assurance-decinale/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/assukdim/laravel-assurance-decinale/index.php on line 34
+[10-Jul-2025 09:51:42 UTC] PHP Warning:  require(/home/assukdim/laravel-assurance-decinale/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/assukdim/laravel-assurance-decinale/index.php on line 34
+[10-Jul-2025 09:51:42 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/assukdim/laravel-assurance-decinale/../vendor/autoload.php' (include_path='.:/opt/alt/php84/usr/share/pear:/opt/alt/php84/usr/share/php:/usr/share/pear:/usr/share/php') in /home/assukdim/laravel-assurance-decinale/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/assukdim/laravel-assurance-decinale/index.php on line 34
+[10-Jul-2025 09:51:43 UTC] PHP Warning:  require(/home/assukdim/laravel-assurance-decinale/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/assukdim/laravel-assurance-decinale/index.php on line 34
+[10-Jul-2025 09:51:43 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/assukdim/laravel-assurance-decinale/../vendor/autoload.php' (include_path='.:/opt/alt/php84/usr/share/pear:/opt/alt/php84/usr/share/php:/usr/share/pear:/usr/share/php') in /home/assukdim/laravel-assurance-decinale/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/assukdim/laravel-assurance-decinale/index.php on line 34
+[10-Jul-2025 09:51:44 UTC] PHP Warning:  require(/home/assukdim/laravel-assurance-decinale/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/assukdim/laravel-assurance-decinale/index.php on line 34
+[10-Jul-2025 09:51:44 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/assukdim/laravel-assurance-decinale/../vendor/autoload.php' (include_path='.:/opt/alt/php84/usr/share/pear:/opt/alt/php84/usr/share/php:/usr/share/pear:/usr/share/php') in /home/assukdim/laravel-assurance-decinale/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/assukdim/laravel-assurance-decinale/index.php on line 34

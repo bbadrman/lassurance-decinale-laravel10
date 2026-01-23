@@ -1,390 +1,331 @@
 @extends('master')
 @section('content-mention')
 
-    <div class="container">
-        <div class="row">
-            <div class="col-sm">
-
-                <span class="titreindex">Conditions juridiques</span>
-            </div>
-
-        </div>
-
-
-        <div class="row">
-            <div class="col-sm">
-
-                <span class="contenuindex">En envoyant un courrier électronique à la société ou en accédant et/ou
-utilisant le Site Internet www.lassurance-garantie-decennale.fr///, chaque
-personne physique (ci-après « l&#39;Utilisateur ») déclare et garantit qu&#39;elle a
-pris préalablement connaissances des présentes conditions juridiques,
-c&#39;est-à-dire des informations légales, des règles applicables à la protection
-des données à caractère personnel et des conditions d&#39;utilisation et qu&#39;elle
-en accepte les termes et conditions sans réserve, modification ou
-restriction.</span>
-            </div>
-
-        </div>
-
-        <br>
-        <div class="row">
-            <div class="col-sm">
-
-                <span class="titreindex">Mentions légales</span>
-            </div>
-
-        </div>
-        <br>
-        <div class="row">
-            <div class="col-sm">
-
-                <span class="titreindex1">Editeur</span>
-            </div>
-
-        </div>
-
-
-        <div class="row">
-            <div class="col-sm">
-
-                <span class="contenuindex">Le site www.lassurance-garantie-decennale.fr/// est édité par la société
-AKSAM ASSURANCES SARL AU au capital de 10.000 € Siège social :
-10 Rue de Penthièvre 75008 Paris ; SIRET 84065346300033 R.C.S Paris :
-840 653 463 ; Garantie financière et assurance de responsabilité civile et
-professionnelle conforme aux articles L.530-1 et L.530-2 du Code des
-assurances Immatriculation ORIAS : 180 074 24 ; www.orias.fr</span>
-            </div>
-
-        </div>
-
-
-        <br>
-        <div class="row">
-            <div class="col-sm">
-
-                <span class="titreindex1">Hebrgeur</span>
-            </div>
-
-        </div>
-
-
-        <div class="row">
-            <div class="col-sm">
-
-                <span class="contenuindex">Le présent Site est hébergé par la société NAMECHEAP. Adresse : 4600
-E Washington St suite 305, Phoenix, AZ 85034.</span>
-            </div>
-
-        </div>
-        <br>
-        <div class="row">
-            <div class="col-sm">
-
-                <span class="titreindex1">Liens hypertextes</span>
-            </div>
-
-        </div>
-
-
-        <div class="row">
-            <div class="col-sm">
-
-                <span class="contenuindex">Leur contenu et/ou les documents accessibles à partir des liens hypertextes
-publiés sur le Site Web ou dans les documents téléchargeables à partir de
-ce dernier sont la responsabilité exclusive de leur(s) auteur(s) et ne
-sauraient engager la responsabilité de la société. L&#39;Utilisateur n&#39;est pas
-autorisé à créer un lien hypertexte vers le Site et/ou une page quelconque
-du Site et/ou d&#39;un fichier s&#39;y trouvant, sans l&#39;accord préalable et express de
-la société.</span>
-            </div>
-
-        </div>
-
-        <br>
-        <div class="row">
-            <div class="col-sm">
-
-                <span class="titreindex">Utilisations des cookies</span>
-            </div>
-
-        </div>
-
-        <div class="row">
-            <div class="col-sm">
-
-                <span class="titreindex1">Qu’est-ce qu’un cookie ?</span>
-            </div>
-
-        </div>
-
-        <div class="row">
-            <div class="col-sm">
-
-                <span class="contenuindex">Leur contenu et/ou les documents accessibles à partir des liens hypertextes
-publiés sur le Site Web ou dans les documents téléchargeables à partir de
-
-ce dernier sont la responsabilité exclusive de leur(s) auteur(s) et ne
-sauraient engager la responsabilité de la société. L&#39;Utilisateur n&#39;est pas
-autorisé à créer un lien hypertexte vers le Site et/ou une page quelconque
-du Site et/ou d&#39;un fichier s&#39;y trouvant, sans l&#39;accord préalable et express de
-la société.</span>
-            </div>
-
-        </div>
-        <br>
-
-        <div class="row">
-            <div class="col-sm">
-
-                <span class="titreindex1">A. Les cookies fonctionnels</span>
-            </div>
-
-        </div>
-
-
-        <div class="row">
-            <div class="col-sm">
-
-                <span class="contenuindex">Les cookies fonctionnels permettent au site de se souvenir des choix que
-vous faites sur nos sites Internet et de vous proposer des fonctions
-optimisées et plus personnelles. Ces cookies ne sont pas indispensables à
-la navigation mais permettent d’afficher de manière optimal le site,
-d’améliorer votre navigation et le fonctionnement du site. Ces cookies
-nous permettent également d’adapter l’affichage de nos sites aux
-préférences d’affichage de votre terminal (ordinateur, tablette ou
-smartphone). L’utilisation de ces cookies nous permet d’améliorer votre
-expérience utilisateur et de personnaliser votre visite sur nos sites. Ces
-cookies ont une durée de vie courte, pour la majorité, le temps de la
-session, et au maximum, de 13 mois..</span>
-            </div>
-
-        </div>
-
-
-        <br>
-        <div class="row">
-            <div class="col-sm">
-
-                <span class="titreindex1">B. Les cookies de mesure d’audience (statistiques)</span>
-            </div>
-
-        </div>
-
-
-        <div class="row">
-            <div class="col-sm">
-
-                <span class="contenuindex">Ces cookies recueillent des informations nous permettant d’étudier la
-façon dont les visiteurs naviguent sur nos sites Internet : nombre de visites,
-pages les plus visitées, provenance des visiteurs (moteurs de recherches,
-liens depuis des sites tiers…), durée des visites, localisation des visiteurs,
-etc. Ces données nous permettent notamment d’étudier les habitudes des
-internautes et d’améliorer l’ergonomie de nos sites. Nos outils de
-statistiques génère un cookie dont l’identifiant est unique et dont la durée
-de conservation est de maximum 13 mois. Les informations collectées,
-telles que l’adresse IP permettant d’identifier la ville de provenance des
-internautes et ne permettent en aucun cas d’identifier une personne
-physique.</span>
-            </div>
-
-        </div>
-
-        <br>
-
-        <div class="row">
-            <div class="col-sm">
-
-                <span class="titreindex1">C. Les cookies de partage sur réseaux sociaux</span>
-            </div>
-
-        </div>
-
-
-        <div class="row">
-            <div class="col-sm">
-
-                <span class="contenuindex">Les sites de la société AKSAM ASSURANCES peuvent contenir des liens
-de partage vers différents réseaux sociaux : LinkedIn, Viadeo et autre
-réseau social similaire. Ces liens de partage vous permettent de partager
-des contenus issus de nos sites avec vos contacts sur les différents réseaux
-sociaux mentionnés. Lorsque vous utilisez ces boutons de partage, un
-cookie tiers est installé. Si vous êtes connectés au réseau social lors de
-votre navigation sur notre site, le bouton de partage permet de relier les
-contenus consultés à votre compte utilisateur. Comment paramétrer
-
-l’utilisation des cookies ? L’utilisation des cookies peut être paramètré
-depuis les options de votre logiciel de navigation Internet (navigateur).
-Tout paramétrage que vous pouvez entreprendre sera susceptible de
-modifier votre navigation sur Internet et vos conditions d’accès à certains
-services nécessitant l’utilisation de Cookies. Vous pouvez à tout moment
-configurer votre navigateur Internet de façon à accepter, refuser ou
-désactiver les cookies. Pour paramétrer vos choix rendez-vous dans la
-rubrique aide de votre navigateur ou cliquez sur le lien correspondant ci-
-dessous et suivez les instructions fournies.
-
-                    <ul>
-                        <li>Firefox : https://support.mozilla.org</li>
-                        <li>Internet Explorer : http://windows.microsoft.com</li>
-                        <li>Google Chrome : https://support.google.com</li>
-                        <li>Safari : http://www.commentcamarche.net</li>
-                        <li>Opéra : http://help.opera.com</li>
-                    </ul>
-                    Nous utilisons Google Analytics Les fonctionnalités de Google Analytics
-pour les annonceurs display sont activées sur ce site (Remarketing).
-Google utilise des cookies pour diffuser nos annonces sur les sites de son
-réseau Display. Grâce au cookie DoubleClick, Google adapte les annonces
-diffusées aux utilisateurs en fonction de leur navigation sur notre site.
-Vous pouvez désactiver, à tout moment, l&#39;utilisation de cette fonctionnalité
-en vous rendant sur le gestionnaire de préférences pour les annonces, qui
-se trouve à l’adresse suivante :https://www.google.com/settings/u/0/ads)
-Plus d’information sur les cookies Pour plus d’information sur les cookies,
-vous pouvez vous rendre sur le site de la CNIL,à l&#39;adresse suivante :
-http://www.cnil.fr/vos-droits/vos-traces/les-cookies/
-                </span>
-            </div>
-
-        </div>
-
-        <div class="row">
-            <div class="col-sm">
-
-                <span class="titreindex">Protéction des données personnelles</span>
-            </div>
-        </div>
-
-
-
-
-
-        <div class="row">
-            <div class="col-sm">
-
-                <span class="contenuindex">Les informations personnelles recueillies feront l&#39;objet d&#39;un traitement
-automatisé ; elles seront utilisées pour répondre aux différents services
-proposés par le site et pourront être transmises aux sociétés du groupe dans
-un but de prospection. Conformément à la loi française n° 78-17 du 6
-janvier 1978 relative à l&#39;informatique, aux fichiers et aux libertés, les
-internautes bénéficient d&#39;un droit d&#39;accès, de rectification et d&#39;opposition ;
-ce droit peut être exercé en adressant un courrier auprès de : AKSAM
-ASSURANCES 10 Rue de Penthièvre 75008 Paris ou en s’adressant par
-mail : contact@aksam-assurances.fr.</span>
-            </div>
-
-        </div>
-        <br>
-
-        <div class="row">
-            <div class="col-sm">
-
-                <span class="titreindex">Les droits de l'utilisateur</span>
-            </div>
-        </div>
-
-
-
-
-
-        <div class="row">
-            <div class="col-sm">
-
-                <span class="contenuindex">Les droits de l&#39;utilisateur Chaque Utilisateur justifiant de son identité a le
-droit de demander à la société :
-
-                    <ul>
-                        <li>La confirmation que des Données à caractère personnel font ou ne font pas l'objet d'un
-                            traitement par la société ou pour son compte.</li>
-                        <li>Des informations relatives aux finalités du ou des traitements, aux catégories de données à
-                            caractère personnel traitées et aux destinataires de ces données au sein de la société</li>
-                        <li>La communication, sous une forme accessible, des données àcaractère personnel qui le concernent
-                            ainsi que toute information disponible quant à l'origine de celles-ci. Une copie des données à
-                            caractère personnel sera alors délivrée gratuitement à l'utilisateur, sous réserve qu'une telle
-                            demande ne soit pas manifestement abusive, notamment par son caractère répétitif ou systématique
-                        </li>
-                        <li>La possibilité de modifier, compléter, mettre à jour ou effacer les données à caractère
-                            personnel le concernant, qui sont inexactes, incomplètes,
-                            équivoques, périmées, ou dont l'utilisation ou la conservation serait interdite</li>
-                        <li>La possibilité de s'opposer au traitement de ses données à caractère personnel.</li>
-
-                    </ul>
-                   Ainsi, chaque Utilisateur peut exercer ses droits, énumérés ci-dessus, en
-écrivant soit un e-mail à l&#39;adresse suivante : contact@aksam-assurances.fr,
-soit un courrier à l&#39;adresse postale suivante : 10 Rue de Penthièvre 75008
-Paris.
-
-                </span>
-            </div>
-
-        </div>
-
-
-
-        <div class="row">
-            <div class="col-sm">
-
-                <span class="titreindex">Droit d'auteur et propriété intellectuelle</span>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-sm">
-
-                <span class="contenuindex">Les produits et services présentés sur le site sont destinés aux résidents
-français. Le site et son contenu font l&#39;objet d&#39;une protection légale au titre
-de la propriété littéraire et artistique (droits d&#39;auteurs, des interprètes, etc.)
-et de la propriété industrielle (marques, dessins, etc.). Il est interdit à tout
-internaute de copier ou reproduire, par numérisation et tout autre moyen,
-sur quelque support que ce soit, tout ou partie du contenu du site, qu&#39;il soit
-textuel, graphique ou sonore, sauf pour son usage propre. Le site indique
-en particulier à l&#39;internaute les parties du contenu du site qu&#39;il est autorisé à
-télécharger pour les besoins de sa relation avec AKSAM ASSURANCES.
-Le non-respect de ces règles peut engager la responsabilité civile et pénale
-du contrevenant. Les logos et marques cités dans le site sont la propriété
-de leurs sociétés respectives.</span>
-            </div>
-
-        </div>
-
-
-
-        <div class="row">
-            <div class="col-sm">
-
-                <span class="titreindex">Réclamations</span>
-            </div>
-        </div>
-
-
-        <div class="row">
-            <div class="col-sm">
-
-                <span class="contenuindex">Une réclamation est une déclaration par laquelle vous manifestez votre
-mécontentement envers notre société, sur un ou des sujets clairement
-identifiés, dans le cadre de notre mandat de courtage. La réclamation peut
-se faire soit téléphoniquement auprès du Responsable Conformité (01 82
-83 48 00) , soit sur la base du formulaire ci dessous, adressé par voie
-postale ou par mail à : AKSAM Assurances A l&#39;attention du Responsable
-Conformité 10 rue de Penthièvre 75008 Paris Email : contact@aksam-
-assurances.fr Nom Email Télephone Message Si votre réclamation porte
-sur l&#39;application d&#39;un contrat d&#39;assurance, nous la transmettrons à
-l&#39;organisme assureur de votre contrat. Nous nous engageons à accuser
-réception de votre réclamation dans un délai maximum de 10 jours ouvrés
-à compter de sa réception. Nous nous engageons à vous apporter une
-réponse positive ou négative dans un délai de deux mois à compter de la
-réception de la totalité des éléments de votre réclamation si la réponse est
-de notre fait. Si nous ne sommes pas en mesure de donner une suite
-favorable à votre demande, nous vous rappelons que si vous le souhaitez
-vous pouvez contacter le Médiateur de l&#39;Assurance dont les coordonnées
-sont mentionnées ci-dessous. Il peut être saisi par l&#39;un des moyens suivants
-: Adresse Postale : La Médiation de la consommation PLANÉTE
-COURTIER 12-14 Rond-Point des champs Elysées 75008 PARIS Adresse
-Mail : mediation@planetecourtier.com Adresse du site internet :
-www.mediation-planetecourtier.com Les documents en lien avec votre
-réclamation sont conservés cinq ans à compter de la date de réception.</span>
-            </div>
-
-        </div>
-
-
-
+<section
+    class="py-8 lg:py-6 bg-gradient-to-br from-light via-surfaceHover to-light hero-pattern relative overflow-hidden">
+    <!-- Background decoration -->
+    <div class="absolute inset-0 scanlines-bg opacity-30"></div>
+    <div class="absolute top-5 left-5 floating-animation">
+        <i class="fas fa-gavel text-yellow-600 text-4xl opacity-30"></i>
     </div>
+    <div class="absolute bottom-5 right-5 floating-animation" style="animation-delay: -2s;">
+        <i class="fas fa-balance-scale text-yellow-700 text-5xl opacity-25"></i>
+    </div>
+
+    <div class="container mx-auto px-4 relative z-10">
+        <div class="text-center">
+            <div class="w-12 h-12 bg-gradient-to-r from-yellow-400 to-yellow-500 rounded-2xl mx-auto mb-4 flex items-center justify-center">
+                <i class="fas fa-file-contract text-2xl text-dark"></i>
+            </div>
+            <h1 class="text-4xl lg:text-3xl font-bold text-gradient mb-4">Mentions légales</h1>
+            <div class="w-20 h-1 bg-gradient-to-r from-yellow-400 to-yellow-500 mx-auto rounded-full"></div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Content Section -->
+<section class="py-20 bg-surface">
+    <div class="container mx-auto px-4">
+        <div class="max-w-6xl mx-auto">
+            <div
+                class="fade-in">
+
+                <!-- Conditions juridiques -->
+                <div class="bg-gradient-to-br from-primary/5 via-secondary/5 to-accent/5 rounded-3xl p-10 mb-16 border border-primary/10">
+                    <div class="flex items-start space-x-4">
+                        <div class="p-4 bg-primary/10 rounded-2xl">
+                            <i class="fas fa-info-circle text-3xl text-gradient"></i>
+                        </div>
+                        <div>
+                            <h2 class="text-3xl font-bold text-dark mb-6">Conditions juridiques</h2>
+                            <p class="text-gray-700 text-lg leading-relaxed mb-6">
+                                En envoyant un courrier électronique à la société ou en accédant et/ou utilisant le Site Internet www.lassurance-garantie-decennale.fr, chaque personne physique (ci-après « l'Utilisateur ») déclare et garantit qu'elle a pris préalablement connaissances des présentes conditions juridiques, c'est-à-dire des informations légales, des règles applicables à la protection des données à caractère personnelles et des conditions d'utilisation et qu'elle en accepte les termes et conditions sans réserve, modification ou restriction.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mentions légales -->
+                <div class="grid md:grid-cols-2 gap-8 mb-20">
+                    <div class="bg-surface rounded-3xl p-8 shadow-xl border border-gray-100 card-hover">
+                        <div class="flex items-start space-x-6">
+                            <div class="p-4 bg-gradient-to-br from-yellow-400 to-yellow-400/80 rounded-2xl shadow-lg">
+                                <i class="fas fa-building text-white text-2xl"></i>
+                            </div>
+                            <div class="flex-1">
+                                <h3 class="text-2xl font-bold text-gradient mb-4">Éditeur</h3>
+                                <p class="text-gray-700 leading-relaxed">
+                                    Le site www.lassurance-garantie-decennale.fr est édité par la société
+                                    <strong>AKSAM ASSURANCES</strong>
+                                    SARL AU au capital de 10.000 €
+                                </p>
+                                <div class="mt-4 p-4 bg-gradient-to-r from-yellow-50 to-yellow-100 rounded-2xl border border-yellow-200">
+                                    <ul class="space-y-2 text-sm text-gray-600">
+                                        <li>
+                                            <strong>Siège social :</strong>
+                                            10 Rue de Penthièvre 75008 Paris
+                                        </li>
+                                        <li>
+                                            <strong>SIRET :</strong>
+                                            84065346300033
+                                        </li>
+                                        <li>
+                                            <strong>R.C.S Paris :</strong>
+                                            840 653 463
+                                        </li>
+                                        <li>
+                                            <strong>ORIAS :</strong>
+                                            180 074 24
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-surface rounded-3xl p-8 shadow-xl border border-gray-100 card-hover">
+                        <div class="flex items-start space-x-6">
+                            <div class="p-4 bg-gradient-to-br from-yellow-400 to-yellow-400/80 rounded-2xl shadow-lg">
+                                <i class="fas fa-server text-white text-2xl"></i>
+                            </div>
+                            <div class="flex-1">
+                                <h3 class="text-2xl font-bold text-gradient mb-4">Hébergeur</h3>
+                                <p class="text-gray-700 leading-relaxed">
+                                    Le présent Site est hébergé par la société NAMECHEAP.
+                                </p>
+                                <div class="mt-4 p-4 bg-gradient-to-r from-yellow-50 to-yellow-100 rounded-2xl border border-yellow-200">
+                                    <p class="text-sm text-gray-600">
+                                        <strong>Adresse :</strong>
+                                        EU Data Center, Amsterdam, Netherlands.
+                                    </p>
+                                </div>
+                                <div class="mt-6">
+                                    <h4 class="text-lg font-bold text-gradient mb-3">Liens hypertextes</h4>
+                                    <p class="text-gray-700 text-sm leading-relaxed">
+                                        Leur contenu et/ou les documents accessibles à partir des liens hypertextes publiés sur le Site Web ne sauraient engager la responsabilité de la société.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cookies Section -->
+                <div class="bg-gradient-to-br from-light to-surfaceHover rounded-3xl p-10 mb-16 border border-gray-100 relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-40 h-40 bg-accent/5 rounded-full -mr-20 -mt-20"></div>
+                    <div class="relative">
+                        <div class="text-center mb-10">
+                            <h2 class="text-4xl font-bold text-gradient mb-6">Utilisation des cookies</h2>
+                            <p class="text-gray-700 text-lg max-w-4xl mx-auto">
+                                Nous utilisons différents types de cookies pour améliorer votre expérience sur notre site.
+                            </p>
+                        </div>
+
+                        <div class="grid md:grid-cols-3 gap-8">
+                            <div class="bg-surface rounded-2xl p-6 shadow-lg border border-primary/10">
+                                <div class="flex items-center space-x-4 mb-4">
+                                    <span class="bg-primary text-gradient rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold shadow-lg">1</span>
+                                    <h3 class="text-xl font-bold text-gradient">Cookies fonctionnels</h3>
+                                </div>
+                                <p class="text-gray-600 leading-relaxed text-sm">
+                                    Permettent au site de se souvenir des choix que vous faites et d'améliorer votre navigation. Durée de vie courte, maximum 13 mois.
+                                </p>
+                            </div>
+
+                            <div class="bg-surface rounded-2xl p-6 shadow-lg border border-secondary/10">
+                                <div class="flex items-center space-x-4 mb-4">
+                                    <span class="bg-secondary text-gradient rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold shadow-lg">2</span>
+                                    <h3 class="text-xl font-bold text-gradient">Cookies statistiques</h3>
+                                </div>
+                                <p class="text-gray-600 leading-relaxed text-sm">
+                                    Collectent des informations pour étudier la navigation : nombre de visites, pages visitées, provenance des visiteurs, etc.
+                                </p>
+                            </div>
+
+                            <div class="bg-surface rounded-2xl p-6 shadow-lg border border-accent/10">
+                                <div class="flex items-center space-x-4 mb-4">
+                                    <span class="bg-accent text-gradient rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold shadow-lg">3</span>
+                                    <h3 class="text-xl font-bold text-gradient">Cookies sociaux</h3>
+                                </div>
+                                <p class="text-gray-600 leading-relaxed text-sm">
+                                    Permettent le partage de contenus sur les réseaux sociaux comme LinkedIn, Viadeo et autres.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="mt-10 p-6 bg-gradient-to-r from-yellow-50 to-yellow-100 rounded-2xl border border-yellow-200">
+                            <h4 class="text-lg font-bold text-gradient mb-4">Configuration des cookies</h4>
+                            <div class="grid md:grid-cols-2 gap-4">
+                                <ul class="space-y-2">
+                                    <li class="flex items-center space-x-2">
+                                        <i class="fas fa-check text-success text-sm"></i>
+                                        <a href="https://support.mozilla.org" class="text-blue-600 hover:underline text-sm">Firefox</a>
+                                    </li>
+                                    <li class="flex items-center space-x-2">
+                                        <i class="fas fa-check text-success text-sm"></i>
+                                        <a href="http://windows.microsoft.com" class="text-blue-600 hover:underline text-sm">Internet Explorer</a>
+                                    </li>
+                                    <li class="flex items-center space-x-2">
+                                        <i class="fas fa-check text-success text-sm"></i>
+                                        <a href="https://support.google.com" class="text-blue-600 hover:underline text-sm">Google Chrome</a>
+                                    </li>
+                                </ul>
+                                <ul class="space-y-2">
+                                    <li class="flex items-center space-x-2">
+                                        <i class="fas fa-check text-success text-sm"></i>
+                                        <a href="http://www.commentcamarche.net" class="text-blue-600 hover:underline text-sm">Safari</a>
+                                    </li>
+                                    <li class="flex items-center space-x-2">
+                                        <i class="fas fa-check text-success text-sm"></i>
+                                        <a href="http://help.opera.com" class="text-blue-600 hover:underline text-sm">Opéra</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Protection des données -->
+                <div class="grid md:grid-cols-2 gap-8 mb-20">
+                    <div class="bg-surface rounded-3xl p-8 shadow-xl border border-gray-100 card-hover">
+                        <div class="flex items-start space-x-6">
+                            <div class="p-4 bg-gradient-to-br from-yellow-400 to-yellow-400/80 rounded-2xl shadow-lg">
+                                <i class="fas fa-shield-alt text-white text-2xl"></i>
+                            </div>
+                            <div class="flex-1">
+                                <h3 class="text-2xl font-bold text-gradient mb-4">Protection des données personnelles</h3>
+                                <p class="text-gray-700 leading-relaxed">
+                                    Les informations personnelles recueillies feront l'objet d'un traitement automatisé conformément à la loi française n° 78-17 du 6 janvier 1978.
+                                </p>
+                                <div class="mt-4 p-4 bg-gradient-to-r from-yellow-50 to-yellow-100 rounded-2xl border border-yellow-200">
+                                    <p class="text-sm text-gray-600">
+                                        <strong>Contact :</strong>
+                                        AKSAM ASSURANCES<br>
+                                        10 Rue de Penthièvre 75008 Paris<br>
+                                        Email: contact@aksam-assurances.fr
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-surface rounded-3xl p-8 shadow-xl border border-gray-100 card-hover">
+                        <div class="flex items-start space-x-6">
+                            <div class="p-4 bg-gradient-to-br from-yellow-400 to-yellow-400/80 rounded-2xl shadow-lg">
+                                <i class="fas fa-user-shield text-white text-2xl"></i>
+                            </div>
+                            <div class="flex-1">
+                                <h3 class="text-2xl font-bold text-gradient mb-4">Vos droits</h3>
+                                <ul class="space-y-3">
+                                    <li class="flex items-start space-x-3">
+                                        <div class="p-1 bg-yellow-400 rounded-full mt-1">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </div>
+                                        <span class="text-gray-700 text-sm">Confirmation du traitement de vos données</span>
+                                    </li>
+                                    <li class="flex items-start space-x-3">
+                                        <div class="p-1 bg-yellow-400 rounded-full mt-1">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </div>
+                                        <span class="text-gray-700 text-sm">Accès à vos données personnelles</span>
+                                    </li>
+                                    <li class="flex items-start space-x-3">
+                                        <div class="p-1 bg-yellow-400 rounded-full mt-1">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </div>
+                                        <span class="text-gray-700 text-sm">Modification et suppression</span>
+                                    </li>
+                                    <li class="flex items-start space-x-3">
+                                        <div class="p-1 bg-yellow-400 rounded-full mt-1">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </div>
+                                        <span class="text-gray-700 text-sm">Opposition au traitement</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Propriété intellectuelle & Réclamations -->
+                <div class="grid md:grid-cols-2 gap-8 mb-20">
+                    <div class="bg-surface rounded-3xl p-8 shadow-xl border border-gray-100 card-hover">
+                        <div class="flex items-start space-x-6">
+                            <div class="p-4 bg-gradient-to-br from-yellow-400 to-yellow-400/80 rounded-2xl shadow-lg">
+                                <i class="fas fa-copyright text-white text-2xl"></i>
+                            </div>
+                            <div class="flex-1">
+                                <h3 class="text-2xl font-bold text-gradient mb-4">Droit d'auteur et propriété intellectuelle</h3>
+                                <p class="text-gray-700 leading-relaxed">
+                                    Le site et son contenu font l'objet d'une protection légale au titre de la propriété littéraire et artistique. Il est interdit de copier ou reproduire tout ou partie du contenu du site.
+                                </p>
+                                <div class="mt-4 p-3 bg-gradient-to-r from-red-50 to-red-100 rounded-2xl border border-red-200">
+                                    <p class="text-sm text-red-700">
+                                        <strong>Important :</strong>
+                                        Le non-respect de ces règles peut engager votre responsabilité civile et pénale.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-surface rounded-3xl p-8 shadow-xl border border-gray-100 card-hover">
+                        <div class="flex items-start space-x-6">
+                            <div class="p-4 bg-gradient-to-br from-yellow-400 to-yellow-400/80 rounded-2xl shadow-lg">
+                                <i class="fas fa-exclamation-triangle text-white text-2xl"></i>
+                            </div>
+                            <div class="flex-1">
+                                <h3 class="text-2xl font-bold text-gradient mb-4">Réclamations</h3>
+                                <p class="text-gray-700 leading-relaxed text-sm">
+                                    Pour toute réclamation, contactez-nous :
+                                </p>
+                                <div class="mt-4 space-y-3">
+                                    <div class="p-3 bg-gradient-to-r from-yellow-50 to-yellow-100 rounded-2xl border border-yellow-200">
+                                        <p class="text-sm text-gray-600">
+                                            <strong>Téléphone :</strong>
+                                            01 82 83 48 00<br>
+                                            <strong>Email :</strong>
+                                            contact@aksam-assurances.fr<br>
+                                            <strong>Adresse :</strong>
+                                            10 rue de Penthièvre 75008 Paris
+                                        </p>
+                                    </div>
+                                    <div class="p-3 bg-gradient-to-r from-blue-50 to-blue-100 rounded-2xl border border-blue-200">
+                                        <p class="text-sm text-blue-700">
+                                            <strong>Médiateur :</strong>
+                                            La Médiation de la consommation PLANÈTE COURTIER<br>
+                                            Email : mediation@planetecourtier.com
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CTA Section -->
+                <!-- CTA Section -->
+                <div class="bg-yellow-300 bg-yellow-300 bg-amber-400 rounded-3xl p-12 text-dark text-center relative overflow-hidden">
+                    <div class="absolute inset-0 bg-scanlines opacity-10"></div>
+                    <div class="relative">
+                        <div class="w-16 h-16 bg-dark/20 rounded-2xl mx-auto mb-6 flex items-center justify-center">
+                            <i class="fas fa-home text-3xl text-dark"></i>
+                        </div>
+                        <h2 class="text-4xl font-bold mb-6 text-dark">Retour à l'accueil</h2>
+                        <p class="text-xl mb-8 text-dark/90 max-w-3xl mx-auto leading-relaxed">
+                            Ne laissez pas l'assurance décennale freiner vos chantiers. Obtenez votre tarif en ligne !
+                        </p>
+                        <a href="/" class="inline-block bg-dark text-yellow-400 font-bold py-4 px-10 rounded-2xl hover:bg-primary transition-all transform hover:scale-105 shadow-2xl">
+                            <i class="fas fa-arrow-left mr-2"></i>
+                            Demandez votre devis gratuit en ligne
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
 @endsection

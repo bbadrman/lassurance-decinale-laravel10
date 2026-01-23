@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../../my-laravel-test/vendor"
+		},
+		{
+			"path": "../../../../decinal/laravel-assurance-decinale/resources"
+		},
+		{
+			"path": "../../../../decinal/laravel-assurance-decinale/app"
+		},
+		{
+			"path": "../../../../decinal/laravel-assurance-decinale/routes"
+		},
+		{
+			"path": "../../../../decinal/lassurance-garantie-decennale.fr/app"
+		},
+		{
+			"path": "../../../../decinal/lassurance-garantie-decennale.fr/routes"
+		},
+		{
+			"path": "../../../../decinal/lassurance-garantie-decennale.fr/resources"
+		}
+	],
+	"settings": {}
+}

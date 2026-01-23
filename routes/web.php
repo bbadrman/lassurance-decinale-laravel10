@@ -17,7 +17,7 @@ use App\Http\Controllers\HomeController;
 Route::get('/', 'App\Http\Controllers\HomeController@index');
 
 
-Route::get('assurance/professionel', function () {
+Route::get('/reponse', function () {
 
     return view('layout.response');
 });
@@ -33,7 +33,37 @@ Route::get('/mention-legale', function () {
     return view('layout.mention');
 });
 
+Route::get('/resilie-nonpaiement', function () {
 
+    return view('layout.resilie');
+});
 
+Route::get('/reprise-du-passe-assurance-decennale', function () {
+
+    return view('layout.reprise');
+});
+Route::get('/assurance-decennale-plombier', function () {
+
+    return view('layout.plombier');
+});
+
+Route::get('/maçon-grosœuvres', function () {
+
+    return view('layout.maçon');
+});
+Route::get('/assurance-decennale-electricien', function () {
+
+    return view('layout.electricien');
+});
+
+Route::get('/auto-entrepreneur', function () {
+
+    return view('layout.entrepreneur');
+});
+
+Route::get('/resilie-nonp', function () {
+
+    return view('layout.nopaiement');
+});
 
 Route::post('/', 'App\Http\Controllers\HomeController@store');
