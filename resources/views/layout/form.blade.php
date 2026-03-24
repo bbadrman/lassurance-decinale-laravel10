@@ -2,7 +2,7 @@
 @section('contentform')
 <main id="simulation" class="w-full">
     <!-- Hero Section -->
-    <section class="relative w-full min-h-screen py-8 bg-white">
+    <section class="relative w-full min-h-screen py-4 bg-white">
         <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-14 pb-14">
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start w-full">
                 <!-- Left side: Image and Text -->
@@ -12,6 +12,7 @@
                 <div class="order-2 lg:order-1 lg:col-span-2 relative flex justify-center items-center rounded-xl overflow-hidden h-96 sm:h-[450px] md:h-[500px] lg:h-[550px] xl:h-[800px] " style="box-shadow: none !important; filter: none !important;">
                     <img
                         src="{{ asset('image/assurance-decinale.jpg')}}"
+                                
                         alt="Couple souriant et satisfait tenant un relevé de pension"
                         class="w-full h-full object-cover" />
 
@@ -198,7 +199,7 @@
     </section>
 
     <!-- Assurance decinale Section -->
-    <section id="assurance-info" class="py-8 lg:py-20 bg-surface">
+    <section id="assurance-info" class="py-2 lg:py-2 bg-surface">
         <div class="container mx-auto px-2 lg:px-4">
             <div class="max-w-6xl mx-auto">
                 <div class="fade-in">

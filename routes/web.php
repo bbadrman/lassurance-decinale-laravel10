@@ -67,3 +67,8 @@ Route::get('/resilie-nonp', function () {
 });
 
 Route::post('/', 'App\Http\Controllers\HomeController@store');
+Route::post('/auto-entrepreneur', 'App\Http\Controllers\HomeController@entrepreneur');
+Route::post('/macon-grosœuvres', 'App\Http\Controllers\HomeController@macon');
+Route::post('/assurance-decennale-electricien', 'App\Http\Controllers\HomeController@electricien');
+Route::post('/resilie-nonpaiement', 'App\Http\Controllers\HomeController@resilie');
+Route::post('/reprise-du-passe-assurance-decennale', 'App\Http\Controllers\HomeController@reprise');

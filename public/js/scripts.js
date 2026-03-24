@@ -411,4 +411,6 @@ window.showDiv = showDiv;
 window.toggleMotifField = toggleMotifField;
 window.debugCards = debugCards;
 window.forceShowCards = forceShowCards;
-
+ 
+    
+    

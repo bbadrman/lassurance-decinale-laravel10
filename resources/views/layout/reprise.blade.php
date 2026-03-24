@@ -3,7 +3,9 @@
 
 @section('title', 'Reprise du Passé Assurance Décennale | Couvrez vos anciens chantiers')
 
-@section('meta_description', 'Vous changez d\'assureur ? Assurez la continuité de votre garantie décennale. La reprise du passé couvre vos travaux antérieurs et vous protège intégralement. Étude gratuite.')
+@section('meta_description', 'reprise du passé en assurance décennale : protégez vos anciens chantiers, unifiez votre couverture et obtenez un devis personnalisé.')
+@section('meta_keywords', 'reprise du passé assurance décennale, antériorité assurance décennale, décennale couverture anciens chantiers, assurance décennale rétroactive, décennale rachat période non-couverte.')
+
 
 @section('canonical')
 <link rel="canonical" href="https://www.lassurance-garantie-decennale.fr/reprise-du-passe-assurance-decennale">
@@ -11,43 +13,284 @@
 
 @section('og_meta')
 <meta property="og:title" content="Reprise du Passé en Garantie Décennale | Ne laissez aucun chantier découvert">
-<meta property="og:description" content="Découvrez comment la clause d'antériorité (reprise du passé) assure vos anciens travaux lors d'un changement d'assureur. Protégez-vous contre les sinistres futurs sur vos anciens chantiers.">
+<meta property="og:description" content="Assurez la continuité de votre garantie décennale et couvrez vos anciens chantiers avec une reprise du passé intégrée. Devis personnalisé.">
+<meta property="og:keywords" content="reprise du passé assurance décennale, antériorité assurance décennale, décennale couverture anciens chantiers, assurance décennale rétroactive, décennale rachat période non-couverte">
+
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://www.lassurance-garantie-decennale.fr/reprise-du-passe-assurance-decennale">
-<meta property="og:image" content="https://www.lassurance-garantie-decennale.fr/image/assurance-decinale.jpg">
+<meta property="og:url" content="https://www.lassurance-garantie-decennale.fr/reprise-du-passe-assurance-decennale"> 
 @endsection
 
 
 @section('content-reprise')
 
-<!-- Hero Section -->
-<section class="py-8 lg:py-6 bg-gradient-to-br from-light via-surfaceHover to-light hero-pattern relative overflow-hidden">
-  <!-- Background decoration -->
-  <div class="absolute inset-0 scanlines-bg opacity-30"></div>
-  <div class="absolute top-5 left-5 floating-animation">
-    <i class="fas fa-shield-alt text-yellow-600 text-4xl opacity-30"></i>
-  </div>
-  <div class="absolute bottom-5 right-5 floating-animation" style="animation-delay: -2s;">
-    <i class="fas fa-history text-yellow-700 text-5xl opacity-25"></i>
-  </div>
 
-  <div class="container mx-auto px-4 relative z-10">
-    <div class="text-center">
-      <div class="w-12 h-12 bg-gradient-to-r from-yellow-400 to-yellow-500 rounded-2xl mx-auto mb-4 flex items-center justify-center">
-        <i class="fas fa-clock-rotate-left text-2xl text-dark"></i>
+ <!-- Hero Form Section -->
+<section class="relative w-full min-h-screen py-2 bg-white">
+  <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-14 pb-14">
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start w-full">
+      <!-- Left side: Image and Text -->
+      <!-- Remplacez cette section dans votre code -->
+      <!-- Option pour encore plus de hauteur sur mobile -->
+
+      <div class="order-2 lg:order-1 lg:col-span-2 relative rounded-xl overflow-hidden h-96 sm:h-[450px] md:h-[500px] lg:h-[550px] xl:h-[800px]">
+        <!-- Hero Section -->
+        <section class="w-full h-full bg-gradient-to-br from-light via-surfaceHover to-light hero-pattern relative overflow-hidden flex items-center">
+          <!-- Background decoration -->
+          <div class="absolute inset-0 scanlines-bg opacity-30"></div>
+          <div class="absolute top-5 left-5 floating-animation">
+            <!-- <i class="fas fa-hammer text-yellow-600 text-4xl opacity-30"></i> -->
+          </div>
+          <div class="absolute bottom-5 right-5 floating-animation" style="animation-delay: -2s;">
+            <!-- <i class="fas fa-building text-yellow-700 text-5xl opacity-25"></i> -->
+          </div>
+
+          <div class="container mx-auto px-4 relative z-10 w-full">
+            <div class="text-center">
+              <div class="w-12 h-12 bg-gradient-to-r from-yellow-400 to-yellow-500 rounded-2xl mx-auto mb-4 flex items-center justify-center">
+                <i class="fas fa-clock-rotate-left text-2xl text-dark"></i>
+              </div>
+              <h1 class="text-4xl lg:text-5xl font-bold text-gradient mb-4">Reprise du Passé Assurance Décennale</h1>
+              <p class="text-xl text-gray-600 mb-6 max-w-3xl mx-auto">
+              Assurez la continuité de votre couverture et protégez vos chantiers antérieurs. Ne laissez aucune période de votre activité sans garantie.
+              </p>
+              <div class="w-20 h-1 bg-gradient-to-r from-yellow-400 to-yellow-500 mx-auto rounded-full"></div>
+            </div>
+            <div class="prose max-w-none">
+              <p class="text-lg text-gray-700 leading-relaxed mb-8">
+               La souscription d'un nouveau contrat d'assurance décennale est une étape courante dans la vie d'une entreprise du BTP. Mais une question cruciale se pose : qui couvrira les chantiers que vous avez réalisés avant cette nouvelle signature ? La réponse se trouve dans une clause spécifique et essentielle : <strong>la reprise du passé d'assurance décennale</strong>.
+              </p>
+              <div class="p-6 mb-6">
+                <p class="text-base text-dark">
+                    Notre cabinet est spécialisé dans la négociation de cette clause technique pour garantir à nos clients artisans et entrepreneurs une protection sans faille, couvrant l'intégralité de leur carrière.
+                </p>
+              </div>
+
+               <!-- Bandeau Avantages -->
+                
+                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+                   <!-- Garantie Meilleurs Prix -->
+                   <div class="flex flex-col items-center text-center p-4 rounded-xl hover:bg-gray-50 transition-colors">
+                     <div class="w-16 h-16 lg:w-20 lg:h-20 bg-yellow-300 to-br from-cyan-400 to-cyan-600 rounded-full flex items-center justify-center mb-4 shadow-lg">
+                       <svg class="w-8 h-8 lg:w-10 lg:h-10 text-white" fill="currentColor" viewBox="0 0 24 24">
+                         <path d="M12 2L9.19 8.63L2 9.24L7.46 13.97L5.82 21L12 17.27L18.18 21L16.54 13.97L22 9.24L14.81 8.63L12 2Z" />
+                       </svg>
+                     </div>
+                     <p class="text-gray-600 text-sm lx:text-base leading-relaxed">
+                       La garantie du <span class="font-bold text-gray-800">MEILLEURS PRIX</span> avec
+                       le <span class="font-bold text-gray-800">PLUS LARGE PANEL DU MARCHÉ</span>
+                     </p>
+                   </div>
+
+                   <!-- Service Gratuit -->
+                   <div class="flex flex-col items-center text-center p-4 rounded-xl hover:bg-gray-50 transition-colors">
+                     <div class="w-16 h-16 lg:w-20 lg:h-20 bg-yellow-300 from-cyan-400 to-cyan-600 rounded-full flex items-center justify-center mb-4 shadow-lg">
+                       <span class="text-2xl lg:text-3xl font-bold text-white">0€</span>
+                     </div>
+                     <p class="text-gray-600 text-sm lx:text-base leading-relaxed">
+                       Un service <span class="font-bold text-gray-800">100% GRATUIT</span>
+                       et <span class="font-bold text-gray-800">SANS ENGAGEMENT</span>
+                     </p>
+                   </div>
+
+                   <!-- Protection Données -->
+                   <div class="flex flex-col items-center text-center p-4 rounded-xl hover:bg-gray-50 transition-colors">
+                     <div class="w-16 h-16 lg:w-20 lg:h-20 bg-yellow-300 from-cyan-400 to-cyan-600 rounded-full flex items-center justify-center mb-4 shadow-lg">
+                       <svg class="w-8 h-8 lg:w-10 lg:h-10 text-white" fill="currentColor" viewBox="0 0 24 24">
+                         <path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z" />
+                       </svg>
+                     </div>
+                     <p class="text-gray-600 text-sm lx:text-base leading-relaxed">
+                       Protection de <span class="font-bold text-gray-800">VOS DONNÉES</span>
+                       et de <span class="font-bold text-gray-800">VOTRE VIE PRIVÉE</span>
+                     </p>
+                   </div>
+                 </div>
+                
+
+            </div>
+          </div>
+        </section>
       </div>
-      <h1 class="text-4xl lg:text-5xl font-bold text-gradient mb-4">Reprise du Passé Assurance Décennale</h1>
-      <p class="text-xl text-gray-600 mb-6 max-w-3xl mx-auto">
-        Assurez la continuité de votre couverture et protégez vos chantiers antérieurs. 
-        Ne laissez aucune période de votre activité sans garantie.
-      </p>
-      <div class="w-20 h-1 bg-gradient-to-r from-yellow-400 to-yellow-500 mx-auto rounded-full"></div>
-    </div>
-  </div>
-</section>
+
+       <!-- Right side - Form -->
+       <div
+         class="bg-white/95 backdrop-blur-sm rounded-xl shadow-xl overflow-hidden border border-white/20 order-1 lg:order-2 lg:col-span-1 flex flex-col h-full">
+         <div
+           class="bg-yellow-300 bg-yellow-300 bg-amber-400 px-6 py-4 flex-shrink-0">
+           <h3 class="text-xm font-semibold text-dark flex items-center">
+             <svg
+               class="w-6 h-6 mr-2"
+               fill="none"
+               stroke="currentColor"
+               viewBox="0 0 24 24">
+               <path
+                 stroke-linecap="round"
+                 stroke-linejoin="round"
+                 stroke-width="2"
+                 d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+             </svg>
+             Complétez ce formulaire pour obtenir votre devis
+           </h3>
+         </div>
+         <div class="p-6 flex-1 flex flex-col  overflow-y-auto">
+           <form
+             id="simulationForm"
+             class="space-y-3 flex-1 flex flex-col"
+             onsubmit="return handleFormSubmit(event)" action="/" method="POST">
+             @csrf
+             <!-- Personal Info -->
+             <div class="flex-1 space-y-3 ">
+               <div>
+                 <input
+                   type="text"
+                   name="nom"
+                   id="nom"
+                   class="w-full px-3 py-2 border border-gray-200 rounded-md focus:ring-1 focus:ring-accent focus:border-accent transition-colors duration-200 bg-white/80 text-sm"
+                   placeholder="Nom..." />
+               </div>
+
+               <div>
+                 <input
+                   type="text"
+                   name="prenom"
+                   id="prenom"
+                   class="w-full px-3 py-2 border border-gray-200 rounded-md focus:ring-1 focus:ring-accent focus:border-accent transition-colors duration-200 bg-white/80 text-sm"
+                   placeholder="Prénom..." />
+               </div>
+
+               <div>
+                 <input
+                   type="text"
+                   name="raison_sociale"
+                   id="raison_sociale"
+                   class="w-full px-3 py-2 border border-gray-200 rounded-md focus:ring-1 focus:ring-accent focus:border-accent transition-colors duration-200 bg-white/80 text-sm"
+                   placeholder="Raison sociale..." />
+               </div>
+
+
+               <div>
+                 <select
+                   id="myselect00"
+                   name="demarrage"
+                   class="w-full px-3 py-2 border border-gray-200 rounded-md focus:ring-1 focus:ring-accent focus:border-accent transition-colors duration-200 bg-white/80 text-sm"
+                   title="Démarrage d'activité">
+                   <option value="" selected>Démarrage d'activité</option>
+                  <option value="OUI">OUI</option>
+                   <option value="NON">NON</option>
+                 </select>
+               </div>
+
+               <div>
+                 <select
+                   id="myselect0"
+                   name="assure"
+                   class="w-full px-3 py-2 border border-gray-200 rounded-md focus:ring-1 focus:ring-accent focus:border-accent transition-colors duration-200 bg-white/80 text-sm"
+                   title="Activité assurée actuellement">
+                   <option value="" selected>
+                     Activité assurée actuellement
+                   </option>
+                   <option value="OUI">OUI</option>
+                   <option value="NON">NON</option>
+                 </select>
+               </div>
+
+               <div>
+                 <select
+                   id="myselect1"
+                   name="ancienne"
+                   class="w-full px-3 py-2 border border-gray-200 rounded-md focus:ring-1 focus:ring-accent focus:border-accent transition-colors duration-200 bg-white/80 text-sm"
+                   title="Assurance résilié">
+                   <option value="" selected>Assurance résilié</option>
+                   <option value="OUI">OUI</option>
+                   <option value="NON">NON</option>
+                 </select>
+               </div>
+
+               <div id="motif-container">
+                 <select
+                   id="myselect2"
+                   name="motif"
+                   class="w-full px-3 py-2 border border-gray-200 rounded-md focus:ring-1 focus:ring-accent focus:border-accent transition-colors duration-200 bg-white/80 text-sm"
+                   title="Motif résiliation">
+                   <option value="" selected>Motif résiliation</option>
+                   <option value="Echéance">Echéance</option>
+                   <option value="Sinistre">Sinistre</option>
+                   <option value="Non paiement">
+                     Non paiement
+                   </option>
+                   <option value="Amiable">
+                     Amiable
+                   </option>
+
+
+                 </select>
+               </div>
+
+               <div>
+                 <input
+                   type="text"
+                   id="code"
+                   name="code"
+                   maxlength="5"
+                   class="w-full px-3 py-2 border border-gray-200 rounded-md focus:ring-1 focus:ring-accent focus:border-accent transition-colors duration-200 bg-white/80 text-sm"
+                   placeholder="Code Postal..." />
+               </div>
+
+               <div>
+                 <input
+                   type="email"
+                   id="email"
+                   name="email"
+                   class="w-full px-3 py-2 border border-gray-200 rounded-md focus:ring-1 focus:ring-accent focus:border-accent transition-colors duration-200 bg-white/80 text-sm"
+                   placeholder="Email..." />
+               </div>
+
+               <div>
+                 <input
+                   type="text"
+                   id="tele"
+                   name="tele"
+                   maxlength="10"
+                   class="w-full px-3 py-2 border border-gray-200 rounded-md focus:ring-1 focus:ring-accent focus:border-accent transition-colors duration-200 bg-white/80 text-sm"
+                   placeholder="Téléphone..." />
+               </div>
+
+               <p
+                 class="text-[10px] text-gray-600 bg-white/80 p-2 rounded-md border border-gray-200">
+                 En cliquant sur 'Comparer', vous acceptez de transmettre
+                 vos informations à AKSAM ASSURANCES, qui accepte de les
+                 utiliser conformément à sa politique de confidentialité
+                 dans le but de vous fournir des propositions de devis
+                 d'assurances adapté à votre recherche
+               </p>
+             </div>
+
+             <button
+               type="submit"
+               class="w-full bg-yellow-300 bg-yellow-300 bg-amber-400 text-dark font-semibold py-2 px-4 rounded-md transition-all duration-200 shadow-sm hover:shadow-md transform hover:-translate-y-0.5 flex items-center justify-center text-sm flex-shrink-0">
+               <svg
+                 class="w-4 h-4 mr-2"
+                 fill="none"
+                 stroke="currentColor"
+                 viewBox="0 0 24 24">
+                 <path
+                   stroke-linecap="round"
+                   stroke-linejoin="round"
+                   stroke-width="2"
+                   d="M9 5l7 7-7 7" />
+               </svg>
+               Comparer maintenant
+             </button>
+           </form>
+         </div>
+       </div>
+     </div>
+   </div>
+ </section>
+ 
 
 <!-- Content Section -->
-<main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 space-y-12">
+<main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 space-y-2">
   
   <!-- Introduction -->
   <div class="bg-white rounded-xl shadow-xl p-8">
@@ -66,9 +309,11 @@
 
   <!-- Qu'est-ce que la reprise du passé -->
   <div class="bg-white rounded-xl shadow-xl p-8">
+     <div class="text-center">
     <h2 class="text-2xl md:text-3xl font-bold text-gradient mb-6">
       Qu'est-ce que la reprise du passé en garantie décennale ?
     </h2>
+    </div>
     <div class="prose max-w-none">
       <p class="text-base text-gray-700 mb-6">
         Par défaut, un nouveau contrat d'assurance décennale ne couvre que les chantiers dont la date d'ouverture est 
@@ -89,9 +334,11 @@
 
   <!-- Situations indispensables -->
   <div class="bg-white rounded-xl shadow-xl p-8">
+     <div class="text-center">
     <h2 class="text-2xl md:text-3xl font-bold text-gradient mb-6">
       Dans quelles situations la reprise du passé est-elle indispensable ?
     </h2>
+    </div>
     <p class="text-base text-gray-700 mb-6">
       La souscription à une reprise du passé d'assurance décennale est vitale dans plusieurs cas de figure :
     </p>
@@ -176,9 +423,11 @@
 
   <!-- Avantages -->
   <div class="bg-white rounded-xl shadow-xl p-8">
+     <div class="text-center">
     <h2 class="text-2xl md:text-3xl font-bold text-gradient mb-6">
       Les avantages d'une couverture complète de votre passé
     </h2>
+    </div>
     
     <div class="grid md:grid-cols-3 gap-6">
       <!-- Sérénité -->
@@ -218,10 +467,11 @@
 
   <!-- Questions Fréquentes -->
   <div class="bg-white rounded-xl shadow-xl p-8">
+     <div class="text-center">
     <h2 class="text-2xl md:text-3xl font-bold text-gradient mb-8">
       Questions Fréquentes sur la Reprise du Passé
     </h2>
-    
+     </div>
     <div class="space-y-6">
       <!-- Question 1 -->
       <div class="border border-gray-200 rounded-xl p-6">
@@ -264,7 +514,7 @@
   </div>
 
   <!-- Final CTA -->
-  <div class="bg-gradient-to-r from-yellow-400 to-yellow-500 rounded-3xl p-12 text-dark text-center relative overflow-hidden">
+  <div class="bg-yellow-300 bg-yellow-300 bg-amber-400 rounded-3xl p-12 text-dark text-center relative overflow-hidden">
     <div class="absolute inset-0 bg-scanlines opacity-10"></div>
     <div class="relative">
       <div class="w-16 h-16 bg-dark/20 rounded-2xl mx-auto mb-6 flex items-center justify-center">

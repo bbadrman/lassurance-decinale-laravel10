@@ -400,7 +400,45 @@
                 ease: "back.out(1.7)",
             });
         });
+
+         // ===== CODE SUPPLÉMENTAIRE POUR LE FORMULAIRE DYNAMIQUE ===== //
+
+         const myselect2 = document.getElementById('myselect2');
+
+    function toggleFields() {
+        const isDemarrageNo = demarrageSelect.value === 'NON';
+        const isAssureNo = assureSelect.value === 'NON';
+        const isAncienneNo = ancienneSelect.value === 'NON';
+
+        assureSelect.parentElement.style.display = isDemarrageNo ? 'none' : 'block';
+        ancienneSelect.parentElement.style.display = isDemarrageNo ? 'none' : 'block';
+        if (myselect2) {
+            myselect2.parentElement.style.display = isAncienneNo ? 'none' : 'block';
+        }
+        motifContainer.style.display = isDemarrageNo || isAssureNo || isAncienneNo ? 'none' : 'block';
+    }
+                  document.addEventListener('DOMContentLoaded', function() {
+                    const demarrageSelect = document.getElementById('myselect00');
+                    const assureSelect = document.getElementById('myselect0');
+                    const ancienneSelect = document.getElementById('myselect1');
+                    const motifContainer = document.getElementById('motif-container');
+
+                    function toggleFields() {
+                      const isDemarrageNo = demarrageSelect.value === 'OUI';
+                      const isAssureNo = assureSelect.value === 'NON';
+                      const isAncienneNo = ancienneSelect.value === 'NON';
+
+                      assureSelect.parentElement.style.display = isDemarrageNo ? 'none' : 'block';
+                      ancienneSelect.parentElement.style.display = isDemarrageNo ? 'none' : 'block';
+                      motifContainer.style.display = isDemarrageNo || isAssureNo || isAncienneNo ? 'none' : 'block';
+                    }
+
+                    demarrageSelect.addEventListener('change', toggleFields);
+                    assureSelect.addEventListener('change', toggleFields);
+                    ancienneSelect.addEventListener('change', toggleFields);
+                  });
     </script>
+ 
 
     <script type="application/ld+json">
         {
