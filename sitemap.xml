@@ -4,24 +4,51 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
 
 <url>
-  <loc>https://retraite-complementaire.aksam-assurances.fr/</loc>
-  <lastmod>2025-03-25T13:49:09+00:00</lastmod>
+  <loc>https://www.lassurance-garantie-decennale.fr/</loc>
+  <lastmod>2026-03-26T12:00:00+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://retraite-complementaire.aksam-assurances.fr/mention-legale</loc>
-  <lastmod>2025-03-25T13:49:09+00:00</lastmod>
+  <loc>https://www.lassurance-garantie-decennale.fr/auto-entrepreneur</loc>
+  <lastmod>2026-03-26T12:00:00+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.lassurance-garantie-decennale.fr/assurance-decennale-electricien</loc>
+  <lastmod>2026-03-26T12:00:00+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.lassurance-garantie-decennale.fr/ma%C3%A7on-gros%C5%93uvres</loc>
+  <lastmod>2026-03-26T12:00:00+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.lassurance-garantie-decennale.fr/assurance-decennale-plombier</loc>
+  <lastmod>2026-03-26T12:00:00+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.lassurance-garantie-decennale.fr/resilie-nonpaiement</loc>
+  <lastmod>2026-03-26T12:00:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://retraite-complementaire.aksam-assurances.fr/politique-legale</loc>
-  <lastmod>2025-03-25T13:49:09+00:00</lastmod>
+  <loc>https://www.lassurance-garantie-decennale.fr/reprise-du-passe-assurance-decennale</loc>
+  <lastmod>2026-03-26T12:00:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
+<url>
+  <loc>https://www.lassurance-garantie-decennale.fr/mention-legale</loc>
+  <lastmod>2026-03-26T12:00:00+00:00</lastmod>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>https://www.lassurance-garantie-decennale.fr/politique-legale</loc>
+  <lastmod>2026-03-26T12:00:00+00:00</lastmod>
+  <priority>0.50</priority>
+</url>
 
 </urlset>

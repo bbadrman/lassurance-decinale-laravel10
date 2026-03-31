@@ -5,6 +5,10 @@
     RewriteCond %{HTTPS} off
     RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
+    # Rediriger vers www
+    RewriteCond %{HTTP_HOST} ^lassurance-garantie-decennale\.fr$ [NC]
+    RewriteRule ^(.*)$ https://www.lassurance-garantie-decennale.fr/$1 [L,R=301]
+
     # Réécriture URL standard pour front controller
     RewriteRule ^index\.php$ - [L]
     RewriteCond %{REQUEST_FILENAME} !-f

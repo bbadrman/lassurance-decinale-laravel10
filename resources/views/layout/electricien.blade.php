@@ -1,6 +1,7 @@
 @extends('master')
 
 
+
 @section('title', 'Assurance Décennale Électricien | Devis Immédiat & Attestation 24h')
 
 @section('meta_description', 'Électricien ? Assurance décennale obligatoire dès 65€/mois. Devis immédiat, sans engagement, attestation délivrée en 24h.')
@@ -577,7 +578,7 @@
       <div class="space-y-4 sm:space-y-0 sm:space-x-4 sm:flex sm:justify-center">
         <a href="/" class="inline-block bg-dark text-yellow-400 font-bold py-4 px-10 rounded-2xl hover:bg-primary transition-all transform hover:scale-105 shadow-2xl">
           <i class="fas fa-calculator mr-2"></i>
-          Obtenir mon devis 
+          Obtenir mon devis  
         </a>
         <a href="tel:0182834800" class="inline-block bg-white text-dark font-bold py-4 px-10 rounded-2xl hover:bg-gray-100 transition-all transform hover:scale-105 shadow-2xl">
           <i class="fas fa-phone mr-2"></i>

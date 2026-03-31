@@ -75,12 +75,12 @@
             j.src =
                 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
             f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-PTHF4V94');
+        })(window, document, 'script', 'dataLayer', 'GTM-xxxxxxx');
     </script>
     <!-- End Google Tag Manager -->
 
     <!-- Google Analytics (Conditional Loading) -->
-    <script type="text/plain" data-cookieconsent="statistics" async src="https://www.googletagmanager.com/gtag/js?id=G-JVLLX1ZPS1"></script>
+    <script type="text/plain" data-cookieconsent="statistics" async src="https://www.googletagmanager.com/gtag/js?id=G-xxxx"></script>
     <script type="text/plain" data-cookieconsent="statistics">
         window.dataLayer = window.dataLayer || [];
 
@@ -89,20 +89,72 @@
             }
             gtag('js', new Date());
 
-            gtag('config', 'G-JVLLX1ZPS1');
+            gtag('config', 'G-xxxx');
         </script>
     <!--End Google Analytics (gtag.js) -->
+		<!-- Script de gestion du consentement -->
+		<script>
+    window.dataLayer = window.dataLayer || [];
 
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    // 1. Consent par défaut (idéalement à mettre AVANT le script GTM)
+    gtag('consent', 'default', {
+        ad_storage: 'denied',
+        analytics_storage: 'denied',
+        ad_user_data: 'denied',
+        ad_personalization: 'denied'
+    });
+
+    // 2. Fonction appelée quand l'utilisateur accepte les cookies
+    function aksamAcceptCookies() {
+        // On pose TON cookie d’acceptation
+        var expiryDate = new Date();
+        expiryDate.setMonth(expiryDate.getMonth() + 1);
+        document.cookie = 'aksamPerformance=1; path=/; expires=' + expiryDate.toUTCString();
+
+        // On met à jour le consentement pour Google
+        gtag('consent', 'update', {
+            ad_storage: 'granted',
+            analytics_storage: 'granted',
+            ad_user_data: 'granted',
+            ad_personalization: 'granted'
+        });
+
+        // On envoie l’event attendu par GTM
+        dataLayer.push({
+            event: 'cookie_consent_update'
+        });
+    }
+
+    // 3. Au chargement, si le cookie est déjà présent, on redonne le consentement
+    document.addEventListener('DOMContentLoaded', function () {
+        if (document.cookie.indexOf('aksamPerformance=1') >= 0) {
+            gtag('consent', 'update', {
+                ad_storage: 'granted',
+                analytics_storage: 'granted',
+                ad_user_data: 'granted',
+                ad_personalization: 'granted'
+            });
+
+            dataLayer.push({
+                event: 'cookie_consent_update'
+            });
+        }
+    });
+</script>
 
 
     <!-- Global site tag (gtag.js) - Google Ads -->
-    <script type="text/plain" data-cookieconsent="marketing" async src="https://www.googletagmanager.com/gtag/js?id=AW-716366483"></script>
+    <script type="text/plain" data-cookieconsent="marketing" async src="https://www.googletagmanager.com/gtag/js?id=AW-xxxxxx"></script>
     <script type="text/plain" data-cookieconsent="marketing">
         window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'AW-716366483');
+  gtag('config', 'AW-xxxxxx');
 </script>
 
 
@@ -112,7 +164,7 @@
 <body class="bg-white">
 
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PTHF4V94" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-xxxxxxx" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
     <!-- Header Navigation - Simplified for legal page -->
@@ -401,6 +453,7 @@
             });
         });
 
+
          // ===== CODE SUPPLÉMENTAIRE POUR LE FORMULAIRE DYNAMIQUE ===== //
 
          const myselect2 = document.getElementById('myselect2');
@@ -438,7 +491,6 @@
                     ancienneSelect.addEventListener('change', toggleFields);
                   });
     </script>
- 
 
     <script type="application/ld+json">
         {
