@@ -178,10 +178,10 @@
                      <i class="fas fa-award text-2xl text-dark"></i>
                     </div>
                     <div class="flex items-center">
-                        <h1
+                        <p
                             class="text-lg sm:text-base font-semibold text-dark hidden sm:block">
                             <span class="typing-text"></span><span class="typing-cursor">|</span>
-                        </h1>
+                        </p>
                     </div>
 
                 </div>
@@ -243,6 +243,52 @@
                                 Politique de confidentialité
                             </a>
                         </li>
+                        <li>
+                            <a
+                                href="{{ url('/assurance-decennale-electricien') }}"
+                                class="text-dark-400 hover:text-dark transition-colors">
+                                Assurance décennale Électricien
+                            </a>
+                        </li>
+                         <li>
+                            <a
+                                href="{{ url('/assurance-decennale-macon') }}"
+                                class="text-dark-400 hover:text-dark transition-colors">
+                                Assurance décennale Maçonnerie et gros œuvre.
+                            </a>
+                        </li>
+                         <li>
+                            <a
+                                href="{{ url('/assurance-decennale-resilie-non-paiement') }}"
+                                class="text-dark-400 hover:text-dark transition-colors">
+                                Assurance décennale résilié non-paiement.
+                            </a>
+                        </li> 
+                        <li>
+                            <a
+                                href="{{ url('/prix-assurance-decennale-auto-entrepreneur') }}"
+                                class="text-dark-400 hover:text-dark transition-colors">
+                               Assurance décennale auto-entrepreneur.
+                            </a>
+                            
+                        </li>  
+                         <li>
+                            <a
+                                href="{{ url('/assurance-decennale-plombier') }}"
+                                class="text-dark-400 hover:text-dark transition-colors">
+                               Assurance décennale plombier et chauffagiste
+                            </a>
+                            
+                        </li>
+                        <li>
+                            <a
+                                href="{{ url('/assurance-decennale-reprise-du-passe') }}"
+                                class="text-dark-400 hover:text-dark transition-colors">
+                               Reprise du Passé Assurance Décennale
+
+                            </a>
+                            
+                        </li>
                     </ul>
                 </div>
                 <div>
@@ -257,7 +303,7 @@
             </div>
             <div
                 class="border-t border-gray-800 mt-8 pt-8 text-center text-dark-400">
-                <p>© 2023 Aksam Assurance. Tous droits réservés.</p>
+                <p>© 2026 Aksam Assurance. Tous droits réservés.</p>
             </div>
         </div>
     </footer>
@@ -491,7 +537,7 @@
                     ancienneSelect.addEventListener('change', toggleFields);
                   });
     </script>
-
+  @verbatim
     <script type="application/ld+json">
         {
             "@context": "http://schema.org",
@@ -517,6 +563,8 @@
             }
         }
     </script>
+      @endverbatim
+        @yield('schema')
     <script src="{{ asset('js/scripts.js') }}"></script>
 </body>
 
