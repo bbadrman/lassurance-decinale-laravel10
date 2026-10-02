@@ -1,4 +1,31 @@
 @extends('master')
+
+@section('title', 'Politique de confidentialité - Assurances décennale')
+
+@section('meta_description', 'Consultez notre politique legale relative a l&apos;utilisation du site lassurance-garantie-decennale.fr et a la protection de vos donnees personnelles.  ')  
+ 
+
+@section('canonical')
+<link rel="canonical" href="https://www.lassurance-garantie-decennale.fr/politique-legale">
+@endsection
+
+@section('og_meta')
+<meta property="og:title" content="Politique de confidentialité - Assurances décennale">
+<meta property="og:description" content="Consultez notre politique de confidentialité relative à l&apos;utilisation du site lassurance-garantie-decennale.fr et à la protection de vos données personnelles.">
+ <meta property="og:type" content="website">
+<meta property="og:url" content="https://www.lassurance-garantie-decennale.fr/politique-legale">
+@endsection
+
+
+{{-- Twitter dans sa propre section, séparée de og_meta --}}
+@section('twitter_meta')
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@AksamAssurances">
+<meta name="twitter:title" content="Politique de confidentialité - Assurances décennale">
+<meta name="twitter:description" content="Consultez notre politique de confidentialité relative à l&apos;utilisation du site lassurance-garantie-decennale.fr et à la protection de vos données personnelles.">
+<meta name="twitter:url" content="https://www.lassurance-garantie-decennale.fr/politique-legale">
+ 
+@endsection
 @section('content-poltique')
 
 

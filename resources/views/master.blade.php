@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
       <meta name="author" content="Aksam Assurance">
-    <link rel="shortcut icon" type="image/png" href="{{ asset('image/favicon.png') }}">
-    <link rel=apple-touch-icon type="icon" href="{{ asset('image/logo.png') }}">
+    <link rel="icon" type="image/x-icon" sizes="32x32" href="{{ asset('image/favicon.png') }}">
+    <!-- <link rel="apple-touch-icon" type="icon" href="{{ asset('image/logo.png') }}"> -->
      <!-- Titre dynamique -->
     <title>@yield('title', 'Accueil - Assurances décennale')</title>
     <!-- Description dynamique -->
@@ -17,10 +17,23 @@
     
     <!-- Open Graph Meta Tags dynamiques -->
     @yield('og_meta')
-    <meta name="keywords" content="@yield('meta_keywords', 'Assurance décennale d ,Assurance Décennale auto-entrepreneur, Assurance décennale artisan ')">
+    <meta name="keywords" content="@yield('meta_keywords', 'Assurance décennale plomier ,Assurance Décennale chauffagiste,prix assurance décennale plomier , prix assurance décinnale chauffagiste')">
 
+    @if(View::hasSection('twitter_meta'))
+    @yield('twitter_meta')
+@else
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@AksamAssurances">
+    <meta name="twitter:title" content="@yield('title', 'Assurance Décennale en Ligne : Devis Gratuit & Attestation Express')">
+    <meta name="twitter:description" content="@yield('meta_description', 'Souscrivez votre assurance décennale en ligne en quelques clics.')">
+    <meta name="twitter:image" content="@yield('twitter_image', 'https://www.lassurance-garantie-decennale.fr/image/assurance-decinale.jpg')">
+    <meta name="twitter:image:alt" content="@yield('twitter_image_alt', 'Aksam Assurances - Assurance décennale en ligne')">
+    <meta name="twitter:url" content="@yield('twitter_url', 'https://www.lassurance-garantie-decennale.fr')">
+@endif
     
-    <script src="https://cdn.tailwindcss.com"></script>
+    
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
@@ -32,7 +45,8 @@
         href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
         rel="stylesheet" />
 
-    <script>
+        <link rel="stylesheet" href="{{ asset('css/partenaires.css') }}">
+    <!-- <script>
         tailwind.config = {
             theme: {
                 extend: {
@@ -55,7 +69,7 @@
                 }
             }
         };
-    </script>
+    </script> -->
 
   
 
@@ -92,7 +106,59 @@
             gtag('config', 'G-JVLLX1ZPS1');
         </script>
     <!--End Google Analytics (gtag.js) -->
+		<!-- Script de gestion du consentement -->
+		<script>
+    window.dataLayer = window.dataLayer || [];
 
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    // 1. Consent par défaut (idéalement à mettre AVANT le script GTM)
+    gtag('consent', 'default', {
+        ad_storage: 'denied',
+        analytics_storage: 'denied',
+        ad_user_data: 'denied',
+        ad_personalization: 'denied'
+    });
+
+    // 2. Fonction appelée quand l'utilisateur accepte les cookies
+    function aksamAcceptCookies() {
+        // On pose TON cookie d’acceptation
+        var expiryDate = new Date();
+        expiryDate.setMonth(expiryDate.getMonth() + 1);
+        document.cookie = 'aksamPerformance=1; path=/; expires=' + expiryDate.toUTCString();
+
+        // On met à jour le consentement pour Google
+        gtag('consent', 'update', {
+            ad_storage: 'granted',
+            analytics_storage: 'granted',
+            ad_user_data: 'granted',
+            ad_personalization: 'granted'
+        });
+
+        // On envoie l’event attendu par GTM
+        dataLayer.push({
+            event: 'cookie_consent_update'
+        });
+    }
+
+    // 3. Au chargement, si le cookie est déjà présent, on redonne le consentement
+    document.addEventListener('DOMContentLoaded', function () {
+        if (document.cookie.indexOf('aksamPerformance=1') >= 0) {
+            gtag('consent', 'update', {
+                ad_storage: 'granted',
+                analytics_storage: 'granted',
+                ad_user_data: 'granted',
+                ad_personalization: 'granted'
+            });
+
+            dataLayer.push({
+                event: 'cookie_consent_update'
+            });
+        }
+    });
+</script>
 
 
     <!-- Global site tag (gtag.js) - Google Ads -->
@@ -126,10 +192,10 @@
                      <i class="fas fa-award text-2xl text-dark"></i>
                     </div>
                     <div class="flex items-center">
-                        <h1
+                        <p
                             class="text-lg sm:text-base font-semibold text-dark hidden sm:block">
                             <span class="typing-text"></span><span class="typing-cursor">|</span>
-                        </h1>
+                        </p>
                     </div>
 
                 </div>
@@ -162,6 +228,8 @@
     @yield('content-maçon')
     @yield('content-electricien')
     @yield('content-entrepreneur')
+     @yield('content-qualification-btp')
+
 
 
     <!-- Footer -->
@@ -191,6 +259,61 @@
                                 Politique de confidentialité
                             </a>
                         </li>
+                        <li>
+                            <a
+                                href="{{ url('/assurance-decennale-electricien') }}"
+                                class="text-dark-400 hover:text-dark transition-colors">
+                                Assurance décennale Électricien
+                            </a>
+                        </li>
+                         <li>
+                            <a
+                                href="{{ url('/assurance-decennale-macon') }}"
+                                class="text-dark-400 hover:text-dark transition-colors">
+                                Assurance décennale Maçonnerie et gros œuvre.
+                            </a>
+                        </li>
+                         <li>
+                            <a
+                                href="{{ url('/assurance-decennale-resilie-non-paiement') }}"
+                                class="text-dark-400 hover:text-dark transition-colors">
+                                Assurance décennale résilié non-paiement.
+                            </a>
+                        </li> 
+                        <li>
+                            <a
+                                href="{{ url('/prix-assurance-decennale-auto-entrepreneur') }}"
+                                class="text-dark-400 hover:text-dark transition-colors">
+                               Assurance décennale auto-entrepreneur.
+                            </a>
+                            
+                        </li>  
+                         <li>
+                            <a
+                                href="{{ url('/assurance-decennale-plombier') }}"
+                                class="text-dark-400 hover:text-dark transition-colors">
+                               Assurance décennale plombier et chauffagiste
+                            </a>
+                            
+                        </li>
+                        <li>
+                            <a
+                                href="{{ url('/assurance-decennale-reprise-du-passe') }}"
+                                class="text-dark-400 hover:text-dark transition-colors">
+                               Reprise du Passé Assurance Décennale
+
+                            </a>
+                            
+                        </li>
+                        <li>
+                            <a
+                                href="{{ url('/qualification-certification-btp') }}"
+                                class="text-dark-400 hover:text-dark transition-colors">
+                               Qualification et certification BTP
+
+                            </a>
+                            
+                        </li>
                     </ul>
                 </div>
                 <div>
@@ -205,7 +328,7 @@
             </div>
             <div
                 class="border-t border-gray-800 mt-8 pt-8 text-center text-dark-400">
-                <p>© 2023 Aksam Assurance. Tous droits réservés.</p>
+                <p>© 2026 Aksam Assurance. Tous droits réservés.</p>
             </div>
         </div>
     </footer>
@@ -263,86 +386,100 @@
             // Rest of your existing GSAP animations...
             gsap.registerPlugin(ScrollTrigger);
 
-            // Header Animation
-            gsap.from("header", {
-                duration: 1,
-                y: -50,
-                opacity: 0,
-                ease: "power3.out",
-            });
+             // Header Animation
+            if (document.querySelector("header")) {
+                gsap.from("header", {
+                    duration: 1,
+                    y: -50,
+                    opacity: 0,
+                    ease: "power3.out",
+                });
+            }
 
             // Hero Section Animation
-            gsap.from(".hero-section", {
-                duration: 1,
-                y: 100,
-                opacity: 0,
-                ease: "power3.out",
-            });
+            if (document.querySelector(".hero-section")) {
+                gsap.from(".hero-section", {
+                    duration: 1,
+                    y: 100,
+                    opacity: 0,
+                    ease: "power3.out",
+                });
+            }
 
             // Simulation Section Animation
-            gsap.from("#simulation", {
-                scrollTrigger: {
-                    trigger: "#simulation",
-                    start: "top 80%",
-                    toggleActions: "play none none reverse",
-                },
-                duration: 1,
-                y: 50,
-                opacity: 0,
-                ease: "power2.out",
-            });
+            if (document.querySelector("#simulation")) {
+                gsap.from("#simulation", {
+                    scrollTrigger: {
+                        trigger: "#simulation",
+                        start: "top 80%",
+                        toggleActions: "play none none reverse",
+                    },
+                    duration: 1,
+                    y: 50,
+                    opacity: 0,
+                    ease: "power2.out",
+                });
+            }
 
             // About Section Animation
-            gsap.from("#about", {
-                scrollTrigger: {
-                    trigger: "#about",
-                    start: "top 80%",
-                    toggleActions: "play none none reverse",
-                },
-                duration: 1,
-                y: 50,
-                opacity: 0,
-                ease: "power2.out",
-            });
+            if (document.querySelector("#about")) {
+                gsap.from("#about", {
+                    scrollTrigger: {
+                        trigger: "#about",
+                        start: "top 80%",
+                        toggleActions: "play none none reverse",
+                    },
+                    duration: 1,
+                    y: 50,
+                    opacity: 0,
+                    ease: "power2.out",
+                });
+            }
 
             // PER Section Animation
-            gsap.from("#per", {
-                scrollTrigger: {
-                    trigger: "#per",
-                    start: "top 80%",
-                    toggleActions: "play none none reverse",
-                },
-                duration: 1,
-                y: 50,
-                opacity: 0,
-                ease: "power2.out",
-            });
+            if (document.querySelector("#per")) {
+                gsap.from("#per", {
+                    scrollTrigger: {
+                        trigger: "#per",
+                        start: "top 80%",
+                        toggleActions: "play none none reverse",
+                    },
+                    duration: 1,
+                    y: 50,
+                    opacity: 0,
+                    ease: "power2.out",
+                });
+            }
 
             // Avantages Section Animation
-            gsap.from("#avantages", {
-                scrollTrigger: {
-                    trigger: "#avantages",
-                    start: "top 80%",
-                    toggleActions: "play none none reverse",
-                },
-                duration: 1,
-                y: 50,
-                opacity: 0,
-                ease: "power2.out",
-            });
+            if (document.querySelector("#avantages")) {
+                gsap.from("#avantages", {
+                    scrollTrigger: {
+                        trigger: "#avantages",
+                        start: "top 80%",
+                        toggleActions: "play none none reverse",
+                    },
+                    duration: 1,
+                    y: 50,
+                    opacity: 0,
+                    ease: "power2.out",
+                });
+            }
 
             // Footer Animation
-            gsap.from("footer", {
-                scrollTrigger: {
-                    trigger: "footer",
-                    start: "top 90%",
-                    toggleActions: "play none none reverse",
-                },
-                duration: 1,
-                y: 30,
-                opacity: 0,
-                ease: "power2.out",
-            });
+            if (document.querySelector("footer")) {
+                gsap.from("footer", {
+                    scrollTrigger: {
+                        trigger: "footer",
+                        start: "top 90%",
+                        toggleActions: "play none none reverse",
+                    },
+                    duration: 1,
+                    y: 30,
+                    opacity: 0,
+                    ease: "power2.out",
+                });
+            }
 
             // Stagger animations for list items
             gsap.utils.toArray("ul li").forEach((list) => {
@@ -359,47 +496,55 @@
                 });
             });
 
-            // Form elements animation
-            gsap.from("form input, form select", {
-                scrollTrigger: {
-                    trigger: "form",
-                    start: "top 80%",
-                    toggleActions: "play none none reverse",
-                },
-                duration: 0.5,
-                x: 100,
-                opacity: 0,
-                stagger: 0.1,
-                ease: "power2.out",
-            });
+              // Form elements animation
+            if (document.querySelector("form")) {
+                gsap.from("form input, form select", {
+                    scrollTrigger: {
+                        trigger: "form",
+                        start: "top 80%",
+                        toggleActions: "play none none reverse",
+                    },
+                    duration: 0.5,
+                    x: 100,
+                    opacity: 0,
+                    stagger: 0.1,
+                    ease: "power2.out",
+                });
+            }
 
             // Form container animation
-            gsap.from(".lg\\:col-span-1.order-first.lg\\:order-last", {
-                scrollTrigger: {
-                    trigger: "#simulation",
-                    start: "top 80%",
-                    toggleActions: "play none none reverse",
-                },
-                duration: 0.8,
-                x: 200,
-                opacity: 0,
-                ease: "power2.out",
-            });
+            const formContainer = document.querySelector(".lg\\:col-span-1");
+            if (formContainer) {
+                gsap.from(formContainer, {
+                    scrollTrigger: {
+                        trigger: "#simulation",
+                        start: "top 80%",
+                        toggleActions: "play none none reverse",
+                    },
+                    duration: 0.8,
+                    x: 200,
+                    opacity: 0,
+                    ease: "power2.out",
+                });
+            }
 
             // Fresh up button animation
-            gsap.from(".fresh-up-button", {
-                scrollTrigger: {
-                    trigger: "#avantages",
-                    start: "top 80%",
-                    toggleActions: "play none none reverse",
-                },
-                duration: 0.8,
-                y: 50,
-                opacity: 0,
-                scale: 0.8,
-                ease: "back.out(1.7)",
-            });
+            if (document.querySelector(".fresh-up-button")) {
+                gsap.from(".fresh-up-button", {
+                    scrollTrigger: {
+                        trigger: "#avantages",
+                        start: "top 80%",
+                        toggleActions: "play none none reverse",
+                    },
+                    duration: 0.8,
+                    y: 50,
+                    opacity: 0,
+                    scale: 0.8,
+                    ease: "back.out(1.7)",
+                });
+            }
         });
+
 
          // ===== CODE SUPPLÉMENTAIRE POUR LE FORMULAIRE DYNAMIQUE ===== //
 
@@ -438,8 +583,7 @@
                     ancienneSelect.addEventListener('change', toggleFields);
                   });
     </script>
- 
-
+@verbatim
     <script type="application/ld+json">
         {
             "@context": "http://schema.org",
@@ -465,6 +609,8 @@
             }
         }
     </script>
+      @endverbatim
+        @yield('schema')
     <script src="{{ asset('js/scripts.js') }}"></script>
 </body>
 

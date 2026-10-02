@@ -4,7 +4,7 @@
 
 
 
-@section('title', 'Assurance Décennale  | reponse')
+@section('title', 'Assurance Décennale - Reponse')
   
 @section('meta_description', 'Devis pour une assurances décennale en ligne et en quelque clics.')
 
@@ -14,16 +14,24 @@
 @endsection
 
 @section('og_meta')
-<meta property="og:title" content="Assurance Décennale  | reponse">
+<meta property="og:title" content="Assurance Décennale - Reponse">
 <meta property="og:description" content="Devis pour une assurances décennale en ligne et en quelque clics.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.lassurance-garantie-decennale.fr/reponse"> 
-<meta property="og:image" content="https://www.lassurance-garantie-decennale.fr/image/assurance-decinale.jpg">
+ @endsection
+
+
+ {{-- Twitter dans sa propre section, séparée de og_meta --}}
+@section('twitter_meta')
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@AksamAssurances">
+<meta name="twitter:title" content="Assurance Décennale - Reponse">
+<meta name="twitter:description" content="Devis pour une assurances décennale en ligne et en quelque clics.">
+<meta name="twitter:url" content="https://www.lassurance-garantie-decennale.fr/reponse">
+ 
 @endsection
 
-
 @section('contentresponse')
-
 
 
 

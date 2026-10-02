@@ -1,0 +1,81 @@
+/* ==========================================================================
+   FAQ ACCORDION & PAGINATION — CSS partagé
+   Extracted from layout/form.blade.php
+   Applied to all pages containing a FAQ section:
+   - form.blade.php
+   - reprise.blade.php
+   - entrepreneur.blade.php
+   - electricien.blade.php
+   - maçon.blade.php
+   - plombier.blade.php
+   ========================================================================== */
+
+/* Question clickable */
+.faq-question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    cursor: pointer;
+    user-select: none;
+}
+
+/* Texte de la question */
+.faq-question > span:first-child {
+    flex: 1;
+}
+
+/* Flèche */
+.faq-arrow {
+    flex-shrink: 0;
+    color: #eab308;
+    transition: transform 0.3s ease;
+}
+
+/* Hover question */
+.faq-question:hover {
+    color: #111827;
+}
+
+/* Réponse */
+.faq-answer {
+    display: none;
+    padding-top: 10px;
+}
+
+/* Réponse ouverte */
+.faq-item.active .faq-answer {
+    display: block;
+}
+
+/* Rotation flèche */
+.faq-item.active .faq-arrow {
+    transform: rotate(180deg);
+}
+
+/* Pagination */
+#faq-pagination button {
+    cursor: pointer;
+}
+
+#faq-pagination button:disabled {
+    cursor: not-allowed;
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+
+    .faq-question {
+        gap: 10px;
+    }
+
+    .faq-question > span:first-child {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    .faq-arrow {
+        font-size: 0.85rem;
+    }
+
+}

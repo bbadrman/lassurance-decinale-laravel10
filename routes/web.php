@@ -28,47 +28,120 @@ Route::get('/politique-legale', function () {
     return view('layout.politique');
 });
 
+
 Route::get('/mention-legale', function () {
 
     return view('layout.mention');
 });
 
-Route::get('/resilie-nonpaiement', function () {
+
+Route::get('/assurance-decennale-resilie-non-paiement', function () {
 
     return view('layout.resilie');
 });
 
-Route::get('/reprise-du-passe-assurance-decennale', function () {
+
+Route::get('/assurance-decennale-reprise-du-passe', function () {
 
     return view('layout.reprise');
 });
-Route::get('/assurance-decennale-plombier', function () {
+
+
+/*
+|--------------------------------------------------------------------------
+| Assurance Décennale Plombier
+|--------------------------------------------------------------------------
+|
+| Nouvelle URL :
+| /assurance-decennale-plombier-chauffagiste
+|
+| Ancienne URL :
+| /assurance-decennale-plombier
+|
+| L'ancienne URL redirige définitivement vers la nouvelle avec un
+| redirect HTTP 301 afin de conserver le référencement.
+|
+*/
+
+Route::get('/assurance-decennale-plombier-chauffagiste', function () {
 
     return view('layout.plombier');
+
 });
 
-Route::get('/maçon-grosœuvres', function () {
+
+Route::redirect(
+    '/assurance-decennale-plombier',
+    '/assurance-decennale-plombier-chauffagiste',
+    301
+);
+
+
+Route::get('/assurance-decennale-macon', function () {
 
     return view('layout.maçon');
 });
+
+
 Route::get('/assurance-decennale-electricien', function () {
 
     return view('layout.electricien');
 });
 
-Route::get('/auto-entrepreneur', function () {
+
+Route::get('/prix-assurance-decennale-auto-entrepreneur', function () {
 
     return view('layout.entrepreneur');
 });
+Route::get('/qualification-certification-btp', function () {
 
-Route::get('/resilie-nonp', function () {
-
-    return view('layout.nopaiement');
+    return view('layout.qualification-btp');
 });
 
+
 Route::post('/', 'App\Http\Controllers\HomeController@store');
-Route::post('/auto-entrepreneur', 'App\Http\Controllers\HomeController@entrepreneur');
-Route::post('/macon-grosœuvres', 'App\Http\Controllers\HomeController@macon');
-Route::post('/assurance-decennale-electricien', 'App\Http\Controllers\HomeController@electricien');
-Route::post('/resilie-nonpaiement', 'App\Http\Controllers\HomeController@resilie');
-Route::post('/reprise-du-passe-assurance-decennale', 'App\Http\Controllers\HomeController@reprise');
+
+Route::post(
+    '/prix-assurance-decennale-auto-entrepreneur',
+    'App\Http\Controllers\HomeController@entrepreneur'
+);
+
+Route::post(
+    '/assurance-decennale-macon',
+    'App\Http\Controllers\HomeController@macon'
+);
+
+Route::post(
+    '/assurance-decennale-electricien',
+    'App\Http\Controllers\HomeController@electricien'
+);
+
+Route::post(
+    '/assurance-decennale-resilie-non-paiement',
+    'App\Http\Controllers\HomeController@resilie'
+);
+
+Route::post(
+    '/assurance-decennale-reprise-du-passe',
+    'App\Http\Controllers\HomeController@reprise'
+);
+
+
+// Route::get('/sitemap.xml', function () {
+
+//     $urls = [
+//         ['loc' => 'https://lassurance-garantie-decennale.fr/', 'priority' => '1.00'],
+//         ['loc' => 'https://lassurance-garantie-decennale.fr/auto-entrepreneur', 'priority' => '0.80'],
+//         ['loc' => 'https://lassurance-garantie-decennale.fr/assurance-decennale-electricien', 'priority' => '0.80'],
+//         ['loc' => 'https://lassurance-garantie-decennale.fr/macon-grosoeuvres', 'priority' => '0.80'],
+//         ['loc' => 'https://lassurance-garantie-decennale.fr/resilie-nonpaiement', 'priority' => '0.80'],
+//         ['loc' => 'https://lassurance-garantie-decennale.fr/reprise-du-passe-assurance-decennale', 'priority' => '0.80'],
+//         ['loc' => 'https://lassurance-garantie-decennale.fr/mention-legale', 'priority' => '0.80'],
+//         ['loc' => 'https://lassurance-garantie-decennale.fr/politique-legale', 'priority' => '0.80'],
+//     ];
+
+//     $content = view('sitemap', ['urls' => $urls])->render();
+
+//     return response($content)
+//         ->header('Content-Type', 'application/xml');
+// });

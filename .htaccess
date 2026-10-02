@@ -1,13 +1,30 @@
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType application/javascript "access plus 1 year"
+    ExpiresByType text/css "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType image/jpg "access plus 1 year"
+</IfModule>
 <IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews -Indexes
+    </IfModule>
+
+
+# Redirection vers HTTPS
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteCond %{HTTPS} =off
+RewriteRule ^(.*)$ https://assurance-flotte-entreprise.fr/$1 [R=301,L]
+
+# Redirection du www vers non-www en HTTPS
+RewriteCond %{HTTP_HOST} ^www\.assurance-flotte-entreprise.fr [NC]
+RewriteRule ^(.*)$ https://assurance-flotte-entreprise.fr/$1 [R=301,L]
+
+
     RewriteEngine On
-
-    # Rediriger le trafic HTTP vers HTTPS
-    RewriteCond %{HTTPS} off
-    RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-
-    # Réécriture URL standard pour front controller
-    RewriteRule ^index\.php$ - [L]
-    RewriteCond %{REQUEST_FILENAME} !-f
+    
+    # Send Requests To Front Controller...
     RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteRule . /index.php [L]
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
 </IfModule>

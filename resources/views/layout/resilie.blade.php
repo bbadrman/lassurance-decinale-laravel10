@@ -7,7 +7,7 @@
 
 
 @section('canonical')
-<link rel="canonical" href="https://www.lassurance-garantie-decennale.fr/resilie-nonpaiement">
+<link rel="canonical" href="https://www.lassurance-garantie-decennale.fr/assurance-decennale-resilie-non-paiement">
 @endsection
 
 @section('og_meta')
@@ -16,8 +16,9 @@
 <meta property="og:keywords" content="assurance décennale résiliée non-paiement, assurance décennale après non-paiement, résiliation assurance décennale impayé, devis assurance décennale pour résilié">
 
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://www.lassurance-garantie-decennale.fr/resilie-nonpaiement"> 
+<meta property="og:url" content="https://www.lassurance-garantie-decennale.fr/assurance-decennale-resilie-non-paiement"> 
 @endsection
+
 
 
 @section('content-resilie')
@@ -31,7 +32,7 @@
       <!-- Remplacez cette section dans votre code -->
       <!-- Option pour encore plus de hauteur sur mobile -->
 
-      <div class="order-2 lg:order-1 lg:col-span-2 relative rounded-xl overflow-hidden h-96 sm:h-[450px] md:h-[500px] lg:h-[550px] xl:h-[800px]">
+      <div class="order-2 lg:order-1 lg:col-span-2 relative rounded-xl h-auto lg:h-[550px] xl:h-[800px]">
         <!-- Hero Section -->
         <section class="w-full h-full bg-gradient-to-br from-light via-surfaceHover to-light hero-pattern relative overflow-hidden flex items-center">
           <!-- Background decoration -->
@@ -136,7 +137,7 @@
            <form
              id="simulationForm"
              class="space-y-3 flex-1 flex flex-col"
-             onsubmit="return handleFormSubmit(event)" action="/" method="POST">
+             action="/" method="POST">
              @csrf
              <!-- Personal Info -->
              <div class="flex-1 space-y-3 ">
@@ -293,7 +294,7 @@
 <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 space-y-8">
     <div class="bg-white rounded-xl shadow-xl p-8">
         <div class="text-center">
-        <h2 class="text-2xl md:text-3xl font-bold text-gradient  mb-6 mt-12">
+        <h2 class="text-xl lg:text-4xl font-bold mb-4 lg:mb-6 text-dark">
             Notre Expertise : Les Dossiers d&#39;Assurance Décennale Complexes
         </h2>
         </div>
@@ -338,7 +339,7 @@
                 <strong> 2.Analyse de votre dossier :</strong>Un de nos experts prend en charge votre demande, rassemble les pièces nécessaires et présente votre dossier de manière professionnelle à nos partenaires assureurs.
 
             </li>
-            <li><strong> 3.Recevez votre devis :</strong>Nous vous transmettons la ou les propositions obtenues. Une fois validée, nous procédons à la souscription pour émettre votre nouvelle attestation. Pour en savoir plus sur les garanties de base, consultez notre page sur le lien <a class="text-blue-500 text-lg font-bold" href="/frgarantie-decennale">ici</a>
+            <li><strong> 3.Recevez votre devis :</strong>Nous vous transmettons la ou les propositions obtenues. Une fois validée, nous procédons à la souscription pour émettre votre nouvelle attestation. Pour en savoir plus sur les garanties de base, consultez notre page sur le lien <a class="text-blue-500 text-lg font-bold" href="/">ici</a>
             </li>
         </ul>
 
@@ -414,4 +415,49 @@
         </div>
 </main>
 
+@endsection
+@section('schema')
+@verbatim
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Puis-je vraiment retrouver une assurance décennale après un non-paiement ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui. Bien que plus complexe, c'est notre spécialité. Nous travaillons avec des assureurs qui comprennent qu'un accident de parcours financier peut arriver et proposent des solutions adaptées."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Les tarifs seront-ils plus élevés ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Il est probable que votre nouvelle prime soit majorée, car les assureurs considèrent votre profil comme plus risqué. Notre rôle est de négocier pour que cette majoration reste la plus juste et la plus compétitive possible."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "La gestion de nos opérations de prospection,",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Veuillez préciser votre demande concernant la gestion des opérations de prospection afin que nous puissions vous apporter une réponse adaptée."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "En combien de temps puis-je avoir mon attestation ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Selon la complexité du dossier et la réactivité pour fournir les pièces, nous pouvons souvent obtenir une attestation provisoire en 24 à 48 heures après validation de la proposition."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
 @endsection
