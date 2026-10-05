@@ -358,6 +358,11 @@ class HomeController extends Controller
         return redirect('/reponse');
     }
 
+    public function blog()
+    {
+        return view('layout.blog');
+    }
+
     public function index()
     {
         return view('layout.form');

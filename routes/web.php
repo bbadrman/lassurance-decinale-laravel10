@@ -98,6 +98,11 @@ Route::get('/qualification-certification-btp', function () {
     return view('layout.qualification-btp');
 });
 
+Route::get('/blog', function () {
+
+    return view('layout.blog');
+});
+
 
 Route::post('/', 'App\Http\Controllers\HomeController@store');
 

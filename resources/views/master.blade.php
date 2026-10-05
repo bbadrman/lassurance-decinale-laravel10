@@ -229,7 +229,7 @@
     @yield('content-electricien')
     @yield('content-entrepreneur')
      @yield('content-qualification-btp')
-
+     @yield('content-blog')
 
 
     <!-- Footer -->
