@@ -1,0 +1,710 @@
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e6]:
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "Stack" [ref=e9] [cursor=pointer]:
+              - /url: "#stack"
+              - button "Stack" [ref=e10]:
+                - img [ref=e12]
+                - text: Stack
+          - listitem [ref=e14]:
+            - link "Context" [ref=e15] [cursor=pointer]:
+              - /url: "#context"
+              - button "Context" [ref=e16]:
+                - img [ref=e18]
+                - text: Context
+          - listitem [ref=e20]:
+            - link "Flare" [ref=e21] [cursor=pointer]:
+              - /url: https://flareapp.io/?utm_campaign=ignition&utm_source=ignition
+              - button "Flare" [ref=e22]:
+                - img [ref=e24]
+                - text: Flare
+        - list [ref=e29]:
+          - listitem [ref=e30]:
+            - link "Share" [ref=e31] [cursor=pointer]:
+              - /url: "#share"
+              - button "Share" [ref=e32]:
+                - img [ref=e34]
+                - text: Share
+            - generic:
+              - generic:
+                - generic:
+                  - heading "Share with Flare" [level=4]
+                  - link "Docs":
+                    - /url: https://flareapp.io/docs/ignition/introducing-ignition/sharing-errors?utm_campaign=ignition&utm_source=ignition
+                    - text: Docs
+                    - img
+                - list:
+                  - listitem:
+                    - generic:
+                      - checkbox "Stack" [checked]
+                      - generic: Stack
+                  - listitem:
+                    - generic:
+                      - checkbox "Context" [checked]
+                      - generic: Context
+                  - listitem:
+                    - generic:
+                      - checkbox "Debug" [checked]
+                      - generic: Debug
+                - generic:
+                  - button "Create Share":
+                    - img
+                    - text: Create Share
+          - listitem [ref=e36]:
+            - link "Docs" [ref=e37] [cursor=pointer]:
+              - /url: https://laravel.com/docs/
+              - button "Docs" [ref=e38]:
+                - img [ref=e40]
+                - text: Docs
+          - listitem [ref=e42]:
+            - link [ref=e43] [cursor=pointer]:
+              - /url: "#settings"
+              - button [ref=e44]:
+                - img [ref=e46]
+            - generic:
+              - generic:
+                - generic:
+                  - heading "Ignition Settings" [level=4]
+                  - link "Docs":
+                    - /url: https://flareapp.io/ignition?utm_campaign=ignition&utm_source=ignition
+                    - text: Docs
+                    - img
+                - generic:
+                  - text: Editor
+                  - generic:
+                    - combobox "Editor":
+                      - option "Clipboard"
+                      - option "Sublime"
+                      - option "TextMate"
+                      - option "Emacs"
+                      - option "MacVim"
+                      - option "PhpStorm" [selected]
+                      - option "PHPStorm Remote"
+                      - option "Idea"
+                      - option "VS Code"
+                      - option "VS Code Insiders"
+                      - option "VS Code Remote"
+                      - option "VS Code Insiders Remote"
+                      - option "VS Codium"
+                      - option "Cursor"
+                      - option "Atom"
+                      - option "Nova"
+                      - option "NetBeans"
+                      - option "Xdebug"
+                    - generic:
+                      - img
+                - generic:
+                  - text: Theme
+                  - button "auto":
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                        - generic:
+                          - generic:
+                            - img
+                        - generic:
+                          - generic:
+                            - img
+                      - generic: auto
+                - generic:
+                  - button "Save settings"
+                - paragraph:
+                  - text: Settings will be saved locally in
+                  - code: ~/.ignition.json
+                  - text: .
+      - link "Unclosed '[' does not match ')'" [ref=e50] [cursor=pointer]:
+        - /url: "#top"
+        - generic [ref=e51]: Unclosed '[' does not match ')'
+  - main [ref=e52]:
+    - main [ref=e56]:
+      - generic [ref=e58]:
+        - generic [ref=e59]:
+          - generic [ref=e62]: ParseError
+          - generic [ref=e63]:
+            - generic [ref=e64]: PHP 8.3.33
+            - generic [ref=e65]:
+              - img [ref=e66]
+              - text: 10.48.29
+        - generic [ref=e69]: Unclosed '[' does not match ')'
+    - generic [ref=e72]:
+      - complementary [ref=e73]:
+        - generic [ref=e74]:
+          - button "Expand vendor frames" [ref=e76] [cursor=pointer]:
+            - generic [ref=e77]:
+              - img [ref=e78]
+              - img [ref=e80]
+            - text: Expand vendor frames
+          - list [ref=e83]:
+            - listitem [ref=e84]:
+              - generic [ref=e86]:
+                - generic [ref=e87]: resources
+                - generic [ref=e88]: /
+                - generic [ref=e89]: views
+                - generic [ref=e90]: /
+                - generic [ref=e91]: layout
+                - generic [ref=e92]: /
+                - generic [ref=e93]: blog
+                - generic [ref=e94]: /
+                - generic [ref=e95]: _guide.blade
+                - generic [ref=e96]: .php
+                - generic [ref=e97]: ": 134"
+              - generic [ref=e98]: require
+            - listitem [ref=e99]
+            - listitem [ref=e100] [cursor=pointer]:
+              - text: 51 vendor frames
+              - img [ref=e101]
+      - generic [ref=e103]:
+        - 'link "resources / views / layout / blog / _guide.blade .php : 134" [ref=e105] [cursor=pointer]':
+          - /url: phpstorm://open?file=%2Fvar%2Fwww%2Fhtml%2Fresources%2Fviews%2Flayout%2Fblog%2F_guide.blade.php&line=134
+          - generic [ref=e106]:
+            - generic [ref=e107]: resources
+            - generic [ref=e108]: /
+            - generic [ref=e109]: views
+            - generic [ref=e110]: /
+            - generic [ref=e111]: layout
+            - generic [ref=e112]: /
+            - generic [ref=e113]: blog
+            - generic [ref=e114]: /
+            - generic [ref=e115]: _guide.blade
+            - generic [ref=e116]: .php
+            - generic [ref=e117]: ": 134"
+        - main [ref=e118]:
+          - navigation [ref=e119]:
+            - generic [ref=e120]:
+              - paragraph [ref=e121]: "119"
+              - paragraph [ref=e122]: "120"
+              - paragraph [ref=e123]: "121"
+              - paragraph [ref=e124]: "122"
+              - paragraph [ref=e125]: "123"
+              - paragraph [ref=e126]: "124"
+              - paragraph [ref=e127]: "125"
+              - paragraph [ref=e128]: "126"
+              - paragraph [ref=e129]: "127"
+              - paragraph [ref=e130]: "128"
+              - paragraph [ref=e131]: "129"
+              - paragraph [ref=e132]: "130"
+              - paragraph [ref=e133]: "131"
+              - paragraph [ref=e134]: "132"
+              - paragraph [ref=e135]: "133"
+              - paragraph [ref=e136]: "134"
+              - paragraph [ref=e137]: "135"
+              - paragraph [ref=e138]: "136"
+              - paragraph [ref=e139]: "137"
+              - paragraph [ref=e140]: "138"
+              - paragraph [ref=e141]: "139"
+              - paragraph [ref=e142]: "140"
+              - paragraph [ref=e143]: "141"
+              - paragraph [ref=e144]: "142"
+              - paragraph [ref=e145]: "143"
+              - paragraph [ref=e146]: "144"
+              - paragraph [ref=e147]: "145"
+              - paragraph [ref=e148]: "146"
+              - paragraph [ref=e149]: "147"
+              - paragraph [ref=e150]: "148"
+          - code [ref=e153]:
+            - generic [ref=e154]:
+              - link [ref=e155] [cursor=pointer]:
+                - /url: phpstorm://open?file=%2Fvar%2Fwww%2Fhtml%2Fresources%2Fviews%2Flayout%2Fblog%2F_guide.blade.php&line=119
+                - button [ref=e156]:
+                  - img [ref=e157]
+              - generic [ref=e160]: En cliquant sur « Être rappelé », vous acceptez de transmettre vos informations à AKSAM ASSURANCES, qui accepte de les utiliser conformément à sa
+            - generic [ref=e161]:
+              - link [ref=e162] [cursor=pointer]:
+                - /url: phpstorm://open?file=%2Fvar%2Fwww%2Fhtml%2Fresources%2Fviews%2Flayout%2Fblog%2F_guide.blade.php&line=120
+                - button [ref=e163]:
+                  - img [ref=e164]
+              - generic [ref=e167]: <a href="/politique-legale" class="underline hover:text-blue-900">politique de confidentialité</a> afin de vous recontacter au sujet de votre demande.
+            - generic [ref=e168]:
+              - link [ref=e169] [cursor=pointer]:
+                - /url: phpstorm://open?file=%2Fvar%2Fwww%2Fhtml%2Fresources%2Fviews%2Flayout%2Fblog%2F_guide.blade.php&line=121
+                - button [ref=e170]:
+                  - img [ref=e171]
+              - generic [ref=e174]: </p>
+            - link [ref=e176] [cursor=pointer]:
+              - /url: phpstorm://open?file=%2Fvar%2Fwww%2Fhtml%2Fresources%2Fviews%2Flayout%2Fblog%2F_guide.blade.php&line=122
+              - button [ref=e177]:
+                - img [ref=e178]
+            - generic [ref=e181]:
+              - link [ref=e182] [cursor=pointer]:
+                - /url: phpstorm://open?file=%2Fvar%2Fwww%2Fhtml%2Fresources%2Fviews%2Flayout%2Fblog%2F_guide.blade.php&line=123
+                - button [ref=e183]:
+                  - img [ref=e184]
+              - generic [ref=e187]: <button type="submit"
+            - generic [ref=e188]:
+              - link [ref=e189] [cursor=pointer]:
+                - /url: phpstorm://open?file=%2Fvar%2Fwww%2Fhtml%2Fresources%2Fviews%2Flayout%2Fblog%2F_guide.blade.php&line=124
+                - button [ref=e190]:
+                  - img [ref=e191]
+              - generic [ref=e194]: class="w-full bg-amber-400 text-dark font-bold py-3 px-4 rounded-md shadow-sm hover:shadow-md hover:bg-yellow-500 transition-all flex items-center justify-center">
+            - generic [ref=e195]:
+              - link [ref=e196] [cursor=pointer]:
+                - /url: phpstorm://open?file=%2Fvar%2Fwww%2Fhtml%2Fresources%2Fviews%2Flayout%2Fblog%2F_guide.blade.php&line=125
+                - button [ref=e197]:
+                  - img [ref=e198]
+              - generic [ref=e201]: <i class="fas fa-phone-alt mr-2"></i> Être rappelé
+            - generic [ref=e202]:
+              - link [ref=e203] [cursor=pointer]:
+                - /url: phpstorm://open?file=%2Fvar%2Fwww%2Fhtml%2Fresources%2Fviews%2Flayout%2Fblog%2F_guide.blade.php&line=126
+                - button [ref=e204]:
+                  - img [ref=e205]
+              - generic [ref=e208]: </button>
+            - generic [ref=e209]:
+              - link [ref=e210] [cursor=pointer]:
+                - /url: phpstorm://open?file=%2Fvar%2Fwww%2Fhtml%2Fresources%2Fviews%2Flayout%2Fblog%2F_guide.blade.php&line=127
+                - button [ref=e211]:
+                  - img [ref=e212]
+              - generic [ref=e215]: </form>
+            - generic [ref=e216]:
+              - link [ref=e217] [cursor=pointer]:
+                - /url: phpstorm://open?file=%2Fvar%2Fwww%2Fhtml%2Fresources%2Fviews%2Flayout%2Fblog%2F_guide.blade.php&line=128
+                - button [ref=e218]:
+                  - img [ref=e219]
+              - generic [ref=e222]: </article>
+            - generic [ref=e223]:
+              - link [ref=e224] [cursor=pointer]:
+                - /url: phpstorm://open?file=%2Fvar%2Fwww%2Fhtml%2Fresources%2Fviews%2Flayout%2Fblog%2F_guide.blade.php&line=129
+                - button [ref=e225]:
+                  - img [ref=e226]
+              - generic [ref=e229]: </div>
+            - link [ref=e231] [cursor=pointer]:
+              - /url: phpstorm://open?file=%2Fvar%2Fwww%2Fhtml%2Fresources%2Fviews%2Flayout%2Fblog%2F_guide.blade.php&line=130
+              - button [ref=e232]:
+                - img [ref=e233]
+            - generic [ref=e236]:
+              - link [ref=e237] [cursor=pointer]:
+                - /url: phpstorm://open?file=%2Fvar%2Fwww%2Fhtml%2Fresources%2Fviews%2Flayout%2Fblog%2F_guide.blade.php&line=131
+                - button [ref=e238]:
+                  - img [ref=e239]
+              - generic [ref=e242]: <script>
+            - generic [ref=e243]:
+              - link [ref=e244] [cursor=pointer]:
+                - /url: phpstorm://open?file=%2Fvar%2Fwww%2Fhtml%2Fresources%2Fviews%2Flayout%2Fblog%2F_guide.blade.php&line=132
+                - button [ref=e245]:
+                  - img [ref=e246]
+              - generic [ref=e249]: "(function () {"
+            - generic [ref=e250]:
+              - link [ref=e251] [cursor=pointer]:
+                - /url: phpstorm://open?file=%2Fvar%2Fwww%2Fhtml%2Fresources%2Fviews%2Flayout%2Fblog%2F_guide.blade.php&line=133
+                - button [ref=e252]:
+                  - img [ref=e253]
+              - generic [ref=e256]: const data = @json($guide);
+            - generic [ref=e257]:
+              - link [ref=e258] [cursor=pointer]:
+                - /url: phpstorm://open?file=%2Fvar%2Fwww%2Fhtml%2Fresources%2Fviews%2Flayout%2Fblog%2F_guide.blade.php&line=134
+                - button [ref=e259]:
+                  - img [ref=e260]
+              - generic [ref=e263]: const actionTemplate = @json(route('blog.contact.store', ['__C__', '__T__', '__A__']));
+            - generic [ref=e264]:
+              - link [ref=e265] [cursor=pointer]:
+                - /url: phpstorm://open?file=%2Fvar%2Fwww%2Fhtml%2Fresources%2Fviews%2Flayout%2Fblog%2F_guide.blade.php&line=135
+                - button [ref=e266]:
+                  - img [ref=e267]
+              - generic [ref=e269]: "const initial = {"
+            - generic [ref=e270]:
+              - link [ref=e271] [cursor=pointer]:
+                - /url: phpstorm://open?file=%2Fvar%2Fwww%2Fhtml%2Fresources%2Fviews%2Flayout%2Fblog%2F_guide.blade.php&line=136
+                - button [ref=e272]:
+                  - img [ref=e273]
+              - generic [ref=e276]: "category: @json(old('guide_category')),"
+            - generic [ref=e277]:
+              - link [ref=e278] [cursor=pointer]:
+                - /url: phpstorm://open?file=%2Fvar%2Fwww%2Fhtml%2Fresources%2Fviews%2Flayout%2Fblog%2F_guide.blade.php&line=137
+                - button [ref=e279]:
+                  - img [ref=e280]
+              - generic [ref=e283]: "topic: @json(old('guide_topic')),"
+            - generic [ref=e284]:
+              - link [ref=e285] [cursor=pointer]:
+                - /url: phpstorm://open?file=%2Fvar%2Fwww%2Fhtml%2Fresources%2Fviews%2Flayout%2Fblog%2F_guide.blade.php&line=138
+                - button [ref=e286]:
+                  - img [ref=e287]
+              - generic [ref=e290]: "article: @json(old('guide_article')),"
+            - generic [ref=e291]:
+              - link [ref=e292] [cursor=pointer]:
+                - /url: phpstorm://open?file=%2Fvar%2Fwww%2Fhtml%2Fresources%2Fviews%2Flayout%2Fblog%2F_guide.blade.php&line=139
+                - button [ref=e293]:
+                  - img [ref=e294]
+              - generic [ref=e296]: "};"
+            - link [ref=e298] [cursor=pointer]:
+              - /url: phpstorm://open?file=%2Fvar%2Fwww%2Fhtml%2Fresources%2Fviews%2Flayout%2Fblog%2F_guide.blade.php&line=140
+              - button [ref=e299]:
+                - img [ref=e300]
+            - generic [ref=e303]:
+              - link [ref=e304] [cursor=pointer]:
+                - /url: phpstorm://open?file=%2Fvar%2Fwww%2Fhtml%2Fresources%2Fviews%2Flayout%2Fblog%2F_guide.blade.php&line=141
+                - button [ref=e305]:
+                  - img [ref=e306]
+              - generic [ref=e308]: const $ = (id) => document.getElementById(id);
+            - generic [ref=e309]:
+              - link [ref=e310] [cursor=pointer]:
+                - /url: phpstorm://open?file=%2Fvar%2Fwww%2Fhtml%2Fresources%2Fviews%2Flayout%2Fblog%2F_guide.blade.php&line=142
+                - button [ref=e311]:
+                  - img [ref=e312]
+              - generic [ref=e314]: const selCategory = $('guide-category');
+            - generic [ref=e315]:
+              - link [ref=e316] [cursor=pointer]:
+                - /url: phpstorm://open?file=%2Fvar%2Fwww%2Fhtml%2Fresources%2Fviews%2Flayout%2Fblog%2F_guide.blade.php&line=143
+                - button [ref=e317]:
+                  - img [ref=e318]
+              - generic [ref=e320]: const selTopic = $('guide-topic');
+            - generic [ref=e321]:
+              - link [ref=e322] [cursor=pointer]:
+                - /url: phpstorm://open?file=%2Fvar%2Fwww%2Fhtml%2Fresources%2Fviews%2Flayout%2Fblog%2F_guide.blade.php&line=144
+                - button [ref=e323]:
+                  - img [ref=e324]
+              - generic [ref=e326]: const selArticle = $('guide-article');
+            - generic [ref=e327]:
+              - link [ref=e328] [cursor=pointer]:
+                - /url: phpstorm://open?file=%2Fvar%2Fwww%2Fhtml%2Fresources%2Fviews%2Flayout%2Fblog%2F_guide.blade.php&line=145
+                - button [ref=e329]:
+                  - img [ref=e330]
+              - generic [ref=e332]: const form = $('guide-form');
+            - link [ref=e334] [cursor=pointer]:
+              - /url: phpstorm://open?file=%2Fvar%2Fwww%2Fhtml%2Fresources%2Fviews%2Flayout%2Fblog%2F_guide.blade.php&line=146
+              - button [ref=e335]:
+                - img [ref=e336]
+            - generic [ref=e339]:
+              - link [ref=e340] [cursor=pointer]:
+                - /url: phpstorm://open?file=%2Fvar%2Fwww%2Fhtml%2Fresources%2Fviews%2Flayout%2Fblog%2F_guide.blade.php&line=147
+                - button [ref=e341]:
+                  - img [ref=e342]
+              - generic [ref=e344]: "function fillSelect(select, items, selected) {"
+            - generic [ref=e345]:
+              - link [ref=e346] [cursor=pointer]:
+                - /url: phpstorm://open?file=%2Fvar%2Fwww%2Fhtml%2Fresources%2Fviews%2Flayout%2Fblog%2F_guide.blade.php&line=148
+                - button [ref=e347]:
+                  - img [ref=e348]
+              - generic [ref=e350]: select.innerHTML = '';
+    - generic [ref=e352]:
+      - navigation [ref=e353]:
+        - list [ref=e355]:
+          - listitem [ref=e356]:
+            - link "App" [ref=e357] [cursor=pointer]:
+              - /url: "#context-app"
+            - list [ref=e358]:
+              - listitem [ref=e359]:
+                - link "Routing" [ref=e360] [cursor=pointer]:
+                  - /url: "#context-app-routing"
+                  - img [ref=e362]
+                  - generic [ref=e364]: Routing
+              - listitem [ref=e365]:
+                - link "Views" [ref=e366] [cursor=pointer]:
+                  - /url: "#context-app-views"
+                  - img [ref=e368]
+                  - generic [ref=e370]: Views
+          - listitem [ref=e371]:
+            - link "Request" [ref=e372] [cursor=pointer]:
+              - /url: "#context-request"
+            - list [ref=e373]:
+              - listitem [ref=e374]:
+                - link "Browser" [ref=e375] [cursor=pointer]:
+                  - /url: "#context-request-browser"
+                  - img [ref=e377]
+                  - generic [ref=e379]: Browser
+              - listitem [ref=e380]:
+                - link "Headers" [ref=e381] [cursor=pointer]:
+                  - /url: "#context-request-headers"
+                  - img [ref=e383]
+                  - generic [ref=e385]: Headers
+              - listitem [ref=e386]:
+                - link "Body" [ref=e387] [cursor=pointer]:
+                  - /url: "#context-request-body"
+                  - img [ref=e389]
+                  - generic [ref=e391]: Body
+          - listitem [ref=e392]:
+            - link "Context" [ref=e393] [cursor=pointer]:
+              - /url: "#context-context"
+            - list [ref=e394]:
+              - listitem [ref=e395]:
+                - link "Git" [ref=e396] [cursor=pointer]:
+                  - /url: "#context-context-git"
+                  - img [ref=e398]
+                  - generic [ref=e400]: Git
+              - listitem [ref=e401]:
+                - link "Versions" [ref=e402] [cursor=pointer]:
+                  - /url: "#context-context-versions"
+                  - img [ref=e404]
+                  - generic [ref=e406]: Versions
+      - generic [ref=e407]:
+        - generic [ref=e408]:
+          - heading "App" [level=2] [ref=e409]
+          - generic [ref=e410]:
+            - generic [ref=e411]:
+              - heading "Routing" [level=1] [ref=e412]:
+                - text: Routing
+                - img [ref=e414]
+              - generic [ref=e416]:
+                - generic [ref=e417]:
+                  - term [ref=e418]: Controller
+                  - definition [ref=e419]:
+                    - generic [ref=e420]:
+                      - code [ref=e423]: Closure
+                      - button "Copy to clipboard" [ref=e425] [cursor=pointer]:
+                        - img [ref=e426]
+                - generic [ref=e428]:
+                  - term [ref=e429]: Middleware
+                  - definition [ref=e430]:
+                    - list [ref=e431]:
+                      - listitem [ref=e432]:
+                        - generic [ref=e433]:
+                          - code [ref=e436]: web
+                          - button "Copy to clipboard" [ref=e438] [cursor=pointer]:
+                            - img [ref=e439]
+            - generic [ref=e441]:
+              - heading "Views" [level=1] [ref=e442]:
+                - text: Views
+                - img [ref=e444]
+              - generic [ref=e446]:
+                - generic [ref=e447]:
+                  - term [ref=e448]: View
+                  - definition [ref=e449]:
+                    - link "resources / views / layout / blog / _guide.blade .php" [ref=e450] [cursor=pointer]:
+                      - /url: phpstorm://open?file=%2Fvar%2Fwww%2Fhtml%2Fresources%2Fviews%2Flayout%2Fblog%2F_guide.blade.php&line=1
+                      - generic [ref=e451]:
+                        - generic [ref=e452]: resources
+                        - generic [ref=e453]: /
+                        - generic [ref=e454]: views
+                        - generic [ref=e455]: /
+                        - generic [ref=e456]: layout
+                        - generic [ref=e457]: /
+                        - generic [ref=e458]: blog
+                        - generic [ref=e459]: /
+                        - generic [ref=e460]: _guide.blade
+                        - generic [ref=e461]: .php
+                - generic [ref=e462]:
+                  - term [ref=e463]: Data
+                  - definition
+        - generic [ref=e464]:
+          - heading "Request" [level=2] [ref=e465]
+          - generic [ref=e466]:
+            - generic [ref=e467]:
+              - generic [ref=e468]:
+                - generic [ref=e469]: http://127.0.0.1:32768/qualification-certification-btp
+                - generic [ref=e470]: GET
+              - generic [ref=e472] [cursor=pointer]:
+                - code [ref=e475]:
+                  - code [ref=e477]: "curl \"http://127.0.0.1:32768/qualification-certification-btp\" \\ -X GET \\ -H 'expose: 80:80,8025:8025' \\ -H 'accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7' \\ -H 'accept-encoding: gzip, deflate, br, zstd' \\ -H 'sec-fetch-dest: document' \\ -H 'sec-fetch-user: ?1' \\ -H 'sec-fetch-mode: navigate' \\ -H 'sec-fetch-site: none' \\ -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \\ -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36' \\ -H 'upgrade-insecure-requests: 1' \\ -H 'sec-ch-ua-platform: \"Linux\"' \\ -H 'sec-ch-ua-mobile: ?0' \\ -H 'sec-ch-ua: \"Chromium\";v=\"154\", \"Google Chrome\";v=\"154\", \"Not A(Brand\";v=\"99\"' \\ -H 'connection: keep-alive' \\ -H 'host: 127.0.0.1:32768';"
+                - button "Copy to clipboard" [ref=e479]:
+                  - img [ref=e480]
+                - button [ref=e482]:
+                  - img [ref=e483]
+            - generic [ref=e485]:
+              - heading "Browser" [level=1] [ref=e486]:
+                - text: Browser
+                - img [ref=e488]
+              - generic [ref=e490]:
+                - code [ref=e493]: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36
+                - button "Copy to clipboard" [ref=e495] [cursor=pointer]:
+                  - img [ref=e496]
+            - generic [ref=e498]:
+              - heading "Headers" [level=1] [ref=e499]:
+                - text: Headers
+                - img [ref=e501]
+              - generic [ref=e503]:
+                - generic [ref=e504]:
+                  - term [ref=e505]: expose
+                  - definition [ref=e506]:
+                    - generic [ref=e507]:
+                      - code [ref=e510]: 80:80,8025:8025
+                      - button "Copy to clipboard" [ref=e512] [cursor=pointer]:
+                        - img [ref=e513]
+                - generic [ref=e515]:
+                  - term [ref=e516]: accept-language
+                  - definition [ref=e517]:
+                    - generic [ref=e518]:
+                      - code [ref=e521]: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
+                      - button "Copy to clipboard" [ref=e523] [cursor=pointer]:
+                        - img [ref=e524]
+                - generic [ref=e526]:
+                  - term [ref=e527]: accept-encoding
+                  - definition [ref=e528]:
+                    - generic [ref=e529]:
+                      - code [ref=e532]: gzip, deflate, br, zstd
+                      - button "Copy to clipboard" [ref=e534] [cursor=pointer]:
+                        - img [ref=e535]
+                - generic [ref=e537]:
+                  - term [ref=e538]: sec-fetch-dest
+                  - definition [ref=e539]:
+                    - generic [ref=e540]:
+                      - code [ref=e543]: document
+                      - button "Copy to clipboard" [ref=e545] [cursor=pointer]:
+                        - img [ref=e546]
+                - generic [ref=e548]:
+                  - term [ref=e549]: sec-fetch-user
+                  - definition [ref=e550]:
+                    - generic [ref=e551]:
+                      - code [ref=e554]: "?1"
+                      - button "Copy to clipboard" [ref=e556] [cursor=pointer]:
+                        - img [ref=e557]
+                - generic [ref=e559]:
+                  - term [ref=e560]: sec-fetch-mode
+                  - definition [ref=e561]:
+                    - generic [ref=e562]:
+                      - code [ref=e565]: navigate
+                      - button "Copy to clipboard" [ref=e567] [cursor=pointer]:
+                        - img [ref=e568]
+                - generic [ref=e570]:
+                  - term [ref=e571]: sec-fetch-site
+                  - definition [ref=e572]:
+                    - generic [ref=e573]:
+                      - code [ref=e576]: none
+                      - button "Copy to clipboard" [ref=e578] [cursor=pointer]:
+                        - img [ref=e579]
+                - generic [ref=e581]:
+                  - term [ref=e582]: accept
+                  - definition [ref=e583]:
+                    - generic [ref=e584]:
+                      - code [ref=e587]: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+                      - button "Copy to clipboard" [ref=e589] [cursor=pointer]:
+                        - img [ref=e590]
+                - generic [ref=e592]:
+                  - term [ref=e593]: user-agent
+                  - definition [ref=e594]:
+                    - generic [ref=e595]:
+                      - code [ref=e598]: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36
+                      - button "Copy to clipboard" [ref=e600] [cursor=pointer]:
+                        - img [ref=e601]
+                - generic [ref=e603]:
+                  - term [ref=e604]: upgrade-insecure-requests
+                  - definition [ref=e605]:
+                    - generic [ref=e606]:
+                      - code [ref=e609]: "1"
+                      - button "Copy to clipboard" [ref=e611] [cursor=pointer]:
+                        - img [ref=e612]
+                - generic [ref=e614]:
+                  - term [ref=e615]: sec-ch-ua-platform
+                  - definition [ref=e616]:
+                    - generic [ref=e617]:
+                      - code [ref=e620]: "\"Linux\""
+                      - button "Copy to clipboard" [ref=e622] [cursor=pointer]:
+                        - img [ref=e623]
+                - generic [ref=e625]:
+                  - term [ref=e626]: sec-ch-ua-mobile
+                  - definition [ref=e627]:
+                    - generic [ref=e628]:
+                      - code [ref=e631]: "?0"
+                      - button "Copy to clipboard" [ref=e633] [cursor=pointer]:
+                        - img [ref=e634]
+                - generic [ref=e636]:
+                  - term [ref=e637]: sec-ch-ua
+                  - definition [ref=e638]:
+                    - generic [ref=e639]:
+                      - code [ref=e642]: "\"Chromium\";v=\"154\", \"Google Chrome\";v=\"154\", \"Not A(Brand\";v=\"99\""
+                      - button "Copy to clipboard" [ref=e644] [cursor=pointer]:
+                        - img [ref=e645]
+                - generic [ref=e647]:
+                  - term [ref=e648]: connection
+                  - definition [ref=e649]:
+                    - generic [ref=e650]:
+                      - code [ref=e653]: keep-alive
+                      - button "Copy to clipboard" [ref=e655] [cursor=pointer]:
+                        - img [ref=e656]
+                - generic [ref=e658]:
+                  - term [ref=e659]: host
+                  - definition [ref=e660]:
+                    - generic [ref=e661]:
+                      - code [ref=e664]: 127.0.0.1:32768
+                      - button "Copy to clipboard" [ref=e666] [cursor=pointer]:
+                        - img [ref=e667]
+            - generic [ref=e669]:
+              - heading "Body" [level=1] [ref=e670]:
+                - text: Body
+                - img [ref=e672]
+              - generic [ref=e674]:
+                - code [ref=e677]: "[]"
+                - button "Copy to clipboard" [ref=e679] [cursor=pointer]:
+                  - img [ref=e680]
+        - generic [ref=e682]:
+          - heading "Context" [level=2] [ref=e683]
+          - generic [ref=e684]:
+            - generic [ref=e685]:
+              - heading "Git" [level=1] [ref=e686]:
+                - text: Git
+                - img [ref=e688]
+              - generic [ref=e690]:
+                - generic [ref=e691]: creat page blog
+                - generic [ref=e692]:
+                  - generic [ref=e693]:
+                    - code [ref=e696]: 713f3f27086d3f9d251136668309289c2c27d1ba
+                    - button "Copy to clipboard" [ref=e698] [cursor=pointer]:
+                      - img [ref=e699]
+                  - link "View commit 713f3f2" [ref=e701] [cursor=pointer]:
+                    - /url: https://github.com/bbadrman/lassurance-decinale-laravel10/commit/713f3f27086d3f9d251136668309289c2c27d1ba
+                    - button "View commit 713f3f2" [ref=e702]:
+                      - img [ref=e703]
+                      - text: View commit 713f3f2
+              - generic [ref=e707]:
+                - img [ref=e709]
+                - paragraph [ref=e711]: Last commit is dirty. (Un)staged changes have been made since this commit.
+            - generic [ref=e712]:
+              - heading "Versions" [level=1] [ref=e713]:
+                - text: Versions
+                - img [ref=e715]
+              - generic [ref=e717]:
+                - generic [ref=e718]:
+                  - term [ref=e719]: Php Version
+                  - definition [ref=e720]:
+                    - generic [ref=e721]:
+                      - code [ref=e724]: 8.3.33
+                      - button "Copy to clipboard" [ref=e726] [cursor=pointer]:
+                        - img [ref=e727]
+                - generic [ref=e729]:
+                  - term [ref=e730]: Laravel Version
+                  - definition [ref=e731]:
+                    - generic [ref=e732]:
+                      - code [ref=e735]: 10.48.29
+                      - button "Copy to clipboard" [ref=e737] [cursor=pointer]:
+                        - img [ref=e738]
+                - generic [ref=e740]:
+                  - term [ref=e741]: Laravel Locale
+                  - definition [ref=e742]:
+                    - generic [ref=e743]:
+                      - code [ref=e746]: en
+                      - button "Copy to clipboard" [ref=e748] [cursor=pointer]:
+                        - img [ref=e749]
+                - generic [ref=e751]:
+                  - term [ref=e752]: Laravel Config Cached
+                  - definition [ref=e753]:
+                    - generic [ref=e754]:
+                      - img [ref=e755]
+                      - generic [ref=e757]: "false"
+                - generic [ref=e758]:
+                  - term [ref=e759]: App Debug
+                  - definition [ref=e760]:
+                    - generic [ref=e761]:
+                      - img [ref=e762]
+                      - generic [ref=e764]: "true"
+                - generic [ref=e765]:
+                  - term [ref=e766]: App Env
+                  - definition [ref=e767]:
+                    - generic [ref=e768]:
+                      - code [ref=e771]: local
+                      - button "Copy to clipboard" [ref=e773] [cursor=pointer]:
+                        - img [ref=e774]
+    - generic [ref=e777]:
+      - list [ref=e778]:
+        - listitem [ref=e779]:
+          - img [ref=e780]
+        - listitem [ref=e788]: ·
+        - listitem [ref=e789]:
+          - link "Source" [ref=e790] [cursor=pointer]:
+            - /url: https://github.com/spatie/laravel-ignition
+        - listitem [ref=e791]: ·
+        - listitem [ref=e792]:
+          - link "Docs" [ref=e793] [cursor=pointer]:
+            - /url: https://flareapp.io/docs/ignition/introducing-ignition/overview
+        - listitem [ref=e794]: ·
+        - listitem [ref=e795]:
+          - link "Laravel" [ref=e796] [cursor=pointer]:
+            - /url: https://laravel.com
+      - paragraph [ref=e798]:
+        - text: Ignition is built by
+        - link "Flare" [ref=e799] [cursor=pointer]:
+          - /url: https://flareapp.io/?utm_campaign=ignition&utm_source=ignition
+          - img [ref=e800]
+          - text: Flare
+        - text: ", the Laravel error reporting service."

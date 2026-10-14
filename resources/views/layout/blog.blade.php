@@ -39,68 +39,18 @@
       impropre à sa destination. Pour un électricien, cela inclut :
     </p>
     <div class="grid md:grid-cols-2 gap-6">
-      
-      <div class="bg-yellow-100 rounded-xl p-6 border rounded-2xl hover:bg-yellow-400 transition-all transform hover:scale-105 shadow-lg">
-        <div class="flex items-start space-x-4">
-          <div class="w-12 h-12 bg-yellow-300 rounded-lg flex items-center justify-center flex-shrink-0">
-            <i class="fas fa-fire text-white text-xl"></i>
-          </div>
-          <div>
-            <h3 class="text-lg font-bold text-blue-900 mb-3">Risques  1</h3>
-            <p class="text-sm text-dark-800">
-              Protection contre les courts-circuits, surchauffes du tableau électrique, câblages défectueux
-              et tout dommage matériel consécutif à une défaillance de votre installation.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="bg-yellow-100 rounded-xl p-6 border rounded-2xl hover:bg-yellow-400 transition-all transform hover:scale-105 shadow-lg">
-        <div class="flex items-start space-x-4">
-          <div class="w-12 h-12 bg-yellow-300 rounded-lg flex items-center justify-center flex-shrink-0">
-            <i class="fas fa-certificate text-white text-xl"></i>
-          </div>
-          <div>
-            <h3 class="text-lg font-bold text-blue-900 mb-3">Risques 2</h3>
-            <p class="text-sm text-dark-800">
-              Garantie de vos travaux face aux exigences de la norme NF C 15-100,
-              un point essentiel en cas d'expertise après un sinistre.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="bg-yellow-100 rounded-xl p-6 border rounded-2xl hover:bg-yellow-400 transition-all transform hover:scale-105 shadow-lg">
-        <div class="flex items-start space-x-4">
-          <div class="w-12 h-12 bg-yellow-300 rounded-lg flex items-center justify-center flex-shrink-0">
-            <i class="fas fa-home text-white text-xl"></i>
-          </div>
-          <div>
-            <h3 class="text-lg font-bold text-blue-900 mb-3">Risques 3</h3>
-            <p class="text-sm text-dark-800">
-              Couverture de vos installations de maison connectée, automatismes (portails, volets),
-              systèmes de ventilation et de chauffage électrique.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="bg-yellow-100 rounded-xl p-6 border rounded-2xl hover:bg-yellow-400 transition-all transform hover:scale-105 shadow-lg">
-        <div class="flex items-start space-x-4">
-          <div class="w-12 h-12 bg-yellow-300 rounded-lg flex items-center justify-center flex-shrink-0">
-            <i class="fas fa-tv text-white text-xl"></i>
-          </div>
-          <div>
-            <h3 class="text-lg font-bold text-blue-900 mb-3">Risques 4</h3>
-            <p class="text-sm text-dark-800">
-              Prise en charge des dommages causés aux appareils électriques et électroniques des occupants
-              à la suite d'une surtension provenant de votre installation.
-            </p>
-          </div>
-        </div>
-      </div>
+      @foreach ($categories as $categorySlug => $category)
+        @include('layout.blog._card', [
+          'url' => route('blog.category', $categorySlug),
+          'title' => $category['title'],
+          'excerpt' => $category['excerpt'],
+          'icon' => $category['icon'] ?? null,
+          'meta' => count($category['topics']) . ' sujets',
+        ])
+      @endforeach
     </div>
   </div>
 
- 
- 
   @include('layout.faq-assets')
 
    

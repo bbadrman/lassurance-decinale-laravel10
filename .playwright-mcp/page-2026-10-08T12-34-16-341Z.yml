@@ -1,0 +1,225 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - text: 
+      - generic [ref=e5]:
+        - generic [ref=e7]: 
+        - generic [ref=e8]:
+          - generic [ref=e9]: Conseil personnalisé
+          - link "01 82 83 48 00" [ref=e10] [cursor=pointer]:
+            - /url: tel:0182834800
+  - generic [ref=e11]:
+    - generic [ref=e14]: 
+    - generic [ref=e16]: 
+    - generic [ref=e18]:
+      - generic [ref=e20]: 
+      - heading "Qualification Certification BTP" [level=1] [ref=e21]
+  - main [ref=e22]:
+    - generic [ref=e23]:
+      - paragraph [ref=e25]:
+        - text: La
+        - strong [ref=e26]: qualification certification BTP
+        - text: "est un label professionnel délivré par des organismes accrédités — principalement Qualibat, Qualifelec ou Qualipac — attestant qu'une entreprise du secteur de la construction dispose des compétences techniques, financières et humaines requises pour exercer son activité. Ce dispositif, encadré par les règles de l'art définies dans les normes NF et les Documents Techniques Unifiés (DTU), distingue les professionnels qui répondent à un niveau d'exigence vérifié des simples déclarants. En vertu de l'article L241-1 du Code des assurances, toute personne physique ou morale dont la responsabilité décennale peut être engagée est tenue de souscrire une assurance avant l'ouverture de tout chantier : la qualification renforce cette obligation en précisant le périmètre exact des activités couvertes."
+      - link " Obtenir un devis adapté à votre activité BTP" [ref=e28] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e29]: 
+        - text: Obtenir un devis adapté à votre activité BTP
+    - generic [ref=e30]:
+      - generic [ref=e31]:
+        - heading "Guide des risques et garanties" [level=2] [ref=e32]
+        - paragraph [ref=e33]: "Choisissez un thème, puis un sujet : l'information s'affiche directement ci-dessous."
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - generic [ref=e36]: 1. Thème
+          - combobox "1. Thème" [ref=e37]:
+            - option "Risques électriques & incendie" [selected]
+            - option "Conformité NF C 15-100"
+            - option "Domotique & automatismes"
+            - option "Surtensions & appareils"
+        - generic [ref=e38]:
+          - generic [ref=e39]: 2. Sujet
+          - combobox "2. Sujet" [ref=e40]:
+            - option "Court-circuit" [selected]
+            - option "Surchauffe du tableau"
+            - option "Câblage défectueux"
+            - option "Incendie d'origine électrique"
+            - option "Dommages matériels"
+            - option "Déclarer un sinistre"
+        - generic [ref=e41]:
+          - generic [ref=e42]: 3. Article
+          - combobox "3. Article" [ref=e43]:
+            - 'option "Court-circuit après chantier : qui est responsable ?" [selected]'
+            - option "5 bonnes pratiques pour éviter les courts-circuits"
+      - generic [ref=e44]:
+        - generic [ref=e46]: 
+        - generic [ref=e47]:
+          - heading "Risques électriques & incendie" [level=3] [ref=e48]
+          - paragraph [ref=e49]: "Courts-circuits, surchauffes du tableau électrique, câblages défectueux : les sinistres les plus fréquents et comment votre décennale vous protège."
+      - article [ref=e50]:
+        - paragraph [ref=e51]:
+          - generic [ref=e52]: 
+          - text: Court-circuit
+        - 'heading "Court-circuit après chantier : qui est responsable ?" [level=3] [ref=e53]'
+        - paragraph [ref=e54]: 1 octobre 2026
+        - generic [ref=e55]:
+          - paragraph [ref=e56]: Un court-circuit survenant après la réception des travaux peut engager la responsabilité décennale de l'électricien s'il rend l'ouvrage impropre à sa destination.
+          - paragraph [ref=e57]: L'expertise déterminera si la cause provient d'un défaut d'exécution (mauvais serrage, section de câble inadaptée) ou d'une mauvaise utilisation par l'occupant.
+        - generic [ref=e58]:
+          - generic [ref=e60]: 
+          - generic [ref=e61]:
+            - paragraph [ref=e62]: Une question sur « Court-circuit » ?
+            - paragraph [ref=e63]: Laissez vos coordonnées, un de nos experts vous rappelle gratuitement et sans engagement.
+          - button "Plus d'informations " [ref=e64] [cursor=pointer]:
+            - text: Plus d'informations
+            - generic [ref=e65]: 
+        - text: 
+    - generic [ref=e66]:
+      - heading "I. Qu'est-ce que la qualification certification BTP et à qui s'applique-t-elle ?" [level=2] [ref=e67]
+      - paragraph [ref=e68]: "La qualification certification BTP s'applique à toute entreprise de construction, qu'elle soit artisanale ou de taille intermédiaire, souhaitant attester officiellement de ses compétences sur un ou plusieurs corps de métier du bâtiment. Qualibat, organisme de référence en France reconnu par service-public.fr, délivre plus de 300 qualifications réparties en 10 grandes familles de travaux : gros œuvre, couverture, plomberie, menuiserie, électricité, isolation, etc. Chaque qualification est associée à un niveau de technicité — de 1 à 4 — et doit être renouvelée tous les 4 ans après audit."
+      - heading "1. Les organismes certificateurs reconnus en France" [level=3] [ref=e69]
+      - paragraph [ref=e70]: Trois organismes concentrent l'essentiel des qualifications et certifications BTP en France. Qualibat couvre l'ensemble des métiers du bâtiment et du génie civil. Qualifelec est spécialisé dans les installations électriques et énergétiques. Qualipac et QualiPV interviennent sur les équipements thermodynamiques et photovoltaïques dans le cadre de la mention RGE. Ces organismes sont accrédités par le COFRAC (Comité Français d'Accréditation) conformément à la norme NF EN ISO/IEC 17065, ce qui leur confère une valeur juridique auprès des maîtres d'ouvrage publics et privés.
+      - heading "2. Qui est concerné par la qualification certification BTP ?" [level=3] [ref=e71]
+      - paragraph [ref=e72]: "Tout professionnel réalisant des travaux de construction, de rénovation ou d'entretien peut solliciter une qualification BTP, qu'il soit auto-entrepreneur, artisan sous régime de la micro-entreprise ou dirigeant d'une PME du bâtiment. La qualification n'est pas légalement obligatoire pour exercer, mais elle conditionne l'accès à certains marchés publics, aux aides d'État comme MaPrimeRénov' (sous condition de mention RGE), et à des tarifs d'assurance plus précisément calibrés. Imaginons un artisan maçon qui souhaite répondre à un appel d'offres communal : sans qualification Qualibat niveau 2 minimum dans sa spécialité, sa candidature sera écartée d'office."
+      - link " Vérifier votre couverture décennale selon votre certification" [ref=e74] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e75]: 
+        - text: Vérifier votre couverture décennale selon votre certification
+    - generic [ref=e76]:
+      - heading "II. Quel lien entre qualification certification BTP et assurance décennale obligatoire ?" [level=2] [ref=e77]
+      - paragraph [ref=e78]: "La qualification certification BTP et l'assurance décennale sont deux dispositifs complémentaires qui se renforcent mutuellement : la qualification délimite le périmètre d'activité d'un professionnel, et l'assurance décennale couvre sa responsabilité civile sur ce même périmètre pendant 10 ans après réception des travaux. L'article L241-1 du Code des assurances pose l'obligation d'assurance décennale pour tout constructeur au sens de l'article 1792-1 du Code civil. Ces deux textes, issus de la loi du 4 janvier 1978 dite loi Spinetta, forment le socle légal incontournable de toute activité de construction en France."
+      - heading "1. Pourquoi la qualification précise-t-elle le contenu de votre garantie décennale ?" [level=3] [ref=e79]
+      - paragraph [ref=e80]: L'assureur décennale base son évaluation du risque sur la nature exacte des travaux réalisés. La qualification BTP, en certifiant officiellement les corps de métier d'un professionnel, permet à l'assureur de définir précisément les activités déclarées dans le contrat. Un professionnel qui réalise des travaux hors de son domaine de qualification s'expose à une exclusion de garantie, voire à une nullité de contrat pour fausse déclaration du risque, conformément à l'article L113-8 du Code des assurances. C'est pourquoi nos experts insistent sur la nécessité d'aligner en permanence la qualification détenue et les activités déclarées dans la police d'assurance.
+      - heading "2. Que se passe-t-il en cas d'absence d'assurance décennale pour un professionnel qualifié ?" [level=3] [ref=e81]
+      - paragraph [ref=e82]: "L'absence d'assurance décennale constitue un délit pénal puni d'une amende pouvant atteindre 75 000 euros et d'une peine d'emprisonnement de 6 mois, conformément à l'article L243-3 du Code des assurances. Cette sanction s'applique quel que soit le niveau de qualification obtenu : la certification ne dispense pas de l'obligation d'assurance. En pratique, un maître d'ouvrage peut exiger la production de l'attestation d'assurance décennale avant le début de tout chantier, et le refus de la fournir entraîne l'impossibilité légale d'ouvrir le chantier. Service-public.fr rappelle d'ailleurs cette obligation de façon explicite dans sa rubrique dédiée aux professionnels du bâtiment."
+      - link " Comparer les offres d'assurance pour professionnel qualifié BTP" [ref=e84] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e85]: 
+        - text: Comparer les offres d'assurance pour professionnel qualifié BTP
+    - generic [ref=e86]:
+      - heading "III. Comment la certification BTP influence-t-elle votre assurance RC pro ?" [level=2] [ref=e87]
+      - paragraph [ref=e88]: La certification BTP influence directement les conditions de souscription d'une assurance responsabilité civile professionnelle (RC pro) en attestant du sérieux et du niveau technique d'une entreprise aux yeux de l'assureur. La RC pro couvre les dommages causés aux tiers pendant l'exécution des travaux, à la différence de la garantie décennale qui couvre les désordres postérieurs à la réception. Ces deux assurances sont distinctes mais souvent souscrites de façon combinée pour une protection complète de l'activité.
+      - 'heading "1. RC pro et qualification BTP : un niveau de risque mieux évalué" [level=3] [ref=e89]'
+      - paragraph [ref=e90]: "Un professionnel titulaire d'une qualification Qualibat présente un dossier de risque mieux documenté qu'un professionnel non qualifié. Les assureurs disposent ainsi d'éléments objectifs — nature des travaux, niveau de technicité, historique des renouvellements de qualification — pour calibrer la prime RC pro. Prenons le cas hypothétique d'une PME spécialisée en isolation thermique par l'extérieur (ITE) : si elle détient la qualification Qualibat 7141 (isolation par l'extérieur, niveau 3), l'assureur peut évaluer le risque de sinistre avec bien plus de précision que pour une entreprise sans référence certifiée, ce qui peut se traduire par des conditions contractuelles plus adaptées."
+      - heading "2. Quelles exclusions RC pro surveiller selon votre certification BTP ?" [level=3] [ref=e91]
+      - paragraph [ref=e92]: Les contrats RC pro du bâtiment contiennent systématiquement des clauses d'exclusion pour les activités non déclarées ou réalisées sans les qualifications requises. Si un professionnel qualifié en menuiserie intérieure réalise ponctuellement des travaux de charpente — corps de métier relevant d'une qualification distincte — il s'expose à un refus de prise en charge du sinistre par son assureur RC pro. Nos experts recommandent une révision annuelle des activités déclarées au contrat, en cohérence avec les qualifications en cours de validité, pour éviter toute mauvaise surprise lors d'un sinistre.
+      - link " Sécuriser votre assurance RC pro en fonction de votre certification BTP" [ref=e94] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e95]: 
+        - text: Sécuriser votre assurance RC pro en fonction de votre certification BTP
+    - generic [ref=e96]:
+      - 'heading "IV. Qualification RGE et certification BTP : quelles obligations d''assurance spécifiques ?" [level=2] [ref=e97]'
+      - paragraph [ref=e98]: La mention RGE (Reconnu Garant de l'Environnement) est une certification BTP spécifique qui conditionne l'éligibilité des travaux de rénovation énergétique aux aides de l'État, notamment MaPrimeRénov', les Certificats d'Économies d'Énergie (CEE) et l'éco-prêt à taux zéro. Elle est délivrée par Qualibat, Qualifelec ou d'autres organismes accrédités COFRAC, sous contrôle de l'ADEME et du Ministère de la Transition Écologique. La mention RGE ne modifie pas les obligations légales d'assurance, mais génère des exigences contractuelles spécifiques que tout titulaire doit connaître.
+      - heading "1. Pourquoi la mention RGE crée-t-elle des enjeux d'assurance particuliers ?" [level=3] [ref=e99]
+      - paragraph [ref=e100]: Un professionnel RGE s'engage contractuellement à réaliser des travaux conformes à des critères de performance énergétique précis. En cas de non-atteinte des performances promises — par exemple une isolation thermique dont le coefficient Uc ne respecte pas les valeurs déclarées — la responsabilité civile professionnelle peut être engagée bien avant les 10 ans couverts par la garantie décennale. Il est donc indispensable que la RC pro d'un professionnel RGE couvre explicitement les travaux de rénovation énergétique dans leur nature et leurs exigences techniques. Nos experts vérifient systématiquement cette adéquation lors de l'étude de tout dossier RGE.
+      - heading "2. Contrôle COFRAC et conséquences sur la couverture assurance" [level=3] [ref=e101]
+      - paragraph [ref=e102]: Le maintien de la mention RGE suppose un contrôle en cours de chantier réalisé sur au moins 10 % des chantiers par an, conformément aux exigences du dispositif RGE encadré par l'arrêté du 1er décembre 2015 modifié. Un retrait de mention RGE à la suite d'un contrôle défavorable peut avoir des conséquences sur les contrats d'assurance en cours si les travaux concernés avaient été déclarés sous la qualification RGE. L'assureur doit être informé de tout changement de qualification ou de certification dans les délais prévus à l'article L113-2 du Code des assurances, qui impose au souscripteur de déclarer toute modification aggravant le risque.
+      - link " Adapter votre garantie décennale à votre mention RGE" [ref=e104] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e105]: 
+        - text: Adapter votre garantie décennale à votre mention RGE
+    - generic [ref=e106]:
+      - heading "V. Comment obtenir une qualification certification BTP et sécuriser sa couverture ?" [level=2] [ref=e107]
+      - paragraph [ref=e108]: Obtenir une qualification certification BTP nécessite de constituer un dossier auprès de l'organisme compétent — principalement Qualibat — incluant les justificatifs d'identité de l'entreprise, les références chantiers, les preuves de formation des dirigeants et salariés, ainsi que les documents comptables attestant de la solidité financière. La procédure complète, détaillée sur service-public.fr, aboutit à la délivrance d'un certificat valable 4 ans, renouvelable après audit de suivi à 2 ans. Une fois la qualification obtenue, l'assurance doit impérativement être mise à jour pour refléter les activités certifiées.
+      - heading "1. Les étapes pratiques de la demande de qualification BTP" [level=3] [ref=e109]
+      - paragraph [ref=e110]: "La demande se déroule en plusieurs phases : dépôt du dossier en ligne sur le portail de l'organisme certificateur, instruction par un auditeur technique qui analyse la cohérence entre compétences déclarées et références présentées, puis décision de la commission de qualification. En cas de refus, l'entreprise peut contester la décision ou déposer un nouveau dossier après correction des points insuffisants. Le coût de la procédure varie selon l'organisme et le nombre de qualifications demandées simultanément, et est à considérer comme un investissement structurant pour l'accès aux marchés et à une couverture assurantielle précisément calibrée."
+      - 'heading "2. Mettre en cohérence qualification et contrat d''assurance : la démarche indispensable" [level=3] [ref=e111]'
+      - paragraph [ref=e112]: "Une fois la qualification BTP obtenue ou renouvelée, nos experts recommandent une révision immédiate du contrat d'assurance décennale et RC pro. Il s'agit de vérifier que les codes d'activité déclarés correspondent exactement aux qualifications détenues, que les plafonds de garantie sont adaptés aux chantiers effectivement réalisés, et qu'aucune activité nouvellement couverte par la qualification n'est absente du contrat. Cette mise en cohérence protège le professionnel en cas de sinistre et évite tout litige avec l'assureur sur le périmètre de la garantie. Imaginons un artisan qui vient d'obtenir la qualification Qualibat en ravalement de façade : s'il ne l'a pas déclarée à son assureur, tout sinistre lié à ce type de chantier sera susceptible d'être exclu."
+      - link " Démarrer votre devis qualification certification BTP" [ref=e114] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e115]: 
+        - text: Démarrer votre devis qualification certification BTP
+    - generic [ref=e116]:
+      - heading "FAQ — qualification certification BTP" [level=2] [ref=e118]
+      - generic [ref=e120]:
+        - heading " C'est quoi exactement la qualification certification BTP ? " [level=3] [ref=e122] [cursor=pointer]:
+          - generic [ref=e123]:
+            - generic [ref=e124]: 
+            - text: C'est quoi exactement la qualification certification BTP ?
+          - generic [ref=e126]: 
+        - heading " La qualification certification BTP est-elle obligatoire pour souscrire une assurance décennale ? " [level=3] [ref=e128] [cursor=pointer]:
+          - generic [ref=e129]:
+            - generic [ref=e130]: 
+            - text: La qualification certification BTP est-elle obligatoire pour souscrire une assurance décennale ?
+          - generic [ref=e132]: 
+        - heading " Combien coûte une assurance décennale pour un professionnel avec qualification certification BTP ? " [level=3] [ref=e134] [cursor=pointer]:
+          - generic [ref=e135]:
+            - generic [ref=e136]: 
+            - text: Combien coûte une assurance décennale pour un professionnel avec qualification certification BTP ?
+          - generic [ref=e138]: 
+        - heading " Un auto-entrepreneur peut-il obtenir une qualification certification BTP ? " [level=3] [ref=e140] [cursor=pointer]:
+          - generic [ref=e141]:
+            - generic [ref=e142]: 
+            - text: Un auto-entrepreneur peut-il obtenir une qualification certification BTP ?
+          - generic [ref=e144]: 
+        - heading " Comment vérifier la qualification certification BTP d'une entreprise avant de lui confier un chantier ? " [level=3] [ref=e146] [cursor=pointer]:
+          - generic [ref=e147]:
+            - generic [ref=e148]: 
+            - text: Comment vérifier la qualification certification BTP d'une entreprise avant de lui confier un chantier ?
+          - generic [ref=e150]: 
+    - generic [ref=e153]:
+      - generic [ref=e155]: 
+      - heading "Devis qualification certification BTP" [level=2] [ref=e156]
+      - paragraph [ref=e157]: "Que vous soyez en cours d'obtention d'une qualification BTP, titulaire d'une mention RGE ou en renouvellement de certification, nos experts analysent votre situation réglementaire pour vous proposer la couverture la plus adaptée : assurance décennale, RC pro, ou formule combinée. Une qualification précise le périmètre de vos activités ; une assurance bien calibrée le sécurise."
+      - generic [ref=e158]:
+        - link " Démarrer votre simulation qualification certification BTP" [ref=e159] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e160]: 
+          - text: Démarrer votre simulation qualification certification BTP
+        - link " 01 82 83 48 00" [ref=e161] [cursor=pointer]:
+          - /url: tel:0182834800
+          - generic [ref=e162]: 
+          - text: 01 82 83 48 00
+  - contentinfo [ref=e163]:
+    - generic [ref=e164]:
+      - generic [ref=e165]:
+        - generic [ref=e166]:
+          - heading "Aksam Assurance" [level=3] [ref=e167]
+          - paragraph [ref=e168]: Votre partenaire de confiance pour une assurance garantie décennale au juste prix.
+        - generic [ref=e169]:
+          - heading "Liens utiles" [level=3] [ref=e170]
+          - list [ref=e171]:
+            - listitem [ref=e172]:
+              - link "Mentions légales" [ref=e173] [cursor=pointer]:
+                - /url: http://127.0.0.1:32768/mention-legale
+            - listitem [ref=e174]:
+              - link "Politique de confidentialité" [ref=e175] [cursor=pointer]:
+                - /url: http://127.0.0.1:32768/politique-legale
+            - listitem [ref=e176]:
+              - link "Assurance décennale Électricien" [ref=e177] [cursor=pointer]:
+                - /url: http://127.0.0.1:32768/assurance-decennale-electricien
+            - listitem [ref=e178]:
+              - link "Assurance décennale Maçonnerie et gros œuvre." [ref=e179] [cursor=pointer]:
+                - /url: http://127.0.0.1:32768/assurance-decennale-macon
+            - listitem [ref=e180]:
+              - link "Assurance décennale résilié non-paiement." [ref=e181] [cursor=pointer]:
+                - /url: http://127.0.0.1:32768/assurance-decennale-resilie-non-paiement
+            - listitem [ref=e182]:
+              - link "Assurance décennale auto-entrepreneur." [ref=e183] [cursor=pointer]:
+                - /url: http://127.0.0.1:32768/prix-assurance-decennale-auto-entrepreneur
+            - listitem [ref=e184]:
+              - link "Assurance décennale plombier et chauffagiste" [ref=e185] [cursor=pointer]:
+                - /url: http://127.0.0.1:32768/assurance-decennale-plombier
+            - listitem [ref=e186]:
+              - link "Reprise du Passé Assurance Décennale" [ref=e187] [cursor=pointer]:
+                - /url: http://127.0.0.1:32768/assurance-decennale-reprise-du-passe
+            - listitem [ref=e188]:
+              - link "Qualification et certification BTP" [ref=e189] [cursor=pointer]:
+                - /url: http://127.0.0.1:32768/qualification-certification-btp
+        - generic [ref=e190]:
+          - heading "Contact" [level=3] [ref=e191]
+          - list [ref=e192]:
+            - listitem [ref=e193]: 10 rue de Penthièvre
+            - listitem [ref=e194]: 75008 Paris
+            - listitem [ref=e195]: 01.82.83.48.00
+            - listitem [ref=e196]: contact@aksam-assurances.fr
+      - paragraph [ref=e198]: © 2026 Aksam Assurance. Tous droits réservés.
+  - generic [ref=e200]:
+    - generic [ref=e202]: 
+    - generic [ref=e203]:
+      - heading "Cookies et confidentialité" [level=4] [ref=e204]
+      - paragraph [ref=e205]: www.lassurance-garantie-decennale.fr utilise des cookies pour vous offrir le meilleur service.
+      - generic [ref=e206]:
+        - button " J'accepte" [ref=e207] [cursor=pointer]:
+          - generic [ref=e208]: 
+          - text: J'accepte
+        - button "Refuser" [ref=e209] [cursor=pointer]

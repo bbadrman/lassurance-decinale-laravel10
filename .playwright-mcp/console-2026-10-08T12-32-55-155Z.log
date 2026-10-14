@@ -1,0 +1,4 @@
+[     287ms] [ERROR] Erreur JavaScript: TypeError: Cannot read properties of null (reading 'addEventListener')
+    at HTMLDocument.<anonymous> (http://127.0.0.1:32768/qualification-certification-btp:1453:37) @ http://127.0.0.1:32768/js/scripts.js:320
+[     289ms] TypeError: Cannot read properties of null (reading 'addEventListener')
+    at HTMLDocument.<anonymous> (http://127.0.0.1:32768/qualification-certification-btp:1453:37)

@@ -4,7 +4,7 @@
 
 @section('meta_description', 'Qualification certification BTP : obligations légales, lien avec la garantie décennale et l\'assurance RC pro. Nos experts vous sécurisent.')
 
-@section('meta_keywords', 'Qualibat, RGE Reconnu Garant Environnement, certification professionnelle BTP, garantie décennale artisan, assurance décennale qualification, RC pro bâtiment, obligation assurance constructeur, artisan certifié bâtiment, mention RGE assurance, qualification entrepreneur bâtiment')
+@section('meta_keywords', 'RGE Reconnu Garant Environnement, certification professionnelle BTP, garantie décennale artisan, assurance décennale qualification, RC pro bâtiment, obligation assurance constructeur, artisan certifié bâtiment, mention RGE assurance, qualification entrepreneur bâtiment')
 
 @section('canonical')
 <link rel="canonical" href="https://www.lassurance-garantie-decennale.fr/qualification-certification-btp">
@@ -46,6 +46,10 @@
 <!-- Content Section -->
 <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 space-y-12">
 
+
+  <!-- Sélecteur de qualifications (nomenclature Qualibat) -->
+  @include('layout.qualification._selecteur')
+
   <!-- Introduction -->
   <div class="bg-white rounded-xl shadow-xl p-8">
     <div class="prose max-w-none">
@@ -71,6 +75,7 @@
     </div>
   </div>
 
+  
   <!-- Section I -->
   <div class="bg-white rounded-xl shadow-xl p-8">
     <h2 class="text-2xl md:text-3xl font-bold text-gradient mb-6">
@@ -486,6 +491,8 @@
       </div>
     </div>
   </div>
+
+
 
 </main>
 

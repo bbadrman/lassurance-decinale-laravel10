@@ -1,0 +1,6 @@
+[     177ms] [WARNING] GSAP target form:not([data-no-anim]) input, form:not([data-no-anim]) select not found. https://gsap.com @ https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js:9
+[     177ms] [WARNING] GSAP target  not found. https://gsap.com @ https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js:9
+[     177ms] [ERROR] Erreur JavaScript: TypeError: Cannot read properties of null (reading 'addEventListener')
+    at HTMLDocument.<anonymous> (http://127.0.0.1:32768/qualification-certification-btp:1530:37) @ http://127.0.0.1:32768/js/scripts.js:320
+[     179ms] TypeError: Cannot read properties of null (reading 'addEventListener')
+    at HTMLDocument.<anonymous> (http://127.0.0.1:32768/qualification-certification-btp:1530:37)

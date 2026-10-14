@@ -498,7 +498,7 @@
 
               // Form elements animation
             if (document.querySelector("form")) {
-                gsap.from("form input, form select", {
+                gsap.from("form:not([data-no-anim]) input, form:not([data-no-anim]) select", {
                     scrollTrigger: {
                         trigger: "form",
                         start: "top 80%",

@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\HomeController;
+use App\Http\Controllers\HomeController; 
+use App\Http\Controllers\QualificationController;
 
 /*
 |--------------------------------------------------------------------------
@@ -93,14 +94,15 @@ Route::get('/prix-assurance-decennale-auto-entrepreneur', function () {
 
     return view('layout.entrepreneur');
 });
-Route::get('/qualification-certification-btp', function () {
+Route::get('/qualification-certification-btp', [\App\Http\Controllers\QualificationController::class, 'index'])->name('qualification.index');
+Route::post('/qualification-certification-btp', [\App\Http\Controllers\QualificationController::class, 'store'])->name('qualification.store');
 
-    return view('layout.qualification-btp');
-});
+ 
+Route::get('/qualification-certification-btp/merci', [\App\Http\Controllers\QualificationController::class, 'response'])->name('qualification.response');
+ 
+Route::get('/garantie-decennale-toiture', function () {
 
-Route::get('/blog', function () {
-
-    return view('layout.blog');
+    return view('layout.toiture');
 });
 
 
@@ -131,7 +133,7 @@ Route::post(
     'App\Http\Controllers\HomeController@reprise'
 );
 
-
+Route::post('/garantie-decennale-toiture', 'App\Http\Controllers\HomeController@toiture');
 // Route::get('/sitemap.xml', function () {
 
 //     $urls = [

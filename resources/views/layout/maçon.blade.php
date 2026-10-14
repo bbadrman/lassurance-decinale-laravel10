@@ -100,7 +100,7 @@
       </div>
 
       <!-- Right side - Form -->
-      <div class="bg-white/95 backdrop-blur-sm rounded-xl shadow-xl overflow-hidden border border-white/20 order-1 lg:order-2 lg:col-span-1 flex flex-col h-full">
+      <div id="form" class="bg-white/95 backdrop-blur-sm rounded-xl shadow-xl overflow-hidden border border-white/20 order-1 lg:order-2 lg:col-span-1 flex flex-col h-full">
         <div class="bg-amber-400 px-6 py-4 flex-shrink-0">
           <h3 class="text-xm font-semibold text-dark flex items-center">
             <svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
