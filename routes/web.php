@@ -109,7 +109,7 @@ Route::get('/garantie-decennale-toiture', function () {
 Route::post('/', 'App\Http\Controllers\HomeController@store');
 
 Route::post(
-    '/prix-assurance-decennale-auto-entrepreneur',
+    '/assurance-decennale-auto-entrepreneur',
     'App\Http\Controllers\HomeController@entrepreneur'
 );
 

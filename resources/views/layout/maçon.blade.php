@@ -7,7 +7,7 @@
 @section('meta_keywords', 'assurance décennale maçon, assurance décennale gros œuvre, garantie décennale maçonnerie, tarif assurance décennale gros œuvre.')
 
 @section('canonical')
-<link rel="canonical" href="https://www.lassurance-garantie-decennale.fr/assurance-decennale-macon">
+<link rel="canonical" href="https://lassurance-garantie-decennale.fr/assurance-decennale-macon/">
 @endsection
 
 @section('og_meta')
@@ -15,7 +15,7 @@
 <meta property="og:description" content="Spécialiste de l'assurance décennale pour les travaux de maçonnerie et de gros œuvre. Protégez votre entreprise contre les risques structurels. Devis gratuit.">
 <meta property="og:keywords" content="assurance décennale maçon, assurance décennale gros œuvre, garantie décennale maçonnerie, tarif assurance décennale gros œuvre.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://www.lassurance-garantie-decennale.fr/assurance-decennale-macon">
+<meta property="og:url" content="https://lassurance-garantie-decennale.fr/assurance-decennale-macon/">
 @endsection
 
 
@@ -321,7 +321,7 @@
       </div>
     </div>
     <div class="text-center">
-      <a href="/" class="inline-block bg-yellow-100 text-dark font-bold py-3 px-8 rounded-xl hover:bg-yellow-400 transition-all transform hover:scale-105 shadow-lg">
+      <a href="#form" class="inline-block bg-yellow-100 text-dark font-bold py-3 px-8 rounded-xl hover:bg-yellow-400 transition-all transform hover:scale-105 shadow-lg">
         <i class="fas fa-calculator mr-2"></i>
         Tarif assurance décennale maçon personnalisé  
       </a>
@@ -365,7 +365,7 @@
       </div>
     </div>
     <div class="text-center">
-      <a href="/" class="inline-block bg-yellow-100 text-dark font-bold py-3 px-8 rounded-xl hover:bg-yellow-400 transition-all transform hover:scale-105 shadow-lg">
+      <a href="#form" class="inline-block bg-yellow-100 text-dark font-bold py-3 px-8 rounded-xl hover:bg-yellow-400 transition-all transform hover:scale-105 shadow-lg">
         <i class="fas fa-calculator mr-2"></i>
          Obtenez votre attestation assurance décennale maçon  
       </a>
@@ -509,7 +509,7 @@
         En tant que maçon, vous êtes responsable de la structure. Ne laissez pas un défaut de fondation ou   
 une malfaçon compromettre votre entreprise.  
       </p>
-      <a href="/" class="inline-block bg-yellow-100 text-dark font-bold py-3 px-8 rounded-xl hover:bg-yellow-400 transition-all transform hover:scale-105 shadow-lg">
+      <a href="" class="inline-block bg-yellow-100 text-dark font-bold py-3 px-8 rounded-xl hover:bg-yellow-400 transition-all transform hover:scale-105 shadow-lg">
         <i class="fas fa-calculator mr-2"></i>
         Devis Assurance décennale maçon personnalisé — À partir de 2 500€/an
       </a>
@@ -529,7 +529,7 @@ une malfaçon compromettre votre entreprise.
         ou une malfaçon compromettre votre entreprise.
       </p>
       <div class="space-y-4 sm:space-y-0 sm:space-x-4 sm:flex sm:justify-center">
-        <a href="/" class="inline-block bg-dark text-yellow-400 font-bold py-4 px-10 rounded-2xl hover:bg-primary transition-all transform hover:scale-105 shadow-2xl">
+        <a href="#form" class="inline-block bg-dark text-yellow-400 font-bold py-4 px-10 rounded-2xl hover:bg-primary transition-all transform hover:scale-105 shadow-2xl">
           <i class="fas fa-calculator mr-2"></i>
           Obtenir mon devis spécialisé
         </a>

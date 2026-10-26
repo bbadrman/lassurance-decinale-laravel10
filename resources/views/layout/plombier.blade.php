@@ -5,15 +5,15 @@
 @section('meta_description', 'Couverture complète pour tous vos travaux de plomberie, chauffage et sanitaire. Devis gratuit et attestation rapide pour démarrer vos chantiers.')
 
 @section('canonical')
-<link rel="canonical" href="https://www.lassurance-garantie-decennale.fr/assurance-decennale-plombier-chauffagiste">
+<link rel="canonical" href="https://lassurance-garantie-decennale.fr/assurance-decennale-plombier-chauffagiste/">
 @endsection
 
 @section('og_meta')
 <meta property="og:title" content="Assurance Décennale Polombier et Chauffagiste  - Devis en Ligne">
 <meta property="og:description" content="Couverture complète pour tous vos travaux de plomberie, chauffage et sanitaire. Devis gratuit et attestation rapide pour démarrer vos chantiers.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://www.lassurance-garantie-decennale.fr/assurance-decennale-plombier-chauffagiste">
-<meta property="og:image" content="https://www.lassurance-garantie-decennale.fr/image/assurance-decinale.jpg">
+<meta property="og:url" content="https://lassurance-garantie-decennale.fr/assurance-decennale-plombier-chauffagiste/">
+<meta property="og:image" content="https://lassurance-garantie-decennale.fr/image/assurance-decinale.jpg">
 @endsection
 
 
@@ -23,7 +23,7 @@
 <meta name="twitter:site" content="@AksamAssurances">
 <meta name="twitter:title" content="Assurance Décennale Polombier et Chauffagiste  - Devis en Ligne">
 <meta name="twitter:description" content="Couverture complète pour tous vos travaux de plomberie, chauffage et sanitaire. Devis gratuit et attestation rapide pour démarrer vos chantiers.">
-<meta name="twitter:url" content="https://www.lassurance-garantie-decennale.fr/assurance-decennale-plombier-chauffagiste">
+<meta name="twitter:url" content="https://lassurance-garantie-decennale.fr/assurance-decennale-plombier-chauffagiste/">
 
 @endsection
 

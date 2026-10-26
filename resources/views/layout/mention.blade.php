@@ -5,14 +5,14 @@
 @section('meta_description', 'Retrouvez les mentions legales du site lassurance-garantie-decennale.fr : editeur, hebergeur, propriete intellectuelle et conditions d&apos;utilisation.')  
  
 @section('canonical')
-<link rel="canonical" href="https://www.lassurance-garantie-decennale.fr/mention-legale">
+<link rel="canonical" href="https://lassurance-garantie-decennale.fr/mention-legale/">
 @endsection
 
 @section('og_meta')
 <meta property="og:title" content="Mentions legales - Assurances décennale">
 <meta property="og:description" content="'Retrouvez les mentions legales du site lassurance-garantie-decennale.fr : editeur, hebergeur, propriete intellectuelle et conditions d&apos;utilisation.">
  <meta property="og:type" content="website">
-<meta property="og:url" content="https://www.lassurance-garantie-decennale.fr/mention-legale">
+<meta property="og:url" content="https://lassurance-garantie-decennale.fr/mention-legale/">
 @endsection
 
 {{-- Twitter dans sa propre section, séparée de og_meta --}}
@@ -21,7 +21,7 @@
 <meta name="twitter:site" content="@AksamAssurances">
 <meta name="twitter:title" content="Mentions legales - Assurances décennale">
 <meta name="twitter:description" content="Retrouvez les mentions legales du site lassurance-garantie-decennale.fr : editeur, hebergeur, propriete intellectuelle et conditions d&apos;utilisation.">
-<meta name="twitter:url" content="https://www.lassurance-garantie-decennale.fr/mention-legale">
+<meta name="twitter:url" content="https://lassurance-garantie-decennale.fr/mention-legale/">
  
 @endsection
 

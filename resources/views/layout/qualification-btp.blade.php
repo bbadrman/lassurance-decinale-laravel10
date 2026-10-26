@@ -7,7 +7,7 @@
 @section('meta_keywords', 'RGE Reconnu Garant Environnement, certification professionnelle BTP, garantie décennale artisan, assurance décennale qualification, RC pro bâtiment, obligation assurance constructeur, artisan certifié bâtiment, mention RGE assurance, qualification entrepreneur bâtiment')
 
 @section('canonical')
-<link rel="canonical" href="https://www.lassurance-garantie-decennale.fr/qualification-certification-btp">
+<link rel="canonical" href="https://lassurance-garantie-decennale.fr/qualification-certification-btp/">
 
 @endsection
 
@@ -15,8 +15,8 @@
 <meta property="og:title" content="Qualification Certification BTP : Ce Que Tout Professionnel Doit Savoir">
 <meta property="og:description" content="Qualification certification BTP, garantie décennale, RC pro : nos experts expliquent les liens réglementaires et vous aident à choisir la bonne couverture.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://www.lassurance-garantie-decennale.fr/qualification-certification-btp">
-<meta property="og:image" content="https://www.lassurance-garantie-decennale.fr/image/assurance-decinale.jpg">
+<meta property="og:url" content="https://lassurance-garantie-decennale.fr/qualification-certification-btp/">
+<meta property="og:image" content="https://lassurance-garantie-decennale.fr/image/assurance-decinale.jpg">
 @endsection
 
 @section('content-qualification-btp')
@@ -70,7 +70,7 @@
     <div class="text-center mt-6">
       <a href="/" class="inline-block bg-yellow-400 text-dark font-bold py-3 px-8 rounded-xl hover:bg-yellow-500 transition-all transform hover:scale-105 shadow-lg">
         <i class="fas fa-calculator mr-2"></i>
-        Obtenir un devis adapté à votre activité BTP
+        Qeulle certification adapté à votre activité BTP
       </a>
     </div>
   </div>
@@ -84,7 +84,7 @@
     <p class="text-base text-gray-700 mb-6">
       La qualification certification BTP s'applique à toute entreprise de construction, qu'elle soit artisanale ou de
       taille intermédiaire, souhaitant attester officiellement de ses compétences sur un ou plusieurs corps de métier
-      du bâtiment. Qualibat, organisme de référence en France reconnu par service-public.fr, délivre plus de 300
+      du bâtiment Plusieurs organismes de référence sont reconnus, organisme de référence en France reconnu par service-public.fr, délivre plus de 300
       qualifications réparties en 10 grandes familles de travaux : gros œuvre, couverture, plomberie, menuiserie,
       électricité, isolation, etc. Chaque qualification est associée à un niveau de technicité — de 1 à 4 — et doit
       être renouvelée tous les 4 ans après audit.
@@ -111,7 +111,7 @@
       PME du bâtiment. La qualification n'est pas légalement obligatoire pour exercer, mais elle conditionne l'accès
       à certains marchés publics, aux aides d'État comme MaPrimeRénov' (sous condition de mention RGE), et à des
       tarifs d'assurance plus précisément calibrés. Imaginons un artisan maçon qui souhaite répondre à un appel
-      d'offres communal : sans qualification Qualibat niveau 2 minimum dans sa spécialité, sa candidature sera
+      d'offres communal : sans qualification  dans sa spécialité, sa candidature sera
       écartée d'office.
     </p>
 
@@ -119,7 +119,7 @@
     <div class="text-center mt-8">
       <a href="/" class="inline-block bg-yellow-400 text-dark font-bold py-3 px-8 rounded-xl hover:bg-yellow-500 transition-all transform hover:scale-105 shadow-lg">
         <i class="fas fa-shield-alt mr-2"></i>
-        Vérifier votre couverture décennale selon votre certification
+        Vérifier quel certification axigé pour votre activité
       </a>
     </div>
   </div>
@@ -174,30 +174,36 @@
   </div>
 
   <!-- Section III -->
-  <div class="bg-white rounded-xl shadow-xl p-8">
+  
+<div class="bg-white rounded-xl shadow-xl p-8">
     <h2 class="text-2xl md:text-3xl font-bold text-gradient mb-6">
-      III. Comment la certification BTP influence-t-elle votre assurance RC pro ?
+        III. Comment la certification BTP influence-t-elle votre assurance RC pro ?
     </h2>
+
     <p class="text-base text-gray-700 mb-6">
-      La certification BTP influence directement les conditions de souscription d'une assurance responsabilité civile
-      professionnelle (RC pro) en attestant du sérieux et du niveau technique d'une entreprise aux yeux de
-      l'assureur. La RC pro couvre les dommages causés aux tiers pendant l'exécution des travaux, à la différence de
-      la garantie décennale qui couvre les désordres postérieurs à la réception. Ces deux assurances sont distinctes
-      mais souvent souscrites de façon combinée pour une protection complète de l'activité.
+        La certification BTP influence directement les conditions de souscription d'une assurance responsabilité civile
+        professionnelle (RC pro) en attestant du sérieux et du niveau technique d'une entreprise aux yeux de
+        l'assureur. La RC pro couvre les dommages causés aux tiers pendant l'exécution des travaux, à la différence de
+        la garantie décennale qui couvre les désordres postérieurs à la réception. Ces deux assurances sont distinctes
+        mais souvent souscrites de façon combinée pour une protection complète de l'activité.
     </p>
 
-    <h3 class="text-xl font-bold text-gray-900 mb-4 mt-8">
-      1. RC pro et qualification BTP : un niveau de risque mieux évalué
+    <h3 class="text-xl md:text-2xl font-bold text-gray-900 mb-4">
+        1. RC pro et qualification BTP : une qualification d'un organisme de certification reconnu
     </h3>
+
     <p class="text-base text-gray-700 mb-6">
-      Un professionnel titulaire d'une qualification Qualibat présente un dossier de risque mieux documenté qu'un
-      professionnel non qualifié. Les assureurs disposent ainsi d'éléments objectifs — nature des travaux, niveau de
-      technicité, historique des renouvellements de qualification — pour calibrer la prime RC pro. Prenons le cas
-      hypothétique d'une PME spécialisée en isolation thermique par l'extérieur (ITE) : si elle détient la
-      qualification Qualibat 7141 (isolation par l'extérieur, niveau 3), l'assureur peut évaluer le risque de
-      sinistre avec bien plus de précision que pour une entreprise sans référence certifiée, ce qui peut se traduire
-      par des conditions contractuelles plus adaptées.
+        Un professionnel titulaire d'une qualification délivrée par un organisme de certification reconnu
+        présente un dossier de risque mieux documenté qu'un professionnel non qualifié. Les assureurs
+        disposent ainsi d'éléments objectifs — nature des travaux, niveau de technicité, historique des
+        renouvellements de qualification — pour évaluer le risque et déterminer les conditions de souscription
+        de l'assurance RC pro. Par exemple, une entreprise spécialisée en isolation thermique par l'extérieur
+        (ITE) disposant d'une qualification professionnelle reconnue peut justifier plus facilement de son
+        savoir-faire technique auprès de l'assureur. Cette reconnaissance peut contribuer à une évaluation
+        plus précise du risque et à des conditions contractuelles adaptées à son activité.
     </p>
+
+
 
     <h3 class="text-xl font-bold text-gray-900 mb-4 mt-8">
       2. Quelles exclusions RC pro surveiller selon votre certification BTP ?
@@ -311,7 +317,7 @@
     <div class="text-center mt-8">
       <a href="/" class="inline-block bg-yellow-400 text-dark font-bold py-3 px-8 rounded-xl hover:bg-yellow-500 transition-all transform hover:scale-105 shadow-lg">
         <i class="fas fa-file-signature mr-2"></i>
-        Démarrer votre devis qualification certification BTP
+        plus d'infos sur votre qualification certification BTP
       </a>
     </div>
   </div>
@@ -421,7 +427,7 @@
           <p class="text-base text-gray-700 mb-4">
             Un auto-entrepreneur peut demander une qualification certification BTP, sous réserve de remplir les critères
             de compétence technique, de formation et de solidité financière définis par l'organisme certificateur.
-            Qualibat adapte certaines de ses exigences au profil de la micro-entreprise.
+           
           </p>
           <p class="text-base text-gray-700">
             L'obtention d'une qualification par un auto-entrepreneur lui permet d'accéder à des marchés publics et à la
@@ -446,7 +452,7 @@
         <div class="faq-answer">
           <p class="text-base text-gray-700 mb-4">
             La qualification certification BTP d'une entreprise se vérifie directement sur le site officiel de
-            Qualibat (qualibat.com) via son annuaire en ligne, accessible gratuitement. La recherche s'effectue par
+            Qualibat de l'organisme certificateur via son annuaire en ligne, accessible gratuitement. La recherche s'effectue par
             raison sociale, numéro SIRET ou code de qualification.
           </p>
           <p class="text-base text-gray-700">
@@ -472,7 +478,7 @@
       <div class="w-16 h-16 bg-dark/20 rounded-2xl mx-auto mb-6 flex items-center justify-center">
         <i class="fas fa-certificate text-3xl text-dark"></i>
       </div>
-      <h2 class="text-4xl font-bold mb-6 text-dark">Devis qualification certification BTP</h2>
+      <h2 class="text-4xl font-bold mb-6 text-dark">simulation qualification certification btp </h2>
       <p class="text-xl mb-8 text-dark/90 max-w-3xl mx-auto leading-relaxed">
         Que vous soyez en cours d'obtention d'une qualification BTP, titulaire d'une mention RGE ou en renouvellement
         de certification, nos experts analysent votre situation réglementaire pour vous proposer la couverture la plus
@@ -509,7 +515,7 @@
       "headline": "Qualification Certification BTP : Obligations et Assurances",
       "description": "Qualification certification BTP : obligations légales, lien avec la garantie décennale et l'assurance RC pro.",
       "inLanguage": "fr",
-      "url": "https://www.lassurance-garantie-decennale.fr/qualification-certification-btp",
+      "url": "https://lassurance-garantie-decennale.fr/qualification-certification-btp/",
       "author": {
         "@type": "Organization",
         "name": "Aksam Assurance"
@@ -519,10 +525,10 @@
         "name": "Aksam Assurance",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://www.lassurance-garantie-decennale.fr/image/logo.png"
+          "url": "https://lassurance-garantie-decennale.fr/image/logo.png"
         }
       },
-      "image": "https://www.lassurance-garantie-decennale.fr/image/assurance-decinale.jpg"
+      "image": "https://lassurance-garantie-decennale.fr/image/assurance-decinale.jpg"
     },
     {
       "@type": "FAQPage",
@@ -532,7 +538,7 @@
           "name": "C'est quoi exactement la qualification certification BTP ?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La qualification certification BTP est un label délivré par un organisme accrédité COFRAC — principalement Qualibat — attestant qu'une entreprise de construction maîtrise les compétences techniques, réglementaires et financières d'un ou plusieurs corps de métier du bâtiment. Ce label repose sur un audit documentaire et technique conduit par l'organisme certificateur, renouvelable tous les 4 ans. Il existe plus de 300 qualifications Qualibat réparties en 10 familles de travaux. La qualification est distincte de la simple inscription au Registre du Commerce : elle certifie un niveau de compétence vérifié, reconnu par les maîtres d'ouvrage publics et privés ainsi que par les assureurs."
+            "text": "La qualification certification BTP est un label délivré par un organisme accrédité COFRAC — attestant qu'une entreprise de construction maîtrise les compétences techniques, réglementaires et financières d'un ou plusieurs corps de métier du bâtiment. Ce label repose sur un audit documentaire et technique conduit par l'organisme certificateur, renouvelable tous les 4 ans. Il existe plus de 300 qualifications Qualibat réparties en 10 familles de travaux. La qualification est distincte de la simple inscription au Registre du Commerce : elle certifie un niveau de compétence vérifié, reconnu par les maîtres d'ouvrage publics et privés ainsi que par les assureurs."
           }
         },
         {

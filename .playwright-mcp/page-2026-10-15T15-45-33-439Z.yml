@@ -1,0 +1,418 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e7]: 
+        - paragraph [ref=e9]: Quel que soit votre activité
+      - generic [ref=e10]:
+        - generic [ref=e12]: 
+        - generic [ref=e13]:
+          - generic [ref=e14]: Conseil personnalisé
+          - link "01 82 83 48 00" [ref=e15] [cursor=pointer]:
+            - /url: tel:0182834800
+  - main [ref=e16]:
+    - generic [ref=e19]:
+      - img "Solution assurance décennale en ligne pour tous les corps de metier du bâtiment" [ref=e21]
+      - generic [ref=e24]:
+        - heading "Complétez ce formulaire pour obtenir votre devis" [level=3] [ref=e26]:
+          - img [ref=e27]
+          - text: Complétez ce formulaire pour obtenir votre devis
+        - generic [ref=e30]:
+          - generic [ref=e31]:
+            - textbox "Nom..." [ref=e33]
+            - textbox "Prénom..." [ref=e35]
+            - textbox "Raison sociale..." [ref=e37]
+            - combobox "Démarrage d'activité" [ref=e39]:
+              - option "Démarrage d'activité" [selected]
+              - option "OUI"
+              - option "NON"
+            - combobox "Activité assurée actuellement" [ref=e41]:
+              - option "Activité assurée actuellement" [selected]
+              - option "OUI"
+              - option "NON"
+            - combobox "Assurance résilié" [ref=e43]:
+              - option "Assurance résilié" [selected]
+              - option "OUI"
+              - option "NON"
+            - combobox "Motif résiliation" [ref=e45]:
+              - option "Motif résiliation" [selected]
+              - option "Echéance"
+              - option "Sinistre"
+              - option "Non paiement"
+              - option "Amiable"
+            - textbox "Code Postal..." [ref=e47]
+            - textbox "Email..." [ref=e49]
+            - textbox "Téléphone..." [ref=e51]
+            - paragraph [ref=e52]: En cliquant sur 'Comparer', vous acceptez de transmettre vos informations à AKSAM ASSURANCES, qui accepte de les utiliser conformément à sa politique de confidentialité dans le but de vous fournir des propositions de devis d'assurances adapté à votre recherche
+          - button "Comparer maintenant" [ref=e53] [cursor=pointer]:
+            - img [ref=e54]
+            - text: Comparer maintenant
+    - generic [ref=e57]:
+      - generic [ref=e59]:
+        - generic [ref=e60]:
+          - heading "Assurance décennale en ligne" [level=1] [ref=e61]
+          - paragraph [ref=e62]: "L'assurance de garantie décennale est une obligation légale pour exercer votre métier en toute sérénité. Mais trouver le bon contrat, surtout quand on est pressé, peut vite devenir un parcours du combattant. Notre mission : vous fournir une assurance décennale en ligne claire, compétitive et une attestation rapide pour que vous puissiez vous concentrer sur ce que vous faites de mieux : votre chantier. Grâce à notre plateforme digitale, obtenez un devis assurance décennale en ligne instantané, comparez les tarifs et souscrivez directement depuis votre ordinateur ou smartphone."
+        - generic [ref=e64]:
+          - generic [ref=e65]:
+            - generic [ref=e66]:
+              - generic [ref=e68]: 
+              - generic [ref=e69]:
+                - heading "Assurance décennale artisan." [level=2] [ref=e70]
+                - paragraph [ref=e71]: "Assurance décennale artisans et professionnels du bâtiment :"
+                - list [ref=e72]:
+                  - listitem [ref=e73]:
+                    - generic [ref=e75]:
+                      - link "Décennale auto-entrepreneur." [ref=e76] [cursor=pointer]:
+                        - /url: https://lassurance-garantie-decennale.fr.ddev.site/prix-assurance-decennale-auto-entrepreneur
+                      - generic [ref=e77]: Cotisations ajustées à votre chiffre d'affaires réel, formule 100% en ligne.
+                  - listitem [ref=e78]:
+                    - generic [ref=e80]:
+                      - text: Décennale pour TPE.
+                      - generic [ref=e81]: Solutions modulables selon le volume de vos chantiers.
+                  - listitem [ref=e82]:
+                    - generic [ref=e84]: Décennale pour PME.
+                  - listitem [ref=e85]:
+                    - generic [ref=e87]:
+                      - text: Décennale architecte / bureau d'étude.
+                      - generic [ref=e88]: Garanties étendues pour la conception et la maîtrise d'œuvre.
+            - link " Devis assurance décennale en ligne gratuit" [ref=e90] [cursor=pointer]:
+              - /url: "#simulationForm"
+              - generic [ref=e91]: 
+              - text: Devis assurance décennale en ligne gratuit
+          - generic [ref=e92]:
+            - generic [ref=e93]:
+              - generic [ref=e95]: 
+              - generic [ref=e96]:
+                - 'heading "Devis assurance décennale en ligne : immédiat et 100% digital" [level=2] [ref=e97]'
+                - paragraph [ref=e98]: Notre plateforme vous permet d'obtenir votre devis en quelques minutes seulement, sans rendez-vous ni paperasse inutile.
+                - list [ref=e99]:
+                  - listitem [ref=e100]:
+                    - generic [ref=e102]:
+                      - strong [ref=e103]: Devis Immédiat et 100% en Ligne.
+                      - text: Recevez votre tarif personnalisé selon votre activité, votre chiffre d'affaires et votre expérience.
+                  - listitem [ref=e104]:
+                    - generic [ref=e106]:
+                      - strong [ref=e107]: Spécialiste Tous Métiers.
+                      - text: Électricité, maçonnerie, plomberie, couverture, menuiserie et tous autres corps d'état.
+                  - listitem [ref=e108]:
+                    - generic [ref=e110]:
+                      - strong [ref=e111]: Attestation Provisoire Express.
+                      - text: Dès validation de votre dossier, recevez votre attestation par email sous 24 à 48 heures maximum.
+                  - listitem [ref=e112]:
+                    - generic [ref=e114]:
+                      - strong [ref=e115]: Tarifs Négociés.
+                      - text: Grâce à nos partenariats, des tarifs compétitifs pour votre contrat, généralement 15 à 30% moins chers qu'en agence.
+            - link " Obtenez votre assurance décennale en ligne immédiatement" [ref=e117] [cursor=pointer]:
+              - /url: "#simulationForm"
+              - generic [ref=e118]: 
+              - text: Obtenez votre assurance décennale en ligne immédiatement
+        - generic [ref=e119]:
+          - generic [ref=e120]:
+            - generic [ref=e121]:
+              - generic [ref=e123]: 
+              - generic [ref=e124]:
+                - heading "Assurance décennale adaptée à votre métier du bâtiment" [level=2] [ref=e125]
+                - paragraph [ref=e126]: "Chaque métier présente des risques spécifiques. Nous proposons des formules sur mesure :"
+                - list [ref=e127]:
+                  - listitem [ref=e128]:
+                    - generic [ref=e130]:
+                      - link "Assurance décennale Électricien" [ref=e131] [cursor=pointer]:
+                        - /url: https://lassurance-garantie-decennale.fr.ddev.site/assurance-decennale-electricien
+                      - generic [ref=e132]: Installation électrique, mise aux normes, domotique.
+                  - listitem [ref=e133]:
+                    - generic [ref=e135]:
+                      - link "Assurance décennale Maçonnerie et gros œuvre." [ref=e136] [cursor=pointer]:
+                        - /url: https://lassurance-garantie-decennale.fr.ddev.site/assurance-decennale-macon
+                      - generic [ref=e137]: Construction, rénovation structurelle, fondations.
+                  - listitem [ref=e138]:
+                    - generic [ref=e140]:
+                      - text: Assurance décennale Peinture et rénovation.
+                      - generic [ref=e141]: Peinture intérieure et extérieure, ravalement, isolation.
+                  - listitem [ref=e142]:
+                    - generic [ref=e144]:
+                      - text: Assurance décennale Charpente et couverture.
+                      - generic [ref=e145]: Charpente traditionnelle ou industrielle, zinguerie, étanchéité.
+                  - listitem [ref=e146]:
+                    - generic [ref=e148]:
+                      - link "Assurance décennale corps d'état secondaires." [ref=e149] [cursor=pointer]:
+                        - /url: https://lassurance-garantie-decennale.fr.ddev.site/prix-assurance-decennale-auto-entrepreneur
+                      - generic [ref=e150]: Plomberie, chauffage, menuiserie, plâtrerie, carrelage et plus.
+            - link " Souscrivez votre assurance décennale en ligne maintenant" [ref=e152] [cursor=pointer]:
+              - /url: "#simulationForm"
+              - generic [ref=e153]: 
+              - text: Souscrivez votre assurance décennale en ligne maintenant
+          - generic [ref=e154]:
+            - generic [ref=e155]:
+              - generic [ref=e157]: 
+              - generic [ref=e158]:
+                - heading "Souscription assurance décennale en ligne quel que soit votre antécédent" [level=2] [ref=e159]
+                - paragraph [ref=e160]: "Notre réseau de partenaires permet de trouver une solution même dans les cas complexes :"
+                - list [ref=e161]:
+                  - listitem [ref=e162]:
+                    - generic [ref=e164]:
+                      - text: Assurance décennale nouvelle création.
+                      - generic [ref=e165]: Première assurance rapide, même sans historique dans le bâtiment.
+                  - listitem [ref=e166]:
+                    - generic [ref=e168]:
+                      - link "Assurance décennale résilié non-paiement." [ref=e169] [cursor=pointer]:
+                        - /url: https://lassurance-garantie-decennale.fr.ddev.site/assurance-decennale-resilie-non-paiement
+                      - generic [ref=e170]: Accès à de nouvelles offres adaptées à votre situation actuelle.
+                  - listitem [ref=e171]:
+                    - generic [ref=e173]:
+                      - text: Assurance décennale résilié sinistre.
+                      - generic [ref=e174]: Compagnies spécialisées acceptant les profils avec passé sinistral.
+                  - listitem [ref=e175]:
+                    - generic [ref=e177]:
+                      - link "Assurance décennale reprise du passé." [ref=e178] [cursor=pointer]:
+                        - /url: https://lassurance-garantie-decennale.fr.ddev.site/assurance-decennale-reprise-du-passe
+                      - generic [ref=e179]: Couverture rétroactive de vos chantiers antérieurs.
+            - link " Attestation assurance décennale en ligne express" [ref=e181] [cursor=pointer]:
+              - /url: "#simulationForm"
+              - generic [ref=e182]: 
+              - text: Attestation assurance décennale en ligne express
+        - generic [ref=e183]:
+          - heading "Questions fréquentes sur l'assurance décennale en ligne" [level=2] [ref=e185]
+          - generic [ref=e187]:
+            - heading " Qu'est-ce que l'assurance décennale en ligne exactement ? " [level=3] [ref=e189] [cursor=pointer]:
+              - generic [ref=e190]:
+                - generic [ref=e191]: 
+                - text: Qu'est-ce que l'assurance décennale en ligne exactement ?
+              - generic [ref=e193]: 
+            - heading " Comment obtenir un devis assurance décennale en ligne ? " [level=3] [ref=e195] [cursor=pointer]:
+              - generic [ref=e196]:
+                - generic [ref=e197]: 
+                - text: Comment obtenir un devis assurance décennale en ligne ?
+              - generic [ref=e199]: 
+            - heading " L'attestation assurance décennale en ligne est-elle valable légalement ? " [level=3] [ref=e201] [cursor=pointer]:
+              - generic [ref=e202]:
+                - generic [ref=e203]: 
+                - text: L'attestation assurance décennale en ligne est-elle valable légalement ?
+              - generic [ref=e205]: 
+            - heading " Combien de temps faut-il pour recevoir mon attestation après souscription ? " [level=3] [ref=e207] [cursor=pointer]:
+              - generic [ref=e208]:
+                - generic [ref=e209]: 
+                - text: Combien de temps faut-il pour recevoir mon attestation après souscription ?
+              - generic [ref=e211]: 
+            - heading " Quel est le coût d'une assurance décennale en ligne ? " [level=3] [ref=e213] [cursor=pointer]:
+              - generic [ref=e214]:
+                - generic [ref=e215]: 
+                - text: Quel est le coût d'une assurance décennale en ligne ?
+              - generic [ref=e217]: 
+            - text:                        
+          - generic [ref=e218]:
+            - button "Page précédente" [disabled] [ref=e219]:
+              - generic [ref=e220]: 
+            - button "Page 1" [ref=e221] [cursor=pointer]: "1"
+            - button "Page 2" [ref=e222] [cursor=pointer]: "2"
+            - button "Page 3" [ref=e223] [cursor=pointer]: "3"
+            - button "Page 4" [ref=e224] [cursor=pointer]: "4"
+            - button "Page suivante" [ref=e225] [cursor=pointer]:
+              - generic [ref=e226]: 
+        - generic [ref=e228]:
+          - generic [ref=e230]: 
+          - heading "Ne laissez pas l'assurance décennale freiner vos chantiers." [level=2] [ref=e231]
+          - paragraph [ref=e232]: "L'assurance de garantie décennale est une obligation légale pour exercer votre métier en toute sérénité. Mais trouver le bon contrat, surtout quand on est pressé, peut vite devenir un parcours du combattant. Notre mission : vous fournir une assurance décennale en ligne claire, compétitive et une attestation rapide pour que vous puissiez vous concentrer sur ce que vous faites de mieux : votre chantier."
+          - paragraph [ref=e233]:
+            - text: Grâce à notre plateforme digitale intuitive, vous pouvez comparer plusieurs offres simultanément, analyser les garanties proposées et choisir le contrat qui correspond exactement à vos besoins. Tout se fait depuis votre espace personnel sécurisé, accessible 24h/24 et 7j/7. Notre expertise du secteur nous permet d'identifier rapidement les garanties essentielles pour votre activité et de vous proposer un
+            - strong [ref=e234]: tarif assurance décennale en ligne vraiment adapté
+            - text: ", sans options superflues."
+          - link " Devis assurance décennale en ligne personnalisé — À partir de 75€/mois" [ref=e235] [cursor=pointer]:
+            - /url: "#simulationForm"
+            - generic [ref=e236]: 
+            - text: Devis assurance décennale en ligne personnalisé — À partir de 75€/mois
+          - paragraph [ref=e237]: Obtenez votre attestation immédiatement • Couverture adaptée à votre métier • Tarifs jusqu'à 30% moins chers
+      - generic [ref=e238]:
+        - heading "Nos compagnies partenaires" [level=3] [ref=e239]
+        - generic [ref=e241]:
+          - generic [ref=e242]:
+            - img "Allianz"
+          - generic [ref=e243]:
+            - img "April"
+          - generic [ref=e244]:
+            - img "axa"
+          - generic [ref=e245]:
+            - img "Eurodommage"
+          - generic [ref=e246]:
+            - img "Sollyzar"
+          - generic [ref=e247]:
+            - img "Zephir"
+          - generic [ref=e248]:
+            - img "Allianz"
+          - generic [ref=e249]:
+            - img "April"
+          - generic [ref=e250]:
+            - img "axa"
+          - generic [ref=e251]:
+            - img "Eurodommage"
+          - generic [ref=e252]:
+            - img "Sollyzar"
+          - generic [ref=e253]:
+            - img "Zephir"
+      - generic [ref=e254]:
+        - heading "Assurance décennale pour:" [level=3] [ref=e255]
+        - generic [ref=e257]:
+          - link " Plombier chauffagiste Assurance décennale plomberie & chauffage " [ref=e258] [cursor=pointer]:
+            - /url: https://lassurance-garantie-decennale.fr.ddev.site/assurance-decennale-plombier-chauffagiste
+            - generic [ref=e260]: 
+            - generic [ref=e261]:
+              - generic [ref=e262]: Plombier chauffagiste
+              - generic [ref=e263]: Assurance décennale plomberie & chauffage
+            - generic [ref=e264]: 
+          - link " Maçon Assurance décennale maçonnerie & gros œuvre " [ref=e265] [cursor=pointer]:
+            - /url: https://lassurance-garantie-decennale.fr.ddev.site/assurance-decennale-macon
+            - generic [ref=e267]: 
+            - generic [ref=e268]:
+              - generic [ref=e269]: Maçon
+              - generic [ref=e270]: Assurance décennale maçonnerie & gros œuvre
+            - generic [ref=e271]: 
+          - link " Électricien Assurance décennale électricité " [ref=e272] [cursor=pointer]:
+            - /url: https://lassurance-garantie-decennale.fr.ddev.site/assurance-decennale-electricien
+            - generic [ref=e274]: 
+            - generic [ref=e275]:
+              - generic [ref=e276]: Électricien
+              - generic [ref=e277]: Assurance décennale électricité
+            - generic [ref=e278]: 
+          - link " Auto-entrepreneur Prix assurance décennale micro-entreprise " [ref=e279] [cursor=pointer]:
+            - /url: https://lassurance-garantie-decennale.fr.ddev.site/prix-assurance-decennale-auto-entrepreneur
+            - generic [ref=e281]: 
+            - generic [ref=e282]:
+              - generic [ref=e283]: Auto-entrepreneur
+              - generic [ref=e284]: Prix assurance décennale micro-entreprise
+            - generic [ref=e285]: 
+          - link " Couvreur / Toiture Garantie décennale toiture & couverture " [ref=e286] [cursor=pointer]:
+            - /url: https://lassurance-garantie-decennale.fr.ddev.site/garantie-decennale-toiture
+            - generic [ref=e288]: 
+            - generic [ref=e289]:
+              - generic [ref=e290]: Couvreur / Toiture
+              - generic [ref=e291]: Garantie décennale toiture & couverture
+            - generic [ref=e292]: 
+          - link " Résilié non-paiement Retrouver une assurance après résiliation " [ref=e293] [cursor=pointer]:
+            - /url: https://lassurance-garantie-decennale.fr.ddev.site/assurance-decennale-resilie-non-paiement
+            - generic [ref=e295]: 
+            - generic [ref=e296]:
+              - generic [ref=e297]: Résilié non-paiement
+              - generic [ref=e298]: Retrouver une assurance après résiliation
+            - generic [ref=e299]: 
+          - link " Reprise du passé Couvrir vos chantiers antérieurs " [ref=e300] [cursor=pointer]:
+            - /url: https://lassurance-garantie-decennale.fr.ddev.site/assurance-decennale-reprise-du-passe
+            - generic [ref=e302]: 
+            - generic [ref=e303]:
+              - generic [ref=e304]: Reprise du passé
+              - generic [ref=e305]: Couvrir vos chantiers antérieurs
+            - generic [ref=e306]: 
+          - link " Qualification BTP Qualification & certification BTP " [ref=e307] [cursor=pointer]:
+            - /url: https://lassurance-garantie-decennale.fr.ddev.site/qualification-certification-btp
+            - generic [ref=e309]: 
+            - generic [ref=e310]:
+              - generic [ref=e311]: Qualification BTP
+              - generic [ref=e312]: Qualification & certification BTP
+            - generic [ref=e313]: 
+          - link [ref=e314] [cursor=pointer]:
+            - /url: https://lassurance-garantie-decennale.fr.ddev.site/assurance-decennale-plombier-chauffagiste
+            - generic [ref=e316]: 
+            - generic [ref=e317]:
+              - generic [ref=e318]: Plombier chauffagiste
+              - generic [ref=e319]: Assurance décennale plomberie & chauffage
+            - generic [ref=e320]: 
+          - link [ref=e321] [cursor=pointer]:
+            - /url: https://lassurance-garantie-decennale.fr.ddev.site/assurance-decennale-macon
+            - generic [ref=e323]: 
+            - generic [ref=e324]:
+              - generic [ref=e325]: Maçon
+              - generic [ref=e326]: Assurance décennale maçonnerie & gros œuvre
+            - generic [ref=e327]: 
+          - link [ref=e328] [cursor=pointer]:
+            - /url: https://lassurance-garantie-decennale.fr.ddev.site/assurance-decennale-electricien
+            - generic [ref=e330]: 
+            - generic [ref=e331]:
+              - generic [ref=e332]: Électricien
+              - generic [ref=e333]: Assurance décennale électricité
+            - generic [ref=e334]: 
+          - link [ref=e335] [cursor=pointer]:
+            - /url: https://lassurance-garantie-decennale.fr.ddev.site/prix-assurance-decennale-auto-entrepreneur
+            - generic [ref=e337]: 
+            - generic [ref=e338]:
+              - generic [ref=e339]: Auto-entrepreneur
+              - generic [ref=e340]: Prix assurance décennale micro-entreprise
+            - generic [ref=e341]: 
+          - link [ref=e342] [cursor=pointer]:
+            - /url: https://lassurance-garantie-decennale.fr.ddev.site/garantie-decennale-toiture
+            - generic [ref=e344]: 
+            - generic [ref=e345]:
+              - generic [ref=e346]: Couvreur / Toiture
+              - generic [ref=e347]: Garantie décennale toiture & couverture
+            - generic [ref=e348]: 
+          - link [ref=e349] [cursor=pointer]:
+            - /url: https://lassurance-garantie-decennale.fr.ddev.site/assurance-decennale-resilie-non-paiement
+            - generic [ref=e351]: 
+            - generic [ref=e352]:
+              - generic [ref=e353]: Résilié non-paiement
+              - generic [ref=e354]: Retrouver une assurance après résiliation
+            - generic [ref=e355]: 
+          - link [ref=e356] [cursor=pointer]:
+            - /url: https://lassurance-garantie-decennale.fr.ddev.site/assurance-decennale-reprise-du-passe
+            - generic [ref=e358]: 
+            - generic [ref=e359]:
+              - generic [ref=e360]: Reprise du passé
+              - generic [ref=e361]: Couvrir vos chantiers antérieurs
+            - generic [ref=e362]: 
+          - link [ref=e363] [cursor=pointer]:
+            - /url: https://lassurance-garantie-decennale.fr.ddev.site/qualification-certification-btp
+            - generic [ref=e365]: 
+            - generic [ref=e366]:
+              - generic [ref=e367]: Qualification BTP
+              - generic [ref=e368]: Qualification & certification BTP
+            - generic [ref=e369]: 
+  - contentinfo [ref=e370]:
+    - generic [ref=e371]:
+      - generic [ref=e372]:
+        - generic [ref=e373]:
+          - heading "Aksam Assurance" [level=3] [ref=e374]
+          - paragraph [ref=e375]: Votre partenaire de confiance pour une assurance garantie décennale au juste prix.
+        - generic [ref=e376]:
+          - heading "Liens utiles" [level=3] [ref=e377]
+          - list [ref=e378]:
+            - listitem [ref=e379]:
+              - link "Assurance décennale Électricien" [ref=e380] [cursor=pointer]:
+                - /url: https://lassurance-garantie-decennale.fr.ddev.site/assurance-decennale-electricien
+            - listitem [ref=e381]:
+              - link "Assurance décennale Maçonnerie et gros œuvre." [ref=e382] [cursor=pointer]:
+                - /url: https://lassurance-garantie-decennale.fr.ddev.site/assurance-decennale-macon
+            - listitem [ref=e383]:
+              - link "Assurance décennale résilié non-paiement." [ref=e384] [cursor=pointer]:
+                - /url: https://lassurance-garantie-decennale.fr.ddev.site/assurance-decennale-resilie-non-paiement
+            - listitem [ref=e385]:
+              - link "Assurance décennale auto-entrepreneur." [ref=e386] [cursor=pointer]:
+                - /url: https://lassurance-garantie-decennale.fr.ddev.site/prix-assurance-decennale-auto-entrepreneur
+            - listitem [ref=e387]:
+              - link "Reprise du Passé Assurance Décennale" [ref=e388] [cursor=pointer]:
+                - /url: https://lassurance-garantie-decennale.fr.ddev.site/assurance-decennale-reprise-du-passe
+            - listitem [ref=e389]:
+              - link "Assurance décennale plombier et chauffagiste" [ref=e390] [cursor=pointer]:
+                - /url: https://lassurance-garantie-decennale.fr.ddev.site/assurance-decennale-plombier
+            - listitem [ref=e391]:
+              - link "Qualification et certification BTP" [ref=e392] [cursor=pointer]:
+                - /url: https://lassurance-garantie-decennale.fr.ddev.site/qualification-certification-btp
+            - listitem [ref=e393]:
+              - link "Garantie décennale toiture" [ref=e394] [cursor=pointer]:
+                - /url: https://lassurance-garantie-decennale.fr.ddev.site/garantie-decennale-toiture
+            - listitem [ref=e395]:
+              - link "Assurance décennale carrelage" [ref=e396] [cursor=pointer]:
+                - /url: https://lassurance-garantie-decennale.fr.ddev.site/assurance-decennale-carrelage
+            - listitem [ref=e397]:
+              - link "Prix assurance décennale" [ref=e398] [cursor=pointer]:
+                - /url: https://lassurance-garantie-decennale.fr.ddev.site/prix-assurance-decennale
+        - generic [ref=e399]:
+          - heading "Contact" [level=3] [ref=e400]
+          - list [ref=e401]:
+            - listitem [ref=e402]: 10 rue de Penthièvre
+            - listitem [ref=e403]: 75008 Paris
+            - listitem [ref=e404]: 01.82.83.48.00
+            - listitem [ref=e405]: contact@aksam-assurances.fr
+      - paragraph [ref=e407]:
+        - text: © 2026 Aksam Assurance.|
+        - link "Mentions légales" [ref=e408] [cursor=pointer]:
+          - /url: https://lassurance-garantie-decennale.fr.ddev.site/mention-legale
+        - text: "|"
+        - link "Politique de confidentialité" [ref=e409] [cursor=pointer]:
+          - /url: https://lassurance-garantie-decennale.fr.ddev.site/politique-legale

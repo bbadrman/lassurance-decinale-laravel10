@@ -7,7 +7,7 @@
 
 
 @section('canonical')
-<link rel="canonical" href="https://www.lassurance-garantie-decennale.fr/assurance-decennale-resilie-non-paiement">
+<link rel="canonical" href="https://lassurance-garantie-decennale.fr/assurance-decennale-resilie-non-paiement/">
 @endsection
 
 @section('og_meta')
@@ -16,7 +16,7 @@
 <meta property="og:keywords" content="assurance décennale résiliée non-paiement, assurance décennale après non-paiement, résiliation assurance décennale impayé, devis assurance décennale pour résilié">
 
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://www.lassurance-garantie-decennale.fr/assurance-decennale-resilie-non-paiement"> 
+<meta property="og:url" content="https://lassurance-garantie-decennale.fr/assurance-decennale-resilie-non-paiement/"> 
 @endsection
 
 
@@ -114,7 +114,7 @@
       </div>
 
        <!-- Right side - Form -->
-       <div
+       <div id="form"
          class="bg-white/95 backdrop-blur-sm rounded-xl shadow-xl overflow-hidden border border-white/20 order-1 lg:order-2 lg:col-span-1 flex flex-col h-full">
          <div
            class="bg-yellow-300 bg-yellow-300 bg-amber-400 px-6 py-4 flex-shrink-0">
@@ -353,7 +353,7 @@
             Un impayé peut arriver, mais cela ne doit pas mettre en péril votre entreprise. Chaque jour sans assurance est un risque. Contactez un de nos experts spécialisés en assurance décennale pour résilié non-paiement. L'étude de votre dossier est gratuite et sans engagement.
 
         <div class="text-center mt-auto pt-4">
-            <a href="/" class="inline-block bg-yellow-300 bg-yellow-300 bg-amber-400  text-dark font-bold py-2 lg:py-4 px-4 lg:px-10 rounded-lg lg:rounded-2xl hover:bg-accent transition-all transform hover:scale-105 shadow-2xl text-xs lg:text-base">
+            <a href="#form" class="inline-block bg-yellow-300 bg-yellow-300 bg-amber-400  text-dark font-bold py-2 lg:py-4 px-4 lg:px-10 rounded-lg lg:rounded-2xl hover:bg-accent transition-all transform hover:scale-105 shadow-2xl text-xs lg:text-base">
                 <i class="fas fa-arrow-left mr-2"></i>
                 Demandez mon etude gratuite
             </a>
@@ -405,7 +405,7 @@
 
                 </p>
                 <div class="text-center mt-auto pt-4">
-                    <a href="/" class="inline-block bg-accent bg-yellow-400 bg-amber-600  text-dark font-bold py-2 lg:py-4 px-4 lg:px-10 rounded-lg lg:rounded-2xl hover:bg-accent transition-all transform hover:scale-105 shadow-2xl text-xs lg:text-base">
+                    <a href="#form" class="inline-block bg-accent bg-yellow-400 bg-amber-600  text-dark font-bold py-2 lg:py-4 px-4 lg:px-10 rounded-lg lg:rounded-2xl hover:bg-accent transition-all transform hover:scale-105 shadow-2xl text-xs lg:text-base">
                         <i class="fas fa-arrow-left mr-2"></i>
                         Demandez votre devis gratuit en ligne
                     </a>

@@ -1,6 +1,6 @@
 @extends('master')
 
-@section('title', 'Prix Assurance Décennale Auto-Entrepreneur | Tarifs 2025 & Devis')
+@section('title', 'Prix Assurance Décennale Auto-Entrepreneur | Tarifs & Devis en ligne')
 
 @section('meta_description')
 Prix Assurance Décennale Auto-Entrepreneur  Tarifs moyens par métier (700€-4500€/an)  Facteurs de coût  Devis gratuit en 2 min  Comparez et économisez jusqu'à 40%
@@ -9,15 +9,15 @@ Prix Assurance Décennale Auto-Entrepreneur  Tarifs moyens par métier (700€-4
 @section('meta_keywords', 'assurance décennale auto-entrepreneur, assurance décennale micro-entrepreneur, tarif décennale auto-entrepreneur, garantie décennale BTP auto-entrepreneur')
 
 @section('canonical')
-<link rel="canonical" href="https://www.lassurance-garantie-decennale.fr/prix-assurance-decennale-auto-entrepreneur">
+<link rel="canonical" href="https://lassurance-garantie-decennale.fr/assurance-decennale-auto-entrepreneur/">
 @endsection
 
 @section('og_meta')
-<meta property="og:title" content="Prix Assurance Décennale Auto-Entrepreneur : Tarifs 2025 & Devis  ">
+<meta property="og:title" content="Prix Assurance Décennale Auto-Entrepreneur : Tarifs & Devis en ligne ">
 <meta property="og:description" content="Prix Assurance Décennale Auto-Entrepreneur  Tarifs moyens par métier (700€-4500€/an)  Facteurs de coût  Devis gratuit en 2 min  Comparez et économisez jusqu'à 40%">
 <meta property="og:type" content="website">
 <meta property="og:keywords" content="assurance décennale auto-entrepreneur, assurance décennale micro-entrepreneur, tarif décennale auto-entrepreneur, garantie décennale BTP auto-entrepreneur">
-<meta property="og:url" content="https://www.lassurance-garantie-decennale.fr/prix-assurance-decennale-auto-entrepreneur">
+<meta property="og:url" content="https://lassurance-garantie-decennale.fr/assurance-decennale-auto-entrepreneur/">
 @endsection
 
 
@@ -40,7 +40,7 @@ Prix Assurance Décennale Auto-Entrepreneur  Tarifs moyens par métier (700€-4
                 
                 <i class="fas fa-hard-hat text-2xl text-dark"></i>
               </div>
-              <h1 class="text-4xl lg:text-5xl font-bold text-gradient mb-4">Prix Assurance Décennale&nbsp;&nbsp;Auto-Entrepreneur</h1>
+              <h1 class="text-4xl lg:text-5xl font-bold text-gradient mb-4">Assurance Décennale&nbsp;&nbsp;Auto-Entrepreneur</h1>
               <br>
               <p class="text-xl text-gray-600 mb-6 max-w-3xl mx-auto">
                 Guide Complet - Découvrez les tarifs moyens pour votre métier et obtenez un devis précis et compétitif en quelques clics.
@@ -98,7 +98,7 @@ Prix Assurance Décennale Auto-Entrepreneur  Tarifs moyens par métier (700€-4
       </div>
 
       <!-- Right side - Form -->
-      <div class="bg-white/95 backdrop-blur-sm rounded-xl shadow-xl overflow-hidden border border-white/20 order-1 lg:order-2 lg:col-span-1 flex flex-col h-full">
+      <div id="form" class="bg-white/95 backdrop-blur-sm rounded-xl shadow-xl overflow-hidden border border-white/20 order-1 lg:order-2 lg:col-span-1 flex flex-col h-full">
         <div class="bg-amber-400 px-6 py-4 flex-shrink-0">
           <h3 class="text-xm font-semibold text-dark flex items-center">
             <svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -379,7 +379,7 @@ Prix Assurance Décennale Auto-Entrepreneur  Tarifs moyens par métier (700€-4
     </p>
 
     <div class="text-center mt-4">
-      <a href="/" class="inline-block bg-yellow-200 text-dark font-bold py-3 px-8 rounded-xl hover:bg-yellow-500 transition-all transform hover:scale-105 shadow-lg">
+      <a href="#form" class="inline-block bg-yellow-200 text-dark font-bold py-3 px-8 rounded-xl hover:bg-yellow-500 transition-all transform hover:scale-105 shadow-lg">
         <i class="fas fa-calculator mr-2"></i>
         OBTENIR MON TARIF EXACT EN 2 MINUTES
       </a>
@@ -593,7 +593,7 @@ Prix Assurance Décennale Auto-Entrepreneur  Tarifs moyens par métier (700€-4
       <p class="text-base text-dark mb-8">
         Contactez nos spécialistes pour une analyse gratuite de votre situation et un devis sans engagement.
       </p>
-      <a href="/" class="inline-block bg-yellow-200 text-dark font-bold py-3 px-8 rounded-xl hover:bg-yellow-500 transition-all transform hover:scale-105 shadow-lg">
+      <a href="#form" class="inline-block bg-yellow-200 text-dark font-bold py-3 px-8 rounded-xl hover:bg-yellow-500 transition-all transform hover:scale-105 shadow-lg">
         <i class="fas fa-calculator mr-2"></i>
         DEMANDER MON DEVIS AUTO-ENTREPRENEUR
       </a>
@@ -607,12 +607,12 @@ Prix Assurance Décennale Auto-Entrepreneur  Tarifs moyens par métier (700€-4
       <div class="w-16 h-16 bg-dark/20 rounded-2xl mx-auto mb-6 flex items-center justify-center">
         <i class="fas fa-euro-sign text-3xl text-dark"></i>
       </div>
-      <h2 class="text-4xl font-bold mb-6 text-dark">Obtenez le meilleur prix pour votre décennale</h2>
+      <h2 class="text-4xl font-bold mb-6 text-dark">devis assirance décennale auto-entrepreneur</h2>
       <p class="text-xl mb-8 text-dark/90 max-w-3xl mx-auto leading-relaxed">
         En tant qu'auto-entrepreneur, chaque euro compte. Ne payez pas plus cher que nécessaire pour votre assurance décennale. Comparez et économisez avec nos experts.
       </p>
       <div class="space-y-4 sm:space-y-0 sm:space-x-4 sm:flex sm:justify-center">
-        <a href="/" class="inline-block bg-dark text-yellow-200 font-bold py-4 px-10 rounded-2xl hover:bg-primary transition-all transform hover:scale-105 shadow-2xl">
+        <a href="#form" class="inline-block bg-dark text-yellow-200 font-bold py-4 px-10 rounded-2xl hover:bg-primary transition-all transform hover:scale-105 shadow-2xl">
           <i class="fas fa-calculator mr-2"></i>
           Obtenir mon tarif personnalisé
         </a>

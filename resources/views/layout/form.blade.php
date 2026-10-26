@@ -11,15 +11,15 @@ assurance décennale en ligne, devis assurance décennale en ligne, souscription
 @endsection
 
 @section('canonical')
-<link rel="canonical" href="https://www.lassurance-garantie-decennale.fr">
+<link rel="canonical" href="https://lassurance-garantie-decennale.fr/">
 @endsection
 
 @section('og_meta')
 <meta property="og:title" content="Assurance Décennale en Ligne : Devis Gratuit et Attestation Express">
 <meta property="og:description" content="Souscrivez votre assurance décennale en ligne en quelques clics. Devis instantané, tarifs négociés, attestation provisoire express. Tous métiers du bâtiment couverts.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://www.lassurance-garantie-decennale.fr">
-<meta property="og:image" content="https://www.lassurance-garantie-decennale.fr/image/assurance-decinale.jpg">
+<meta property="og:url" content="https://lassurance-garantie-decennale.fr/">
+<meta property="og:image" content="https://lassurance-garantie-decennale.fr/image/assurance-decinale.jpg/">
 @endsection
 
 @section('contentform')
@@ -187,6 +187,7 @@ assurance décennale en ligne, devis assurance décennale en ligne, souscription
         </div>
     </section>
 
+   
     <!-- Assurance décennale Section -->
     <section id="assurance-info" class="py-2 lg:py-2 bg-surface">
         <div class="container mx-auto px-2 lg:px-4">
@@ -197,14 +198,21 @@ assurance décennale en ligne, devis assurance décennale en ligne, souscription
                     <!-- TITRE PRINCIPAL — [OPTIMISATION] H2 aligné sur le mot-clé   -->
                     <!-- ============================================================ -->
                     <div class="text-center mb-8 lg:mb-16">
-                        <h1 class="text-2xl lg:text-5xl font-bold text-jaune mb-4 lg:mb-6 leading-tight">Assurance décennale en ligne</h1>
+                        <h1 class="text-2xl lg:text-5xl font-bold text-jaune mb-4 lg:mb-6 leading-tight">Assurance
+                            décennale en ligne</h1>
                         <p class="text-sm lg:text-xl mb-6 lg:mb-8 text-dark/90 max-w-3xl mx-auto leading-relaxed">
-                           L'assurance de garantie décennale est une obligation légale pour exercer votre métier en toute   
-sérénité. Mais trouver le bon contrat, surtout quand on est pressé, peut vite devenir un parcours du   
-combattant. Notre mission : vous fournir une assurance décennale en ligne claire, compétitive et   
-une attestation rapide pour que vous puissiez vous concentrer sur ce que vous faites de mieux :   
-votre chantier. Grâce à notre plateforme digitale, obtenez un devis assurance décennale en ligne   
-instantané, comparez les tarifs et souscrivez directement depuis votre ordinateur ou smartphone.  
+                            L'assurance de garantie décennale est une obligation légale pour exercer votre métier en
+                            toute
+                            sérénité. Mais trouver le bon contrat, surtout quand on est pressé, peut vite devenir un
+                            parcours du
+                            combattant. Notre mission : vous fournir une assurance décennale en ligne claire,
+                            compétitive et
+                            une attestation rapide pour que vous puissiez vous concentrer sur ce que vous faites de
+                            mieux :
+                            votre chantier. Grâce à notre plateforme digitale, obtenez un devis assurance décennale en
+                            ligne
+                            instantané, comparez les tarifs et souscrivez directement depuis votre ordinateur ou
+                            smartphone.
                         </p>
                         <div class="w-16 lg:w-24 h-1 bg-amber-400 mx-auto rounded-full"></div>
                     </div>
@@ -213,196 +221,495 @@ instantané, comparez les tarifs et souscrivez directement depuis votre ordinate
                     <!-- CARD GRID 1 — Cards 1 & 2                                   -->
                     <!-- [OPTIMISATION] Contenu des cards enrichi avec mots-clés LSI  -->
                     <!-- ============================================================ -->
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8 mb-12 lg:mb-20">
+
+                    <style>
+                        /* Les quatre cartes partagent une seule grille afin d'avoir la même hauteur. */
+                        .cards-equal-grid {
+                            display: grid;
+                            grid-template-columns: minmax(0, 1fr);
+                            grid-auto-rows: auto;
+                            align-items: stretch;
+                            gap: 1rem;
+                            width: 100%;
+                        }
+
+                        .cards-equal-grid > .card-hover {
+                            display: flex !important;
+                            flex-direction: column;
+                            width: 100%;
+                            height: 100%;
+                            min-width: 0;
+                            box-sizing: border-box;
+                        }
+
+                        .cards-equal-grid > .card-hover > .flex-grow {
+                            flex: 1 1 auto;
+                        }
+
+                        .cards-equal-grid > .card-hover > .text-center.mt-auto {
+                            margin-top: auto !important;
+                            padding-top: 1rem;
+                        }
+
+                        .cards-equal-grid > .card-hover > .text-center.mt-auto a {
+                            display: inline-flex;
+                            align-items: center;
+                            justify-content: center;
+                            max-width: 100%;
+                            min-height: 52px;
+                            box-sizing: border-box;
+                            text-align: center;
+                        }
+
+                        @media (min-width: 768px) {
+                            .cards-equal-grid {
+                                grid-template-columns: repeat(2, minmax(0, 1fr));
+                                grid-auto-rows: 1fr;
+                                column-gap: 2rem;
+                                row-gap: 2rem;
+                            }
+                        }
+                    </style>
+
+                    <div class="cards-equal-grid mb-12 lg:mb-20">
+
+
 
                         <!-- Card 1 : Artisans -->
-                        <div class="bg-surface rounded-xl lg:rounded-3xl p-4 lg:p-8 shadow-xl border border-gray-100 card-hover flex flex-col h-full">
-                            <div class="flex flex-col lg:flex-row lg:items-start space-y-3 lg:space-y-0 lg:space-x-6 flex-grow">
-                                <div class="p-2 lg:p-4 bg-amber-400 rounded-xl lg:rounded-2xl shadow-lg self-start flex-shrink-0">
-                                    <i class="fas fa-building text-white text-lg lg:text-2xl"></i>
+
+                        <div
+                            class="bg-surface rounded-xl lg:rounded-3xl p-4 lg:p-8 shadow-xl border border-gray-100 card-hover flex flex-col h-full">
+
+                            <div
+                                class="flex flex-col lg:flex-row lg:items-start space-y-3 lg:space-y-0 lg:space-x-6 flex-grow">
+
+                                <div
+                                    class="p-2 lg:p-4 bg-amber-400 rounded-xl lg:rounded-2xl shadow-lg self-start flex-shrink-0">
+
+                                    <i class="fas fa-building text-white text-xl"></i>
+
                                 </div>
+
                                 <div class="flex-1">
-                                    <h2 class="text-lg lg:text-2xl font-bold text-jaune mb-3 lg:mb-4">Assurance décennale artisan.</h2>
-                                    <p class="text-gray-700 text-sm lg:text-base mb-3">Assurance décennale artisans et professionnels du bâtiment :</p>
+
+                                    <h2 class="text-xl font-bold text-jaune mb-3 lg:mb-4">Assurance décennale artisan.
+                                    </h2>
+
+                                    <p class="text-gray-700 text-base mb-3">Assurance décennale artisans et
+                                        professionnels du bâtiment :</p>
+
                                     <ul class="space-y-2 lg:space-y-4">
+
                                         <li class="flex items-start space-x-2 lg:space-x-4">
+
                                             <div class="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                                            <span class="text-gray-700 text-sm lg:text-base">
-                                                <a class="text-primary-900 underline hover:text-primary hover:no-underline transition-colors" href="{{ url('prix-assurance-decennale-auto-entrepreneur') }}">Décennale auto-entrepreneur.</a>
-                                                <span class="block text-xs text-gray-500 mt-1">Cotisations ajustées à votre chiffre d'affaires réel, formule 100% en ligne.</span>
+
+                                            <span class="text-gray-700 text-base">
+
+                                                <a class="text-primary-900 underline hover:text-primary hover:no-underline transition-colors"
+                                                    href="{{ url('assurance-decennale-auto-entrepreneur') }}">Décennale
+                                                    auto-entrepreneur.</a>
+
+                                                <span class="block text-xs text-gray-500 mt-1">Cotisations ajustées à
+                                                    votre chiffre d'affaires réel, formule 100% en ligne.</span>
+
                                             </span>
+
                                         </li>
+
                                         <li class="flex items-start space-x-2 lg:space-x-4">
+
                                             <div class="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                                            <span class="text-gray-700 text-sm lg:text-base">Décennale pour TPE.
-                                                <span class="block text-xs text-gray-500 mt-1">Solutions modulables selon le volume de vos chantiers.</span>
+
+                                            <span class="text-gray-700 text-base">Décennale pour TPE.
+
+                                                <span class="block text-xs text-gray-500 mt-1">Solutions modulables
+                                                    selon le volume de vos chantiers.</span>
+
                                             </span>
+
                                         </li>
+
                                         <li class="flex items-start space-x-2 lg:space-x-4">
+
                                             <div class="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                                            <span class="text-gray-700 text-sm lg:text-base">Décennale pour PME.</span>
+
+                                            <span class="text-gray-700 text-base">Décennale pour PME.</span>
+
                                         </li>
+
                                         <li class="flex items-start space-x-2 lg:space-x-4">
+
                                             <div class="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                                            <span class="text-gray-700 text-sm lg:text-base">Décennale architecte / bureau d'étude.
-                                                <span class="block text-xs text-gray-500 mt-1">Garanties étendues pour la conception et la maîtrise d'œuvre.</span>
+
+                                            <span class="text-gray-700 text-base">Décennale architecte / bureau d'étude.
+
+                                                <span class="block text-xs text-gray-500 mt-1">Garanties étendues pour
+                                                    la conception et la maîtrise d'œuvre.</span>
+
                                             </span>
+
                                         </li>
+
                                     </ul>
+
                                 </div>
+
                             </div>
+
                             <div class="text-center mt-auto pt-4">
-                                <a href="#simulationForm" class="inline-block bg-amber-400 text-dark font-bold py-2 lg:py-4 px-4 lg:px-10 rounded-lg lg:rounded-2xl hover:opacity-90 transition-all transform hover:scale-105 shadow-2xl text-xs lg:text-base">
+
+                                <a href="#simulationForm"
+                                    class="inline-block bg-amber-400 text-dark font-bold py-2 lg:py-4 px-4 lg:px-10 rounded-lg lg:rounded-2xl hover:opacity-90 transition-all transform hover:scale-105 shadow-2xl text-base">
+
                                     <i class="fas fa-arrow-up mr-1 lg:mr-2"></i>
+
                                     Devis assurance décennale en ligne gratuit
+
                                 </a>
+
                             </div>
+
                         </div>
+
+
 
                         <!-- Card 2 : Devis en ligne -->
-                        <div class="bg-surface rounded-xl lg:rounded-3xl p-4 lg:p-8 shadow-xl border border-gray-100 card-hover flex flex-col h-full">
-                            <div class="flex flex-col lg:flex-row lg:items-start space-y-3 lg:space-y-0 lg:space-x-6 flex-grow">
-                                <div class="p-2 lg:p-4 bg-amber-400 rounded-xl lg:rounded-2xl shadow-lg self-start flex-shrink-0">
-                                    <i class="fas fa-user text-white text-lg lg:text-2xl"></i>
+
+                        <div
+                            class="bg-surface rounded-xl lg:rounded-3xl p-4 lg:p-8 shadow-xl border border-gray-100 card-hover flex flex-col h-full">
+
+                            <div
+                                class="flex flex-col lg:flex-row lg:items-start space-y-3 lg:space-y-0 lg:space-x-6 flex-grow">
+
+                                <div
+                                    class="p-2 lg:p-4 bg-amber-400 rounded-xl lg:rounded-2xl shadow-lg self-start flex-shrink-0">
+
+                                    <i class="fas fa-user text-white text-xl"></i>
+
                                 </div>
+
                                 <div class="flex-1">
-                                    <h2 class="text-lg lg:text-2xl font-bold text-jaune mb-3 lg:mb-4">Devis assurance décennale en ligne : immédiat et 100% digital</h2>
-                                    <p class="text-gray-700 text-sm lg:text-base mb-3">Notre plateforme vous permet d'obtenir votre devis en quelques minutes seulement, sans rendez-vous ni paperasse inutile.</p>
+
+                                    <h2 class="text-xl font-bold text-jaune mb-3 lg:mb-4">Devis assurance décennale en
+                                        ligne : immédiat et 100% digital</h2>
+
+                                    <p class="text-gray-700 text-base mb-3">Notre plateforme vous permet d'obtenir votre
+                                        devis en quelques minutes seulement, sans rendez-vous ni paperasse inutile.</p>
+
                                     <ul class="space-y-2 lg:space-y-4">
+
                                         <li class="flex items-start space-x-2 lg:space-x-4">
+
                                             <div class="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                                            <span class="text-gray-700 text-sm lg:text-base"><strong>Devis Immédiat et 100% en Ligne.</strong> Recevez votre tarif personnalisé selon votre activité, votre chiffre d'affaires et votre expérience.</span>
+
+                                            <span class="text-gray-700 text-base"><strong>Devis Immédiat et 100% en
+                                                    Ligne.</strong> Recevez votre tarif personnalisé selon votre
+                                                activité, votre chiffre d'affaires et votre expérience.</span>
+
                                         </li>
+
                                         <li class="flex items-start space-x-2 lg:space-x-4">
+
                                             <div class="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                                            <span class="text-gray-700 text-sm lg:text-base"><strong>Spécialiste Tous Métiers.</strong> Électricité, maçonnerie, plomberie, couverture, menuiserie et tous autres corps d'état.</span>
+
+                                            <span class="text-gray-700 text-base"><strong>Spécialiste Tous
+                                                    Métiers.</strong> Électricité, maçonnerie, plomberie, couverture,
+                                                menuiserie et tous autres corps d'état.</span>
+
                                         </li>
+
                                         <li class="flex items-start space-x-2 lg:space-x-4">
+
                                             <div class="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                                            <span class="text-gray-700 text-sm lg:text-base"><strong>Attestation Provisoire Express.</strong> Dès validation de votre dossier, recevez votre attestation par email sous 24 à 48 heures maximum.</span>
+
+                                            <span class="text-gray-700 text-base"><strong>Attestation Provisoire
+                                                    Express.</strong> Dès validation de votre dossier, recevez votre
+                                                attestation par email sous 24 à 48 heures maximum.</span>
+
                                         </li>
+
                                         <li class="flex items-start space-x-2 lg:space-x-4">
+
                                             <div class="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                                            <span class="text-gray-700 text-sm lg:text-base"><strong>Tarifs Négociés.</strong> Grâce à nos partenariats, des tarifs compétitifs pour votre contrat, généralement 15 à 30% moins chers qu'en agence.</span>
+
+                                            <span class="text-gray-700 text-base"><strong>Tarifs Négociés.</strong>
+                                                Grâce à nos partenariats, des tarifs compétitifs pour votre contrat,
+                                                généralement 15 à 30% moins chers qu'en agence.</span>
+
                                         </li>
+
                                     </ul>
+
                                 </div>
+
                             </div>
+
                             <div class="text-center mt-auto pt-4">
-                                <a href="#simulationForm" class="inline-block bg-amber-400 text-dark font-bold py-2 lg:py-4 px-4 lg:px-10 rounded-lg lg:rounded-2xl hover:bg-accent transition-all transform hover:scale-105 shadow-2xl text-xs lg:text-base">
+
+                                <a href="#simulationForm"
+                                    class="inline-block bg-amber-400 text-dark font-bold py-2 lg:py-4 px-4 lg:px-10 rounded-lg lg:rounded-2xl hover:bg-accent transition-all transform hover:scale-105 shadow-2xl text-base">
+
                                     <i class="fas fa-arrow-up mr-1 lg:mr-2"></i>
-                                    Obtenez votre assurance décennale en ligne immédiatement
+
+                                    Obtenez votre assurance décennale en ligne
+
                                 </a>
+
                             </div>
+
                         </div>
-                    </div>
 
                     <!-- ============================================================ -->
+
                     <!-- CARD GRID 2 — Cards 3 & 4                                   -->
+
                     <!-- [OPTIMISATION] Contenu des cards enrichi                     -->
+
                     <!-- ============================================================ -->
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8 mb-12 lg:mb-20">
+
+<!-- CARD GRID 2 continues the shared cards-equal-grid -->
+
+
 
                         <!-- Card 3 : Métiers -->
-                        <div class="bg-surface rounded-xl lg:rounded-3xl p-4 lg:p-8 shadow-xl border border-gray-100 card-hover flex flex-col h-full">
-                            <div class="flex flex-col lg:flex-row lg:items-start space-y-3 lg:space-y-0 lg:space-x-6 flex-grow">
-                                <div class="p-2 lg:p-4 bg-amber-400 rounded-xl lg:rounded-2xl shadow-lg self-start flex-shrink-0">
-                                    <i class="fas fa-shield-alt text-white text-lg lg:text-2xl"></i>
+
+                        <div
+                            class="bg-surface rounded-xl lg:rounded-3xl p-4 lg:p-8 shadow-xl border border-gray-100 card-hover flex flex-col h-full">
+
+                            <div
+                                class="flex flex-col lg:flex-row lg:items-start space-y-3 lg:space-y-0 lg:space-x-6 flex-grow">
+
+                                <div
+                                    class="p-2 lg:p-4 bg-amber-400 rounded-xl lg:rounded-2xl shadow-lg self-start flex-shrink-0">
+
+                                    <i class="fas fa-shield-alt text-white text-xl"></i>
+
                                 </div>
+
                                 <div class="flex-1">
-                                    <h2 class="text-lg lg:text-2xl font-bold text-jaune mb-3 lg:mb-4">Assurance décennale adaptée à votre métier du bâtiment</h2>
-                                    <p class="text-gray-700 text-sm lg:text-base mb-3">Chaque métier présente des risques spécifiques. Nous proposons des formules sur mesure :</p>
+
+                                    <h2 class="text-xl font-bold text-jaune mb-3 lg:mb-4">Assurance décennale adaptée à
+                                        votre métier du bâtiment</h2>
+
+                                    <p class="text-gray-700 text-base mb-3">Chaque métier présente des risques
+                                        spécifiques. Nous proposons des formules sur mesure :</p>
+
                                     <ul class="space-y-2 lg:space-y-4">
+
                                         <li class="flex items-start space-x-2 lg:space-x-4">
+
                                             <div class="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                                            <span class="text-gray-700 text-sm lg:text-base">
-                                                <a class="text-primary-900 underline hover:text-primary hover:no-underline transition-colors" href="{{ url('assurance-decennale-electricien') }}">Assurance décennale Électricien</a>
-                                                <span class="block text-xs text-gray-500 mt-1">Installation électrique, mise aux normes, domotique.</span>
+
+                                            <span class="text-gray-700 text-base">
+
+                                                <a class="text-primary-900 underline hover:text-primary hover:no-underline transition-colors"
+                                                    href="{{ url('assurance-decennale-electricien') }}">Assurance
+                                                    décennale Électricien</a>
+
+                                                <span class="block text-xs text-gray-500 mt-1">Installation électrique,
+                                                    mise aux normes, domotique.</span>
+
                                             </span>
+
                                         </li>
+
                                         <li class="flex items-start space-x-2 lg:space-x-4">
+
                                             <div class="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                                            <span class="text-gray-700 text-sm lg:text-base">
-                                                <a class="text-primary-900 underline hover:text-primary hover:no-underline transition-colors" href="{{ url('assurance-decennale-macon') }}">Assurance décennale Maçonnerie et gros œuvre.</a>
-                                                <span class="block text-xs text-gray-500 mt-1">Construction, rénovation structurelle, fondations.</span>
+
+                                            <span class="text-gray-700 text-base">
+
+                                                <a class="text-primary-900 underline hover:text-primary hover:no-underline transition-colors"
+                                                    href="{{ url('assurance-decennale-macon') }}">Assurance décennale
+                                                    Maçonnerie et gros œuvre.</a>
+
+                                                <span class="block text-xs text-gray-500 mt-1">Construction, rénovation
+                                                    structurelle, fondations.</span>
+
                                             </span>
+
                                         </li>
+
                                         <li class="flex items-start space-x-2 lg:space-x-4">
+
                                             <div class="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                                            <span class="text-gray-700 text-sm lg:text-base">Assurance décennale Peinture et rénovation.
-                                                <span class="block text-xs text-gray-500 mt-1">Peinture intérieure et extérieure, ravalement, isolation.</span>
+
+                                            <span class="text-gray-700 text-base">Assurance décennale Peinture et
+                                                rénovation.
+
+                                                <span class="block text-xs text-gray-500 mt-1">Peinture intérieure et
+                                                    extérieure, ravalement, isolation.</span>
+
                                             </span>
+
                                         </li>
+
                                         <li class="flex items-start space-x-2 lg:space-x-4">
+
                                             <div class="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                                            <span class="text-gray-700 text-sm lg:text-base">Assurance décennale Charpente et couverture.
-                                                <span class="block text-xs text-gray-500 mt-1">Charpente traditionnelle ou industrielle, zinguerie, étanchéité.</span>
+
+                                            <span class="text-gray-700 text-base"> <a
+                                                    class="text-primary-900 underline hover:text-primary hover:no-underline transition-colors"
+                                                    href="{{ url('/garantie-decennale-toiture') }}"> Assurance décennale
+                                                    Charpente et couverture.</a>
+
+
+
+                                                <span class="block text-xs text-gray-500 mt-1">Charpente traditionnelle
+                                                    ou industrielle, zinguerie, étanchéité.</span>
+
                                             </span>
+
                                         </li>
+
                                         <li class="flex items-start space-x-2 lg:space-x-4">
+
                                             <div class="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                                            <span class="text-gray-700 text-sm lg:text-base"><a class="text-primary-900 underline hover:text-primary hover:no-underline transition-colors" href="{{ url('prix-assurance-decennale-auto-entrepreneur') }}">Assurance décennale corps d'état secondaires.</a>
-                                                <span class="block text-xs text-gray-500 mt-1">Plomberie, chauffage, menuiserie, plâtrerie, carrelage et plus.</span>
+
+                                            <span class="text-gray-700 text-base"><a
+                                                    class="text-primary-900 underline hover:text-primary hover:no-underline transition-colors"
+                                                    href="{{ url('assurance-decennale-auto-entrepreneur') }}">Assurance
+                                                    décennale corps d'état secondaires.</a>
+
+                                                <span class="block text-xs text-gray-500 mt-1">Plomberie, chauffage,
+                                                    menuiserie, plâtrerie, carrelage et plus.</span>
+
                                             </span>
+
                                         </li>
+
                                     </ul>
+
                                 </div>
+
                             </div>
+
                             <div class="text-center mt-auto pt-4">
-                                <a href="#simulationForm" class="inline-block bg-amber-400 text-dark font-bold py-2 lg:py-4 px-4 lg:px-10 rounded-lg lg:rounded-2xl hover:opacity-90 transition-all transform hover:scale-105 shadow-2xl text-xs lg:text-base">
+
+                                <a href="#simulationForm"
+                                    class="inline-block bg-amber-400 text-dark font-bold py-2 lg:py-4 px-4 lg:px-10 rounded-lg lg:rounded-2xl hover:opacity-90 transition-all transform hover:scale-105 shadow-2xl text-base">
+
                                     <i class="fas fa-arrow-up mr-1 lg:mr-2"></i>
-                                    Souscrivez votre assurance décennale en ligne maintenant
+
+                                    Souscrivez votre assurance décennale en ligne
+
                                 </a>
+
                             </div>
+
                         </div>
 
+
+
                         <!-- Card 4 : Antécédents -->
-                        <div class="bg-surface rounded-xl lg:rounded-3xl p-4 lg:p-8 shadow-xl border border-gray-100 card-hover flex flex-col h-full">
-                            <div class="flex flex-col lg:flex-row lg:items-start space-y-3 lg:space-y-0 lg:space-x-6 flex-grow">
-                                <div class="p-2 lg:p-4 bg-amber-400 rounded-xl lg:rounded-2xl shadow-lg self-start flex-shrink-0">
-                                    <i class="fas fa-clipboard-check text-white text-lg lg:text-2xl"></i>
+
+                        <div
+                            class="bg-surface rounded-xl lg:rounded-3xl p-4 lg:p-8 shadow-xl border border-gray-100 card-hover flex flex-col h-full">
+
+                            <div
+                                class="flex flex-col lg:flex-row lg:items-start space-y-3 lg:space-y-0 lg:space-x-6 flex-grow">
+
+                                <div
+                                    class="p-2 lg:p-4 bg-amber-400 rounded-xl lg:rounded-2xl shadow-lg self-start flex-shrink-0">
+
+                                    <i class="fas fa-clipboard-check text-white text-xl"></i>
+
                                 </div>
+
                                 <div class="flex-1">
-                                    <h2 class="text-lg lg:text-2xl font-bold text-jaune mb-3 lg:mb-4">Souscription assurance décennale en ligne quel que soit votre antécédent</h2>
-                                    <p class="text-gray-700 text-sm lg:text-base mb-3">Notre réseau de partenaires permet de trouver une solution même dans les cas complexes :</p>
+
+                                    <h2 class="text-xl font-bold text-jaune mb-3 lg:mb-4">Souscription assurance
+                                        décennale en ligne quel que soit votre antécédent</h2>
+
+                                    <p class="text-gray-700 text-base mb-3">Notre réseau de partenaires permet de
+                                        trouver une solution même dans les cas complexes :</p>
+
                                     <ul class="space-y-2 lg:space-y-4">
+
                                         <li class="flex items-start space-x-2 lg:space-x-4">
+
                                             <div class="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                                            <span class="text-gray-700 text-sm lg:text-base">Assurance décennale nouvelle création.
-                                                <span class="block text-xs text-gray-500 mt-1">Première assurance rapide, même sans historique dans le bâtiment.</span>
+
+                                            <span class="text-gray-700 text-base">Assurance décennale nouvelle création.
+
+                                                <span class="block text-xs text-gray-500 mt-1">Première assurance
+                                                    rapide, même sans historique dans le bâtiment.</span>
+
                                             </span>
+
                                         </li>
+
                                         <li class="flex items-start space-x-2 lg:space-x-4">
+
                                             <div class="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                                            <span class="text-gray-700 text-sm lg:text-base">
-                                                <a class="text-primary-900 underline hover:text-primary hover:no-underline transition-colors" href="{{ url('assurance-decennale-resilie-non-paiement') }}">Assurance décennale résilié non-paiement.</a>
-                                                <span class="block text-xs text-gray-500 mt-1">Accès à de nouvelles offres adaptées à votre situation actuelle.</span>
+
+                                            <span class="text-gray-700 text-base">
+
+                                                <a class="text-primary-900 underline hover:text-primary hover:no-underline transition-colors"
+                                                    href="{{ url('assurance-decennale-resilie-non-paiement') }}">Assurance
+                                                    décennale résilié non-paiement.</a>
+
+                                                <span class="block text-xs text-gray-500 mt-1">Accès à de nouvelles
+                                                    offres adaptées à votre situation actuelle.</span>
+
                                             </span>
+
                                         </li>
+
                                         <li class="flex items-start space-x-2 lg:space-x-4">
+
                                             <div class="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                                            <span class="text-gray-700 text-sm lg:text-base">Assurance décennale résilié sinistre.
-                                                <span class="block text-xs text-gray-500 mt-1">Compagnies spécialisées acceptant les profils avec passé sinistral.</span>
+
+                                            <span class="text-gray-700 text-base">Assurance décennale résilié sinistre.
+
+                                                <span class="block text-xs text-gray-500 mt-1">Compagnies spécialisées
+                                                    acceptant les profils avec passé sinistral.</span>
+
                                             </span>
+
                                         </li>
+
                                         <li class="flex items-start space-x-2 lg:space-x-4">
+
                                             <div class="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                                            <span class="text-gray-700 text-sm lg:text-base">
-                                                <a class="text-primary-900 underline hover:text-primary hover:no-underline transition-colors" href="{{ url('assurance-decennale-reprise-du-passe') }}">Assurance décennale reprise du passé.</a>
-                                                <span class="block text-xs text-gray-500 mt-1">Couverture rétroactive de vos chantiers antérieurs.</span>
+
+                                            <span class="text-gray-700 text-base">
+
+                                                <a class="text-primary-900 underline hover:text-primary hover:no-underline transition-colors"
+                                                    href="{{ url('assurance-decennale-reprise-du-passe') }}">Assurance
+                                                    décennale reprise du passé.</a>
+
+                                                <span class="block text-xs text-gray-500 mt-1">Couverture rétroactive de
+                                                    vos chantiers antérieurs.</span>
+
                                             </span>
+
                                         </li>
+
                                     </ul>
+
                                 </div>
+
                             </div>
+
                             <div class="text-center mt-auto pt-4">
-                                <a href="#simulationForm" class="inline-block bg-amber-400 text-dark font-bold py-2 lg:py-4 px-4 lg:px-10 rounded-lg lg:rounded-2xl hover:bg-accent transition-all transform hover:scale-105 shadow-2xl text-xs lg:text-base">
+
+                                <a href="#simulationForm"
+                                    class="inline-block bg-amber-400 text-dark font-bold py-2 lg:py-4 px-4 lg:px-10 rounded-lg lg:rounded-2xl hover:bg-accent transition-all transform hover:scale-105 shadow-2xl text-base">
+
                                     <i class="fas fa-arrow-up mr-1 lg:mr-2"></i>
+
                                     Attestation assurance décennale en ligne express
+
                                 </a>
+
                             </div>
+
                         </div>
+
                     </div>
+  
      <!-- ==========================================================
      FAQ SECTION
      ========================================================== -->
@@ -1058,7 +1365,7 @@ instantané, comparez les tarifs et souscrivez directement depuis votre ordinate
 
              <!-- Partenaires section -->
 				<div class="mt-10 mb-2">
-					<h3 class="text-center text-sm font-semibold uppercase tracking-widest text-gray-400 mb-6">Nos compagnies partenaires</h3>
+					<h3 class="text-center text-2xl lg:text-3xl font-bold text-gradient mb-16">Nos compagnies partenaires</h3>
 					<div class="partenaires-carousel-wrapper">
 						<div class="partenaires-carousel-track">
 							<!-- Logos originaux -->
@@ -1102,6 +1409,37 @@ instantané, comparez les tarifs et souscrivez directement depuis votre ordinate
 						</div>
 					</div>
 				</div>		 
+        <!-- Pages internes section -->
+				@php
+					$pagesInternes = [
+						['url' => '/assurance-decennale-plombier-chauffagiste', 'icon' => 'fa-wrench', 'titre' => 'Plombier chauffagiste', 'texte' => 'Assurance décennale plomberie & chauffage'],
+						['url' => '/assurance-decennale-macon', 'icon' => 'fa-trowel-bricks', 'titre' => 'Maçon', 'texte' => 'Assurance décennale maçonnerie & gros œuvre'],
+						['url' => '/assurance-decennale-electricien', 'icon' => 'fa-bolt', 'titre' => 'Électricien', 'texte' => 'Assurance décennale électricité'],
+						['url' => '/assurance-decennale-auto-entrepreneur', 'icon' => 'fa-user-tie', 'titre' => 'Auto-entrepreneur', 'texte' => 'Assurance décennale micro-entreprise'],
+						['url' => '/garantie-decennale-toiture', 'icon' => 'fa-house-chimney', 'titre' => 'Couvreur / Toiture', 'texte' => 'Garantie décennale toiture & couverture'],
+						['url' => '/assurance-decennale-resilie-non-paiement', 'icon' => 'fa-file-circle-exclamation', 'titre' => 'Résilié non-paiement', 'texte' => 'Retrouver une assurance après résiliation'],
+						['url' => '/assurance-decennale-reprise-du-passe', 'icon' => 'fa-clock-rotate-left', 'titre' => 'Reprise du passé', 'texte' => 'Couvrir vos chantiers antérieurs'],
+						['url' => '/qualification-certification-btp', 'icon' => 'fa-certificate', 'titre' => 'Qualification BTP', 'texte' => 'Qualification & certification BTP'],
+					];
+				@endphp
+				<div class="mt-10 mb-12">
+					<h3 class="text-center text-2xl lg:text-3xl font-bold text-gradient mb-16">Assurance décennale pour:</h3>
+					<div class="pages-carousel-wrapper">
+						<div class="pages-carousel-track">
+							{{-- Liste dupliquée pour la boucle infinie --}}
+							@foreach (array_merge($pagesInternes, $pagesInternes) as $i => $page)
+								<a href="{{ url($page['url']) }}" class="pages-carousel-item" @if ($i >= count($pagesInternes)) aria-hidden="true" tabindex="-1" @endif>
+									<span class="pages-carousel-icon"><i class="fas {{ $page['icon'] }}"></i></span>
+									<span class="pages-carousel-text">
+										<span class="pages-carousel-title mb-2">{{ $page['titre'] }}</span>
+										<span class="pages-carousel-desc">{{ $page['texte'] }}</span>
+									</span>
+									<i class="fas fa-arrow-right pages-carousel-arrow"></i>
+								</a>
+							@endforeach
+						</div>
+					</div>
+				</div>
         </div>
     </section>
 

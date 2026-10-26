@@ -11,7 +11,7 @@ reprise du passé assurance décennale, antériorité assurance décennale, déc
 @endsection
 
 @section('canonical')
-<link rel="canonical" href="https://www.lassurance-garantie-decennale.fr/assurance-decennale-reprise-du-passe">
+<link rel="canonical" href="https://lassurance-garantie-decennale.fr/assurance-decennale-reprise-du-passe/">
 @endsection
 
 @section('og_meta')
@@ -19,7 +19,7 @@ reprise du passé assurance décennale, antériorité assurance décennale, déc
 <meta property="og:description" content="Assurance décennale reprise du passé : couvrez l'intégralité de vos travaux antérieurs. Clause d'antériorité, changement d'assureur, période non assurée. Devis personnalisé gratuit.">
 <meta property="og:keywords" content="reprise du passé assurance décennale, antériorité assurance décennale, décennale couverture anciens chantiers, assurance décennale rétroactive, décennale rachat période non-couverte">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://www.lassurance-garantie-decennale.fr/assurance-decennale-reprise-du-passe">
+<meta property="og:url" content="https://lassurance-garantie-decennale.fr/assurance-decennale-reprise-du-passe/">
 @endsection
 
 
@@ -98,7 +98,7 @@ reprise du passé assurance décennale, antériorité assurance décennale, déc
       </div>
 
       <!-- Right side - Form -->
-      <div class="bg-white/95 backdrop-blur-sm rounded-xl shadow-xl overflow-hidden border border-white/20 order-1 lg:order-2 lg:col-span-1 flex flex-col h-full">
+      <div id="form" class="bg-white/95 backdrop-blur-sm rounded-xl shadow-xl overflow-hidden border border-white/20 order-1 lg:order-2 lg:col-span-1 flex flex-col h-full">
         <div class="bg-amber-400 px-6 py-4 flex-shrink-0">
           <h3 class="text-xm font-semibold text-dark flex items-center">
             <svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -323,7 +323,7 @@ reprise du passé assurance décennale, antériorité assurance décennale, déc
 
     <!-- CTA Button -->
     <div class="text-center mt-8">
-      <a href="/" class="inline-block bg-yellow-400 text-dark font-bold py-3 px-8 rounded-xl hover:bg-yellow-500 transition-all transform hover:scale-105 shadow-lg">
+      <a href="#form" class="inline-block bg-yellow-400 text-dark font-bold py-3 px-8 rounded-xl hover:bg-yellow-500 transition-all transform hover:scale-105 shadow-lg">
         <i class="fas fa-calculator mr-2"></i>
         DEMANDER UNE ÉTUDE PERSONNALISÉE
       </a>
@@ -505,7 +505,7 @@ reprise du passé assurance décennale, antériorité assurance décennale, déc
         prix et avec les meilleures garanties.
       </p>
       <div class="space-y-4 sm:space-y-0 sm:space-x-4 sm:flex sm:justify-center">
-        <a href="/" class="inline-block bg-dark text-yellow-400 font-bold py-4 px-10 rounded-2xl hover:bg-primary transition-all transform hover:scale-105 shadow-2xl">
+        <a href="#form" class="inline-block bg-dark text-yellow-400 font-bold py-4 px-10 rounded-2xl hover:bg-primary transition-all transform hover:scale-105 shadow-2xl">
           <i class="fas fa-calculator mr-2"></i>
           Analyse gratuite de votre situation
         </a>

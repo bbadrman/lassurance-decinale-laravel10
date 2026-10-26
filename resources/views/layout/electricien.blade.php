@@ -7,7 +7,7 @@
 @section('meta_keywords', 'assurance décennale électricien, décennale électricien en ligne, devis assurance décennale électricien, garantie décennale électricien tarif, assurance décennale électricien prix')
 
 @section('canonical')
-<link rel="canonical" href="https://www.lassurance-garantie-decennale.fr/assurance-decennale-electricien">
+<link rel="canonical" href="https://lassurance-garantie-decennale.fr/assurance-decennale-electricien/">
 @endsection
 
 @section('og_meta')
@@ -15,7 +15,7 @@
 <meta property="og:description" content="Comparez les meilleures assurances décennales pour électricien. Devis gratuit, sans engagement, attestation rapide.">
 <meta property="og:keywords" content="assurance décennale électricien, décennale électricien en ligne, devis assurance décennale électricien, garantie décennale électricien tarif, assurance décennale électricien prix">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://www.lassurance-garantie-decennale.fr/assurance-decennale-electricien">
+<meta property="og:url" content="https://lassurance-garantie-decennale.fr/assurance-decennale-electricien/">
 @endsection
 
 
@@ -94,7 +94,7 @@
       </div>
 
       <!-- Right side - Form -->
-      <div id="form" class="bg-white/95 backdrop-blur-sm rounded-xl shadow-xl overflow-hidden border border-white/20 order-1 lg:order-2 lg:col-span-1 flex flex-col h-full">
+      <div id="form"  class="bg-white/95 backdrop-blur-sm rounded-xl shadow-xl overflow-hidden border border-white/20 order-1 lg:order-2 lg:col-span-1 flex flex-col h-full">
         <div class="bg-amber-400 px-6 py-4 flex-shrink-0">
           <h3 class="text-xm font-semibold text-dark flex items-center">
             <svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -506,7 +506,7 @@
       <p class="text-base text-dark mb-8">
         Sécurisez vos installations et votre entreprise avec une couverture adaptée aux spécificités de votre métier.
       </p>
-      <a href="/" class="inline-block bg-yellow-400 text-dark font-bold py-3 px-8 rounded-xl hover:bg-yellow-500 transition-all transform hover:scale-105 shadow-lg">
+      <a href="#form" class="inline-block bg-yellow-400 text-dark font-bold py-3 px-8 rounded-xl hover:bg-yellow-500 transition-all transform hover:scale-105 shadow-lg">
         <i class="fas fa-calculator mr-2"></i>
         OBTENIR MON TARIF PERSONNALISÉ
       </a>

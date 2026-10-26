@@ -7,7 +7,7 @@
 <meta name="robots" content="noindex, nofollow">
 @endsection
 
-@section('contentresponse')
+@section('content-merci')
 <section class="relative bg-scanlines min-h-[calc(100vh-56px)] w-full flex items-center justify-center px-4">
   <div class="absolute inset-0 bg-black/40"></div>
 

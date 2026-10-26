@@ -6,8 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
       <meta name="author" content="Aksam Assurance">
-    <link rel="icon" type="image/x-icon" sizes="32x32" href="{{ asset('image/favicon.png') }}">
-    <!-- <link rel="apple-touch-icon" type="icon" href="{{ asset('image/logo.png') }}"> -->
+<link rel="icon" type="image/x-icon" sizes="32x32" href="{{ url('/image/favicon.png') }}">    <!-- <link rel="apple-touch-icon" type="icon" href="{{ asset('image/logo.png') }}"> -->
      <!-- Titre dynamique -->
     <title>@yield('title', 'Accueil - Assurances décennale')</title>
     <!-- Description dynamique -->
@@ -26,9 +25,9 @@
     <meta name="twitter:site" content="@AksamAssurances">
     <meta name="twitter:title" content="@yield('title', 'Assurance Décennale en Ligne : Devis Gratuit & Attestation Express')">
     <meta name="twitter:description" content="@yield('meta_description', 'Souscrivez votre assurance décennale en ligne en quelques clics.')">
-    <meta name="twitter:image" content="@yield('twitter_image', 'https://www.lassurance-garantie-decennale.fr/image/assurance-decinale.jpg')">
+    <meta name="twitter:image" content="@yield('twitter_image', 'https://lassurance-garantie-decennale.fr/image/assurance-decinale.jpg')">
     <meta name="twitter:image:alt" content="@yield('twitter_image_alt', 'Aksam Assurances - Assurance décennale en ligne')">
-    <meta name="twitter:url" content="@yield('twitter_url', 'https://www.lassurance-garantie-decennale.fr')">
+    <meta name="twitter:url" content="@yield('twitter_url', 'https://lassurance-garantie-decennale.fr/')">
 @endif
     
     
@@ -40,6 +39,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
     <link
         rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
 
     <link
         href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
@@ -87,14 +87,14 @@
                 dl = l != 'dataLayer' ? '&l=' + l : '';
             j.async = true;
             j.src =
-                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                'https://googletagmanager.com/gtm.js?id=' + i + dl;
             f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-PTHF4V94');
     </script>
     <!-- End Google Tag Manager -->
 
     <!-- Google Analytics (Conditional Loading) -->
-    <script type="text/plain" data-cookieconsent="statistics" async src="https://www.googletagmanager.com/gtag/js?id=G-JVLLX1ZPS1"></script>
+    <script type="text/plain" data-cookieconsent="statistics" async src="https://googletagmanager.com/gtag/js?id=G-JVLLX1ZPS1"></script>
     <script type="text/plain" data-cookieconsent="statistics">
         window.dataLayer = window.dataLayer || [];
 
@@ -162,7 +162,7 @@
 
 
     <!-- Global site tag (gtag.js) - Google Ads -->
-    <script type="text/plain" data-cookieconsent="marketing" async src="https://www.googletagmanager.com/gtag/js?id=AW-716366483"></script>
+    <script type="text/plain" data-cookieconsent="marketing" async src="https://googletagmanager.com/gtag/js?id=AW-716366483"></script>
     <script type="text/plain" data-cookieconsent="marketing">
         window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -178,7 +178,7 @@
 <body class="bg-white">
 
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PTHF4V94" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript><iframe src="https://googletagmanager.com/ns.html?id=GTM-PTHF4V94" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
     <!-- Header Navigation - Simplified for legal page -->
@@ -229,7 +229,13 @@
     @yield('content-electricien')
     @yield('content-entrepreneur')
      @yield('content-qualification-btp')
-     @yield('content-blog')
+      @yield('content-merci')
+      @yield('content-toiture')
+    @yield('content-carrelage')
+      @yield('content-prix-assurance-decennale')
+
+
+
 
 
     <!-- Footer -->
@@ -245,21 +251,8 @@
                 <div>
                     <h3 class="text-xl font-bold mb-4">Liens utiles</h3>
                     <ul class="space-y-2">
-                        <li>
-                            <a
-                                href="{{ url('/mention-legale') }}"
-                                class="text-dark-400 hover:text-dark transition-colors">
-                                Mentions légales
-                            </a>
-                        </li>
-                        <li>
-                            <a
-                                href="{{ url('/politique-legale') }}"
-                                class="text-dark-400 hover:text-dark transition-colors">
-                                Politique de confidentialité
-                            </a>
-                        </li>
-                        <li>
+                       
+                        <!-- <li>
                             <a
                                 href="{{ url('/assurance-decennale-electricien') }}"
                                 class="text-dark-400 hover:text-dark transition-colors">
@@ -272,7 +265,7 @@
                                 class="text-dark-400 hover:text-dark transition-colors">
                                 Assurance décennale Maçonnerie et gros œuvre.
                             </a>
-                        </li>
+                        </li> -->
                          <li>
                             <a
                                 href="{{ url('/assurance-decennale-resilie-non-paiement') }}"
@@ -282,29 +275,29 @@
                         </li> 
                         <li>
                             <a
-                                href="{{ url('/prix-assurance-decennale-auto-entrepreneur') }}"
+                                href="{{ url('/assurance-decennale-auto-entrepreneur') }}"
                                 class="text-dark-400 hover:text-dark transition-colors">
                                Assurance décennale auto-entrepreneur.
                             </a>
                             
-                        </li>  
-                         <li>
+                        </li>   <li>
+                            <a
+                                href="{{ url('/assurance-decennale-reprise-du-passe') }}"
+                                class="text-dark-400 hover:text-dark transition-colors">
+                               Assurance Décennale Reprise du Passé 
+
+                            </a>
+                            
+                        </li>
+                         <!-- <li>
                             <a
                                 href="{{ url('/assurance-decennale-plombier') }}"
                                 class="text-dark-400 hover:text-dark transition-colors">
                                Assurance décennale plombier et chauffagiste
                             </a>
                             
-                        </li>
-                        <li>
-                            <a
-                                href="{{ url('/assurance-decennale-reprise-du-passe') }}"
-                                class="text-dark-400 hover:text-dark transition-colors">
-                               Reprise du Passé Assurance Décennale
-
-                            </a>
-                            
-                        </li>
+                        </li> -->
+                       
                         <li>
                             <a
                                 href="{{ url('/qualification-certification-btp') }}"
@@ -314,6 +307,31 @@
                             </a>
                             
                         </li>
+                       <!-- <li>
+                             <a
+                                 href="{{ url('/garantie-decennale-toiture') }}"
+                                 class="text-dark-400 hover:text-dark transition-colors">
+                                Garantie décennale toiture
+
+                             </a>
+                             
+                         </li> -->
+                          <!-- <li>
+                            <a
+                                href="{{ url('/assurance-decennale-carrelage') }}"
+                                class="text-dark-400 hover:text-dark transition-colors">
+                                Assurance décennale carrelage
+
+                            </a>
+                              
+                        </li> -->
+                           <li>
+                             <a
+                                 href="{{ url('/prix-assurance-decennale') }}"
+                                 class="text-dark-400 hover:text-dark transition-colors">
+                                 Prix assurance décennale
+                             </a>
+                         </li>
                     </ul>
                 </div>
                 <div>
@@ -328,7 +346,19 @@
             </div>
             <div
                 class="border-t border-gray-800 mt-8 pt-8 text-center text-dark-400">
-                <p>© 2026 Aksam Assurance. Tous droits réservés.</p>
+                <p>© 2026 Aksam Assurance.|
+                            <a
+                                href="{{ url('/mention-legale') }}"
+                                class="text-dark-400 hover:text-dark transition-colors">
+                                Mentions légales
+                            </a>
+                        |
+                            <a
+                                href="{{ url('/politique-legale') }}"
+                                class="text-dark-400 hover:text-dark transition-colors">
+                                Politique de confidentialité
+                            </a>
+                       </p>
             </div>
         </div>
     </footer>
@@ -337,7 +367,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.js"></script>
 
-    <script src="https://www.google-analytics.com/analytics.js"></script>
+    <script src="https://google-analytics.com/analytics.js"></script>
 
     <!-- text annumationheader -->
     <script>
@@ -385,16 +415,8 @@
 
             // Rest of your existing GSAP animations...
             gsap.registerPlugin(ScrollTrigger);
-
-             // Header Animation
-            if (document.querySelector("header")) {
-                gsap.from("header", {
-                    duration: 1,
-                    y: -50,
-                    opacity: 0,
-                    ease: "power3.out",
-                });
-            }
+  
+        
 
             // Hero Section Animation
             if (document.querySelector(".hero-section")) {
@@ -498,7 +520,7 @@
 
               // Form elements animation
             if (document.querySelector("form")) {
-                gsap.from("form:not([data-no-anim]) input, form:not([data-no-anim]) select", {
+               gsap.from("form:not([data-no-anim]) input, form:not([data-no-anim]) select", {
                     scrollTrigger: {
                         trigger: "form",
                         start: "top 80%",
@@ -589,7 +611,7 @@
             "@context": "http://schema.org",
             "@type": "LocalBusiness",
             "name": "Aksam Assurance",
-            "image": "https://www.lassurance-garantie-decennale.fr/assets/img/favicon.png",
+            "image": "https://lassurance-garantie-decennale.fr/assets/img/favicon.png",
             "telephone": "01 82 83 48 00",
             "address": {
                 "@type": "PostalAddress",
@@ -598,7 +620,7 @@
                 "addressLocality": "PARIS",
                 "postalCode": "75008"
             },
-            "url": "https://www.lassurance-garantie-decennale.fr",
+            "url": "https://lassurance-garantie-decennale.fr/",
             "priceRange": "€€",
             "openingHours": "Mo-Fr 09:00-18:00",
             "contactPoint": {

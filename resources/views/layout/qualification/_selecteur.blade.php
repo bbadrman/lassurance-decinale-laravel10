@@ -1,11 +1,8 @@
 {{--
   Sélecteur dynamique de la nomenclature Qualibat (config/qualibat.php), sans changer de page :
   Famille -> Activité -> Spécialité -> Qualification, puis formulaire de rappel sur place.
-  Utilise $nomenclature si elle est fournie, sinon la charge depuis config/qualibat.php.
+  Attend $nomenclature.
 --}}
-@php
-  $nomenclature = $nomenclature ?? config('qualibat', []);
-@endphp
 @php
   $selectClass = 'w-full px-3 py-3 border border-gray-200 rounded-md bg-yellow-50 focus:ring-1 focus:ring-accent focus:border-accent disabled:opacity-50 disabled:cursor-not-allowed';
   $inputClass = 'w-full px-3 py-2 border border-gray-200 rounded-md focus:ring-1 focus:ring-accent focus:border-accent';
@@ -20,7 +17,7 @@
       correspondantes de la nomenclature 2026.
     </p>
   </div>
-
+  
   {{-- Recherche rapide par code ou mot-clé --}}
   <div class="mb-6 relative">
     <label for="qualif-search" class="block text-sm font-semibold text-blue-900 mb-1">
